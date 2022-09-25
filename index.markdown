@@ -6,4 +6,4 @@ layout: default
 title: "MS&E 231"
 ---
 
-Test
+[Link to Assignment 1](/assignment1).
