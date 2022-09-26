@@ -11,7 +11,7 @@ complete this assignment entirely on a local machine (e.g., your
 personal laptop), we *highly* recommend setting up a remote server. If
 you don\'t already have a remote server setup, you can always use
 [Stanford
-Farmshare](https://web.stanford.edu/group/farmshare/cgi-bin/wiki/index.php/User_Guide).
+Farmshare](https://web.stanford.edu/group/farmshare/cgi-bin/wiki/index.php/User_Guide) (additional information [here](https://uit.stanford.edu/service/sharedcomputing)). 
 There are a number of things that can go wrong in this assignment, so
 please start early!
 
@@ -33,9 +33,9 @@ what you enter for the name, description and website are not terribly
 important.
 
 After creating your application, select the \"keys and tokens\" tab, and
-then create an access token. You\'ll need to save four pieces of
+then create an access token. You\'ll need to save five pieces of
 information from this page: the API key, API secret key, access token,
-and access token secret. If you need to access or update your
+access token secret, and the bearer token. If you need to access or update your
 application information at a later data, you can return to it via the
 [management
 console](https://developer.twitter.com/en/apps).
@@ -50,10 +50,10 @@ directory:
 
 **Step 3.** To help you get started with Tweepy and the Twitter
 Streaming API, we wrote a short Python script,
-[tweet\_stream.py](assets/tweet_stream.py). The script requires that you
+[tweet\_stream.py](http://www.github.com/mse231/mse231_f22/assignment1/tweet_stream.py). The script requires that you
 create a file with your API credentials in [this
-format](assets/creds.txt), where you replace the parameters with your
-own credentials. (For example, replace \<YOUR API\_KEY\> with your
+format](https://github.com/mse231/mse231_f22/blob/main/assignment1/creds.txt), where you replace the parameters with your
+own credentials. (For example, replace \<YOUR\_API\_KEY\> with your
 actual API key.) Assuming you save the file as creds.txt in your working
 directory, you can run the script with the command:
 
