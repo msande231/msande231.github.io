@@ -8,9 +8,7 @@ title: "MS&E 231"
 
 ## Course Description
 
-With a vast amount of information now collected on our online and offline actions — from what we buy, to where we travel, to who we interact with — we have an unprecedented opportunity to study complex social systems. This opportunity, however, comes with scientific, engineering, and ethical challenges. In this hands-on course, we develop ideas from computer science and statistics to address problems in sociology, economics, political science, and beyond. We cover techniques for collecting and parsing data, methods for large-scale machine learning, and principles for effectively communicating results. To see how these techniques are applied in practice, we discuss recent research findings in a variety of areas. 
-
-Prerequisites: An introductory course in applied statistics, and experience coding in Python.
+With a vast amount of data now collected on our online and offline actions -- from what we buy, to where we travel, to who we interact with -- we have an unprecedented opportunity to study traditional social systems with novel precision and detail, as well the emerging challenges of studying modern social systems infused with learning algorithms. In this hands-on course, we first develop ideas from computer science and statistics to address problems in sociology, economics, political science. Beyond that, we place a particular emphasis on the study of algorithm-in-the-loop social systems. To see how these techniques are applied in practice, we discuss recent research findings in a variety of areas. Prerequisites: introductory course in applied statistics and experience coding in Python.
 
 ## Instructors
 Johan Ugander ([email](mailto:jugander@stanford.edu))
@@ -21,7 +19,6 @@ Greg Zanotti (TA) ([email](mailto:gzanotti@stanford.edu))
 
 ## Schedule
 Class: Tuesdays & Thursdays @ 9:00 AM -- 10:20 AM in STLC 115
-
 
 **Office Hours**
 
