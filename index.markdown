@@ -26,17 +26,6 @@ TBD
 
 We will use Gradescope to submit assignments. See the [course Github repo](https://www.github.com/mse231/mse231_f22) for code examples.
 
-## Computing Environment
-
-A Unix-like setup is required (e.g., Linux, OS X, or Cygwin). We will use Python 3 (JupyterLab is recommended). 
-
-## Evaluation
-* 45% Problem Sets (15% each)
-* 10% Project Proposal
-* 40% Project presentation and report
-* 5% Participation and collegiality
-
-
 ## Course structure and evaluation
 The class is organized around two lectures per week. Generally speaking, the first half of each lecture will be organized in “broadcast mode,” presenting an overview of an idea or field. The second half will transition to discussions of recent research literature.
 
@@ -49,10 +38,10 @@ There is an ungraded “Problem Set 0” for self-evaluation, available on the c
 There is a $30 course materials fee for running experiments on Amazon Mechanical Turk (as part of Problem Set 3). There are no required textbooks or other course materials.
 
 ## Grading:
-45% Problem Sets (15% each)
-10% Project proposal
-40% Project presentation and report
-5% Participation and collegiality
+* 45% Problem Sets (15% each)
+* 10% Project proposal
+* 40% Project presentation and report
+* 5% Participation and collegiality
 
 ## Late policies:
 Problem sets and project proposal: your best bet is to hit all the deadlines. Failing that, the following policy is designed to prioritize completing problem sets vs. not completing, submitting problem sets vs. not submitting.  
@@ -64,26 +53,31 @@ Project: No extensions on the project. If you need an extension, please contact 
 
 In the event of a family or medical emergency, I am fundamentally a reasonable person.
 
+
+## High level course schedule
+| Week 1  | Introduction; observational CSS	| 			PS1 Out |
+| Week 2  | Causal Inference; Social algorithms I: search | |
+| Week 3  | Social algorithms II & III: Recsys, feed | 	PS1 Due |
+| Week 4  | Network analysis						|   PS2 Out |
+| Week 5  | Social contagion, diffusion, social influence | Project Proposal Due|
+| Week 6  | Online surveys; digital demography |        PS2 Due; PS3 Out|
+| Week 7  | Cell phone and mobility data				||	
+| Week 8  | Culturomics; Privacy						| PS3 Due|
+| Week 9  | Guest lectures                              ||
+| Week 10 | Project presentations                       || 
+| Week 11 | (No exam)							|Projects Due| 
+
+Problem set 1: 	Counting things with the Twitter API
+Problem set 2: 	Network analysis of Twitter data
+Problem set 3: 	Mechanical Turk surveys and post-stratification
+Project: 		Open ended, per proposal process.
+
 ## Honor code violations:
 In the event that a student is found to have violated the honor code (including through Early Resolution), the penalty may include a full denial of credit for the course (not just the assignment). See the Student Conduct Penalty Code, Section J.
 
 ## Students with Documented Disabilities:
 Students who may need an academic accommodation based on the impact of a disability must initiate the request with the Office of Accessible Education (OAE). Professional staff will evaluate the request with required documentation, recommend reasonable accommodations, and prepare an Accommodation Letter for faculty dated in the current quarter in which the request is made. Students should contact the OAE as soon as possible since timely notice is needed to coordinate accommodations. For more information: http://studentaffairs.stanford.edu/oae
 
-## High level course schedule
-Week 1 	Introduction; observational CSS				PS1 Out
-Week 2 	Causal Inference; Social algorithms I: search
-Week 3	Social algorithms II & III: Recsys, feed			PS1 Due
-Week 4	Network analysis						PS2 Out
-Week 5	Social contagion, diffusion, social influence			Project Proposal Due
-Week 6	Online surveys; digital demography				PS2 Due; PS3 Out
-Week 7	Cell phone and mobility data					
-Week 8	Culturomics; Privacy						PS3 Due
-Week 9	Guest lectures
-Week 10	Project presentations
-Week 11	(No exam)							Projects Due
+## Computing Environment
 
-Problem set 1: 	Counting things with the Twitter API
-Problem set 2: 	Network analysis of Twitter data
-Problem set 3: 	Mechanical Turk surveys and post-stratification
-Project: 		Open ended, per proposal process.
+A Unix-like setup is required (e.g., Linux, OS X, or Cygwin). We will use Python 3 (JupyterLab is recommended). 
