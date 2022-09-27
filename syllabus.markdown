@@ -6,8 +6,8 @@
 - Eddy (2005) "Antedisciplinary Science," PLOS Comp Bio.
 
 **Thurs 9/29 -- Observational data and counting at scale**
-- Advanced applied counting, social science with big data
 - **PS1: Released/introduced**
+- Advanced applied counting, social science with big data
 
 ## Week 2 ##
 
@@ -39,6 +39,7 @@ Social Recommender systems:
 - Su, Sharma, Goel (2016), "The Effect of Recommendations on Network Structure", WWW. 
 
 **Thurs 10/13 -- Social Algorithms III: Feed algorithms**
+- **PS1: Due**
 - Bakshy, Rosenn, Marlow, Adamic (2010) "The role of social networks in information diffusion," WWW.
 - Bernstein, Bakshy, Burke, Karrer (2013) "Quantifying the invisible audience in social networks," CHI.
 - Bakshy, Messing, Adamic (2015) "Exposure to ideologically diverse news and opinion on Facebook"
@@ -47,13 +48,12 @@ Social Recommender systems:
 - Allen et al. (2020) "Evaluating the fake news problem at the scale of the information ecosystem," Science Advances.
 - Huszar et al. (2021) "Algorithmic amplification of politics on Twitter", PNAS.
 - Hosseinmardi et al. (2021) "Examining the consumption of radical content on YouTube," PNAS.
-- **PS1: Due**
 
 ## Week 4 ##
 
 **Tues 10/18 -- Network Analysis I (Guest Lecture: Dr. Martin Saveski)**
-- Graph theory, social network analysis, and network science.
 - **PS2 Released/introduced**
+- Graph theory, social network analysis, and network science.
 
 **Thurs 10/20 -- Network Analysis II**
 
@@ -102,12 +102,12 @@ Project Proposal: Due
 Rosenzsweig et al. (2022) "Survey sampling in the Global South using Facebook advertisements," SocArxiv.
 
 **Thurs 11/3 Digital demography**
+- **PS2: Due**
+- **PS3: Released/introduced**
 - Zagheni, Garimella, Weber, State (2014) "Inferring international and internal migration patterns from twitter data", WWW.
 - Zagheni, Weber (2015) "Demographic research with non-representative internet data," International Journal of Manpower.
 - Tufecki (2014) "Big Questions for Social Media Big Data: Representativeness, Validity and Other Methodological Pitfalls," ICWSM.
 - Zagheni, Weber, Gummadi (2017) "Leveraging Facebook's advertising platform to monitor stocks of migrants," Population and Development Review.
-- **PS2: Due**
-- **PS3: Released/introduced**
 
 ## Week 7 ##
 
@@ -129,16 +129,16 @@ Rosenzsweig et al. (2022) "Survey sampling in the Global South using Facebook ad
 ## Week 8 ##
 
 **Tues 11/15 -- Culturomics**
-- Lieerman et al. (2007) "Quantifying the evolutionary dynamics of language," Nature.
+- Lieberman et al. (2007) "Quantifying the evolutionary dynamics of language," Nature.
 - Michel et al. (2010) "Quantitative Analysis of Culture Using Millions of Digitized Books," Science. 
 - Card et al. (2022) "Computational analysis of 140 years of US political speeches reveals more positive but increasingly polarized framing ofimmigration," PNAS.
 
 
 **Thurs 11/17 -- Data Privacy**
+- **PS3: Due**
 - Digital exhaust
 - Data privacy models
 - Differential privacy
-- **PS3: Due**
 
 ## (Thanksgiving break) ##
 
