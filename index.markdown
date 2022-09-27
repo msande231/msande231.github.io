@@ -70,6 +70,7 @@ In the event of a family or medical emergency, I am fundamentally a reasonable p
 | Exam week | (No exam)							| Report Due | 
 
 Assignment overview:
+
 | Problem set 1: 	| Counting things with the Twitter API | 
 | Problem set 2:  	| Network analysis of Twitter data | 
 | Problem set 3: 	| Mechanical Turk surveys and post-stratification | 
