@@ -22,7 +22,8 @@ Class: Tuesdays & Thursdays @ 9:00 AM -- 10:20 AM in STLC 115
 
 **Office Hours**
 
-TBD
+Monte: 3:00PM -- 5:00PM on Wednesday (starting October 5)
+Greg: 11:00AM -- 1:00PM on Tuesday (starting October 4)
 
 We will use Gradescope to submit assignments. See the [course Github repo](https://www.github.com/mse231/mse231_f22) for code examples.
 
