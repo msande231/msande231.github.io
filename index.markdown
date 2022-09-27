@@ -55,6 +55,8 @@ In the event of a family or medical emergency, I am fundamentally a reasonable p
 
 
 ## High level course schedule
+| Week | Topic | Assignments |
+| --- | --- | --- |
 | Week 1  | Introduction; observational CSS	| 			PS1 Out |
 | Week 2  | Causal Inference; Social algorithms I: search | |
 | Week 3  | Social algorithms II & III: Recsys, feed | 	PS1 Due |
@@ -67,10 +69,10 @@ In the event of a family or medical emergency, I am fundamentally a reasonable p
 | Week 10 | Project presentations                       || 
 | Week 11 | (No exam)							|Projects Due| 
 
-Problem set 1: 	Counting things with the Twitter API
-Problem set 2: 	Network analysis of Twitter data
-Problem set 3: 	Mechanical Turk surveys and post-stratification
-Project: 		Open ended, per proposal process.
+| Problem set 1: 	| Counting things with the Twitter API | 
+| Problem set 2:  	| Network analysis of Twitter data | 
+| Problem set 3: 	| Mechanical Turk surveys and post-stratification | 
+| Project: 	| Open ended, per proposal process |
 
 ## Honor code violations:
 In the event that a student is found to have violated the honor code (including through Early Resolution), the penalty may include a full denial of credit for the course (not just the assignment). See the Student Conduct Penalty Code, Section J.
