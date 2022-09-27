@@ -80,16 +80,16 @@ Friendship paradox:
 - Juul, Ugander (2022) "Comparing information diffusion mechanisms by matching on cascade size,” PNAS.
 
 **Th 10/27    Social Influence, influence maximization**
-- Kempe, Kleinberg, Tardos (2003) "Maximizing the spread of influence through a social network", Proceedings of KDD.
-- Aral, Muchnik, Sundararajan (2009) "Distinguishing influence-based contagion from homophily-driven diffusion in dynamic networks", PNAS.
-- Centola, Macy (2007) "Complex contagions and the weakness of long ties", AJS.
-- Centola (2010) "The spread of behavior in an online social network experiment", Science.
-- Centola (2011) "An experimental study of homophily in the adoption of health behavior", Science.
-- Ugander, Backstrom, Marlow, Kleinberg. (2012) "Structural Diversity in Social Contagion", PNAS.
+- Kempe, Kleinberg, Tardos (2003) "Maximizing the spread of influence through a social network," Proceedings of KDD.
+- Aral, Muchnik, Sundararajan (2009) "Distinguishing influence-based contagion from homophily-driven diffusion in dynamic networks," PNAS.
+- Centola, Macy (2007) "Complex contagions and the weakness of long ties," AJS.
+- Centola (2010) "The spread of behavior in an online social network experiment," Science.
+- Centola (2011) "An experimental study of homophily in the adoption of health behavior," Science.
+- Ugander, Backstrom, Marlow, Kleinberg. (2012) "Structural Diversity in Social Contagion," PNAS.
 - Muchnik, Taylor, Aral (2013) "Social Influence Bias: A Randomized Experiment,” Science.
 Seeding:
 - Pastor-Satorras, Vespignani (2002) "Immunization of complex networks.” PRE.
-- Christakis, Fowler (2010) "Social network sensors for early detection of contagious outbreaks", PLOS One.
+- Christakis, Fowler (2010) "Social network sensors for early detection of contagious outbreaks," PLOS One.
 - Kim et al. (2015) "Social network targeting to maximise population behaviour change: a cluster randomised controlled trial”, The Lancet.
 - Chin, Eckles, Ugander (2021) "Evaluating stochastic seeding strategies in networks,” Management Science.
 Project Proposal: Due
