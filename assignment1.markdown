@@ -3,6 +3,8 @@ layout: default
 ---
 # Assignment 1
 
+**Due Date: Thursday, October 13**
+
 In this assignment, you\'ll investigate gender
 *[homophily](https://en.wikipedia.org/wiki/homophily)*
 on Twitter. In the process you\'ll learn about APIs, streaming
@@ -11,9 +13,10 @@ complete this assignment entirely on a local machine (e.g., your
 personal laptop), we *highly* recommend setting up a remote server. If
 you don\'t already have a remote server setup, you can always use
 [Stanford
-Farmshare](https://web.stanford.edu/group/farmshare/cgi-bin/wiki/index.php/User_Guide) (additional information [here](https://uit.stanford.edu/service/sharedcomputing)). 
-There are a number of things that can go wrong in this assignment, so
-please start early!
+Farmshare](https://web.stanford.edu/group/farmshare/cgi-bin/wiki/index.php/User_Guide) (additional information [here](https://uit.stanford.edu/service/sharedcomputing)). If you
+are using your own setup, make sure you that you can use a recent (3.5+) 
+version of Python with [pip](https://pip.pypa.io/en/stable/installation/) installed.
+There are a number of things that can go wrong in this assignment, so please start early!
 
 **Step 1.** The Twitter Streaming API provides access to a small
 [random](https://developer.twitter.com/en/docs/tweets/sample-realtime/overview/GET_statuse_sample)
@@ -50,10 +53,10 @@ directory:
 
 **Step 3.** To help you get started with Tweepy and the Twitter
 Streaming API, we wrote a short Python script,
-[tweet\_stream.py](http://www.github.com/mse231/mse231_f22/assignment1/tweet_stream.py). The script requires that you
+[tweet\_stream.py](https://github.com/mse231/mse231_f22/blob/main/assignment1/tweet_stream.py). The script requires that you
 create a file with your API credentials in [this
 format](https://github.com/mse231/mse231_f22/blob/main/assignment1/creds.txt), where you replace the parameters with your
-own credentials. (For example, replace \<YOUR\_API\_KEY\> with your
+own credentials. (For example, replace `<YOUR_API_KEY>` with your
 actual API key.) Assuming you save the file as creds.txt in your working
 directory, you can run the script with the command:
 
@@ -83,7 +86,7 @@ or similar utilities (e.g., gzcat on OS X).
 
 In addition to simply returning a random sample of tweets, the Twitter
 API lets you fetch all tweets that contain a specific word. For example,
-via tweet\_stream.py, you can obtain the stream of all tweets that
+via `tweet_stream.py`, you can obtain the stream of all tweets that
 contain \"stanford\" (where the matching is case-insensitive) with the
 command:
 
@@ -111,7 +114,7 @@ simultaneously may result in some of the streams being terminated.
 However, your teammates can each use their own credentials to poll the
 API in parallel.
 
-To terminate a script that\'s running in the background, first find its
+To terminate a script that's running in the background, first find its
 [process
 ID](https://en.wikipedia.org/wiki/Process_identifier)
 with:
@@ -177,7 +180,7 @@ datasets give the number of times each name was registered in the United
 States, annually, from 1880 to 2013. What are the limitations of your
 strategy?
 
-Use [matplotlib](https://matplotlib.org/)
+Use [`matplotlib`](https://matplotlib.org/) (again, install with pip)
 to plot the volume of tweets over time, with separate lines indicating
 the volume by gender (i.e., gender of the user who posted the tweet, not
 the gender of the original user). To generate the plot, first compute 
@@ -208,9 +211,13 @@ rather than PNG or JPEG ([raster](https://en.wikipedia.org/wiki/Raster_graphics)
 formats). Finally, explicitly set the height and width of plots to get
 the appropriate aspect ratio (this also has the added benefit of helping
 to ensure the axis labels are appropriately sized). For example, for a
-square plot you might use something like this:
-
-`code goes here`
+square plot you might use something like this to set an x inch by y inch size:
+```
+import matplotlib.pyplot as plt
+...
+plt.figure(figsize=(x,y))
+```
+See also the [`matplotlib` documentation](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.figure.html) for `plt.figure`.
 
 **Step 6.** Prepare a short report (2-page maximum) detailing your
 results. The report should include a description of your approach to
