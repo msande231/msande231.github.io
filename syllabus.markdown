@@ -87,6 +87,7 @@ Friendship paradox:
 - Centola (2011) "An experimental study of homophily in the adoption of health behavior," Science.
 - Ugander, Backstrom, Marlow, Kleinberg. (2012) "Structural Diversity in Social Contagion," PNAS.
 - Muchnik, Taylor, Aral (2013) "Social Influence Bias: A Randomized Experiment," Science.
+
 Seeding:
 - Pastor-Satorras, Vespignani (2002) "Immunization of complex networks," PRE.
 - Christakis, Fowler (2010) "Social network sensors for early detection of contagious outbreaks," PLOS One.
