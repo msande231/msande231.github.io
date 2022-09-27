@@ -139,7 +139,7 @@ you\'ll need to keep track of the machine and then directly ssh into it.
 
 **Step 4.** Each line of the output from the above commands is in JSON,
 and before you can analyze the results, you need to convert the data to
-a more suitable format. Write a Python script (named parse\_tweets.py)
+a more suitable format. Write a Python script (named `parse\_tweets.py`)
 that takes a stream of tweets as input ([via
 stdin](https://web.archive.org/web/20210413060501/http://en.wikibooks.org/wiki/Python_Programming/Input_and_Output#Standard_File_Objects)),
 and writes tab-separated output (to stdout) where each row corresponds
@@ -147,7 +147,7 @@ to a tweet and the four columns of the output are: (1) date; (2) time
 rounded to the nearest 15-minute interval (e.g., 18:30); (3) the name of
 the user; and (4) the name of the original poster, if the tweet is a
 retweet (otherwise \'NA\'). The
-[json](https://docs.python.org/2/library/json.html)
+[json](https://docs.python.org/3/library/json.html)
 module is useful for parsing the input. **Ensure that your script is not
 memory intensive (i.e., convert the data in a streaming fashion).**
 
@@ -156,43 +156,34 @@ to stdout:
 
 `zcat tweets.gz | python3 parse_tweets.py`
 
-Using your parse\_tweets.py script, parse the random sample of tweets
+Using your `parse\_tweets.py` script, parse the random sample of tweets
 and also the filtered set of tweets, and save them to two separate
 files.
 
 Hint: Some entries collected from Twitter might not be \"valid\" (e.g.,
-deleted tweets, empty lines), so make sure your parse\_tweets.py script
+deleted tweets, empty lines), so make sure your `parse\_tweets.py` script
 deals with theses situations gracefully.
 
-**Step 5.** Import your tweet data into R. You may need to set
-`quote = ''`{style="display: inline; padding: 2px; background-color:gainsboro"}
-in
-[read\_tsv](https://www.rdocumentation.org/packages/readr/versions/1.3.1/topics/read_delim)
-to ignore quotes that may appear in user names. Devise and apply a
+**Step 5.** Import your tweet data into Python. Devise and apply a
 (simple) statistical strategy to infer the gender of users based on
 their first names. To do so, you may use baby name popularity data
 provided by the [Social Security
-Administration](https://web.archive.org/web/20210413060501/http://www.ssa.gov/oact/babynames/limits.html)
+Administration](http://www.ssa.gov/oact/babynames/limits.html)
 (SSA): the
-[female](/web/20210413060501/https://5harad.com/mse125/assets/hw1/female_names.tsv.gz)
+[female](/assets/hw1/female_names.tsv.gz)
 and
-[male](/web/20210413060501/https://5harad.com/mse125/assets/hw1/male_names.tsv.gz)
+[male](/assets/hw1/male_names.tsv.gz)
 datasets give the number of times each name was registered in the United
 States, annually, from 1880 to 2013. What are the limitations of your
-strategy? P
+strategy?
 
-Use
-[ggplot2](https://ggplot2.tidyverse.org/)
+Use [matplotlib](https://matplotlib.org/)
 to plot the volume of tweets over time, with separate lines indicating
 the volume by gender (i.e., gender of the user who posted the tweet, not
-the gender of the original user). To generate the plot, first use
-[dplyr](https://dplyr.tidyverse.org/)
-to compute the volume of tweets in each 15-minute interval in your data
-(separately by gender). You can use both ggplot2 and dplyr via the
-single
-[tidyverse](https://www.tidyverse.org/)
-package in R. Make two plots: One for the random sample of tweets, and
-one for the filtered set of tweets.
+the gender of the original user). To generate the plot, first compute 
+the volume of tweets in each 15-minute interval in your data
+(separately by gender).  Make two plots: One for the random sample 
+of tweets, and one for the filtered set of tweets.
 
 Do you see evidence of gender *homophily*, in which women retweet women
 and men retweet men disproportionately often? Devise a (simple)
@@ -200,7 +191,7 @@ statistical strategy to gauge the extent to which this phenomenon may
 (or may not) occur in your data.
 
 Save your gender inference, plot generation, and homophily code in a
-single script called tweet\_analysis.R. Your script should be completely
+single script called `tweet\_analysis.py`. Your script should be completely
 self-contained (e.g., load all necessary libraries), and not contain any
 extraneous calculations. In particular, if you run the script in a
 directory that contains the tweet data and the baby name files, it
@@ -208,35 +199,18 @@ should read in the data and output the plots in that same directory
 without any additional setup or user intervention. That is, the
 following command (which we will run) must reproduce your results:
 
-`Rscript tweet_analysis.R`
+`python3 tweet\_analysis.py`
 
-Alternatively, you can write your report in
-[Rmarkdown](https://web.archive.org/web/20210413060501/http://rmarkdown.rstudio.com/),
-in which case you must make sure the markdown file compiles, i.e., the
-following command must generate the final output:
-
-`Rscript -e "rmarkdown::render('tweet_analysis.Rmd')"`
-
-Here are a few suggestions for making plots in R. First, use a white
-background (the default is gray), which you can produce by setting the
-appropriate ggplot2 theme at the top of your script:
-
-`theme_set(theme_bw())`
-
-Second, use the
-[scales](https://cran.r-project.org/web/packages/scales/scales.pdf)
-package (also installed with tidyverse, but loaded separately) to format
-plot labels (e.g., to format numbers). Third, for reports, save plots in
-PDF (a [vector
-format](https://en.wikipedia.org/wiki/Vector_graphics))
-rather than PNG or JPEG
-([raster](https://en.wikipedia.org/wiki/Raster_graphics)
+Here are a few suggestions for making plots in matplotlib. First, use a white
+background. Second, format plot labels (e.g., numbers). Third, for reports, 
+save plots in PDF (a [vector format](https://en.wikipedia.org/wiki/Vector_graphics))
+rather than PNG or JPEG ([raster](https://en.wikipedia.org/wiki/Raster_graphics)
 formats). Finally, explicitly set the height and width of plots to get
 the appropriate aspect ratio (this also has the added benefit of helping
 to ensure the axis labels are appropriately sized). For example, for a
 square plot you might use something like this:
 
-`ggsave(plot=my_plot, file="my_plot.pdf", width=5, height=5)`
+`code goes here`
 
 **Step 6.** Prepare a short report (2-page maximum) detailing your
 results. The report should include a description of your approach to
@@ -246,7 +220,7 @@ limitations of the methodology. The report is an important component of
 the assignment; we will be grading both the substantive content as well
 as the writing and presentation style.
 
-Submit the following: (1) parse\_tweets.py; (2) tweet\_analysis.R(md);
+Submit the following: (1) `parse\_tweets.py`; (2) `tweet\_analysis.py`;
 (3) the two files generated in Step 4 (i.e., the cleaned tweet data);
 and (4) your report, as a single PDF file.
 
@@ -269,6 +243,6 @@ lessons from the visualization lecture kept in mind
 -   Quality of the report, which should focus on clearly communicating
 findings, insights, and limitations
 
-Please submit your work on Canvas (only one submission per group), and
+Please submit your work on Gradescope (only one submission per group), and
 ensure that all team members are listed on your report.
 
