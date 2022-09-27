@@ -1,284 +1,170 @@
-MS&E231 Introduction to Computational Social Science Syllabus
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+title: "MS&E 231 Syllabus"
+---
+
+
+## Week 1 ##
+
+**Tues 9/27 -- Introduction**
+- Hofman et al. (2021) "Integrating explanation and prediction in computational social science," Nature.
+- Wagner et al. (2021) "Measuring algorithmically infused societies", Nature.
+- Abebe et al. (2020) "Roles for Computing in Social Change," FAT.
+- Eddy (2005) "Antedisciplinary Science," PLOS Comp Bio.
+
+**Thurs 9/29 -- Observational data and counting at scale**
+- **PS1: Released/introduced**
+- Advanced applied counting, social science with big data.
+
+## Week 2 ##
+
+**Tues 10/4 -- Causal Inference**
+- Prediction vs. causal inference in the social sciences.
+- Goel, Hofman, Lahaie, Pennock, Watts (2010) "Predicting consumer behavior with Web search," PNAS.
+- Choi, Varian (2012) "Predicting the Present with Google Trends," The Economic Record.
+- Kleinberg, Ludwig Mullainathan, Obermeyer (2015) "Prediction Policy Problems," AER. 
+
+**Thurs 10/6 -- Social Algorithms 1: Web search**
+- Chakrabarti, Frieze, Vera (2005) "The influence of search engines on preferential attachment," SODA.
+- Fortunato, Flammini, Menczer, and Vespignani (2006) "Topical interests and the mitigation of search engine bias," PNAS.
+- Goel, Broder, Gabrilovich, Pang (2010) "Anatomy of the long tail: ordinary people with extraordinary tastes," WSDM.
+- Brynjolfsson, Hu, Simester (2011) "Goodbye pareto principle, hello long tail: The effect of search costs on the concentration of product sales," Management Science.
+
+## Week 3 ##
+
+**Tues 10/11 -- Social Algorithms II: Recommender systems**
+- Fleder and Hosanagar (2009) "Blockbuster culture’s next rise or fall: The impact of recommender systems on sales diversity," Management Science..
+- Dandekar, Goel, Lee (2013) "Biased assimilation, homophily, and the dynamics of polarization," PNAS.
+- Abdollahpouri, Burke, Mobasher (2017) "Controlling popularity bias in learning-to-rank recommendation," RecSys.
+- Chaney, Stewart, Engelhardt (2018) "How Algorithmic Confounding in Recommendation Systems Increases Homogeneity and Decreases Utility," RecSys.
+- Anderson et al. (2020) "Algorithmic Effects on the Diversity of Consumption on Spotify", WWW.
+- Kleinberg, Ragavan (2021) "Algorithmic monoculture and social welfare," PNAS.
+- Hardt, Jagadeesan, Mendler-Dünner (2022) "Performative Power", NeurIPS. // Recommender systems and "steering".
+- Kleinberg, Raghavan, Mullainathan (2022) "The Challenge of Understanding What Users Want: Inconsistent Preferences and Engagement Optimization," EC.  // Recommendation systems and revealed preferences.
+Social Recommender systems: 
+- Zignani et al. (2014) "Link and Triadic Closure Delay: Temporal Metrics for Social Network Dynamics", ICWSM.
+- Su, Sharma, Goel (2016), "The Effect of Recommendations on Network Structure", WWW. 
+
+**Thurs 10/13 -- Social Algorithms III: Feed algorithms**
+- **PS1: Due**
+- Bakshy, Rosenn, Marlow, Adamic (2010) "The role of social networks in information diffusion," WWW.
+- Bernstein, Bakshy, Burke, Karrer (2013) "Quantifying the invisible audience in social networks," CHI.
+- Bakshy, Messing, Adamic (2015) "Exposure to ideologically diverse news and opinion on Facebook"
+- Flaxman, Goel, Rao (2016) "Filter Bubbles, Echo Chambers, and Online News Consumption", Public Opinion Quarterly.
+- Bail, Argyle, Brown, Volfovsky (2018) "Exposure to opposing views on social media can increase political polarization," PNAS.
+- Allen et al. (2020) "Evaluating the fake news problem at the scale of the information ecosystem," Science Advances.
+- Huszar et al. (2021) "Algorithmic amplification of politics on Twitter", PNAS.
+- Hosseinmardi et al. (2021) "Examining the consumption of radical content on YouTube," PNAS.
+
+## Week 4 ##
+
+**Tues 10/18 -- Network Analysis I (Guest Lecture: Dr. Martin Saveski)**
+- **PS2 Released/introduced**
+- Graph theory, social network analysis, and network science.
+
+**Thurs 10/20 -- Network Analysis II**
+
+Weak ties:
+- Granovetter (1973) "The Strength of Weak Ties," AJS.
+- Granovetter (1983) "The Strength of Weak Ties: A Network Theory Revisited," Sociological Theory.
+- Gee, Jones, Burke (2017) "Social Networks and Labor Markets: How Strong Ties Relate to Job Finding on Facebook’s Social Network," J Labor Economics.
+- Gee et al. (2017) "The paradox of weak ties in 55 countries," Journal of Economic Behavior & Organization.
+- Rajkumar et al. (2022) "A causal test of the strength of weak ties," Science.
+
+Friendship paradox:
+- Feld (1991). "Why your friends have more friends than you do," American Journal of Sociology.
+- Ugander, Karrer, Backstrom, Marlow (2011) "The Anatomy of the Facebook Social Graph," arXiv.
+- Kooti, Hodas, Lerman (2014) "Network Weirdness: Exploring the Origins of Network Paradoxes", Proceedings of ICWSM.
+- Lerman et al. (2016) "The Majority Illusion in Social Networks," PLOS One.
+- Steward et al. (2019) "Information gerrymandering and undemocratic decisions," Nature. 
+
+## Week 5 ##
+
+**Tues 10/25  -- Social Contagion, Social Diffusion**
+- Dodds, Watts (2007) "Influentials, Networks, and Public Opinion Formation," J Consumer Research.
+- Friggeri et al. (2014) "Rumor cascades," ICWSM.
+- Vosoughi et al. (2018) "The spread of true and false news online," Science.
+- Juul, Ugander (2022) "Comparing information diffusion mechanisms by matching on cascade size," PNAS.
+
+**Thurs 10/27  -- Social Influence, influence maximization**
+- Kempe, Kleinberg, Tardos (2003) "Maximizing the spread of influence through a social network," Proceedings of KDD.
+- Aral, Muchnik, Sundararajan (2009) "Distinguishing influence-based contagion from homophily-driven diffusion in dynamic networks," PNAS.
+- Centola, Macy (2007) "Complex contagions and the weakness of long ties," AJS.
+- Centola (2010) "The spread of behavior in an online social network experiment," Science.
+- Centola (2011) "An experimental study of homophily in the adoption of health behavior," Science.
+- Ugander, Backstrom, Marlow, Kleinberg. (2012) "Structural Diversity in Social Contagion," PNAS.
+- Muchnik, Taylor, Aral (2013) "Social Influence Bias: A Randomized Experiment," Science.
+
+Seeding:
+- Pastor-Satorras, Vespignani (2002) "Immunization of complex networks," PRE.
+- Christakis, Fowler (2010) "Social network sensors for early detection of contagious outbreaks," PLOS One.
+- Kim et al. (2015) "Social network targeting to maximise population behaviour change: a cluster randomised controlled trial", The Lancet.
+- Chin, Eckles, Ugander (2021) "Evaluating stochastic seeding strategies in networks," Management Science.
+Project Proposal: Due
 
-Prof. Johan Ugander
+## Week 6 ##
 
-Management Science & Engineering
+**Tues 11/1 -- Modern surveys, post-stratification**
+- Gelman, Goel, Rivers, Rothschild (2016) "The Mythical Swing Voter," QJPS.
+- Gelman, Goel, Rothschild, Wang (2016) "High-Frequency Polling with Non-Representative Data," Routledge Studies in Global Information, Politics and Society.
+Rosenzsweig et al. (2022) "Survey sampling in the Global South using Facebook advertisements," SocArxiv.
 
-Stanford University
+**Thurs 11/3 Digital demography**
+- **PS2: Due**
+- **PS3: Released/introduced**
+- Zagheni, Garimella, Weber, State (2014) "Inferring international and internal migration patterns from twitter data", WWW.
+- Zagheni, Weber (2015) "Demographic research with non-representative internet data," International Journal of Manpower.
+- Tufecki (2014) "Big Questions for Social Media Big Data: Representativeness, Validity and Other Methodological Pitfalls," ICWSM.
+- Zagheni, Weber, Gummadi (2017) "Leveraging Facebook's advertising platform to monitor stocks of migrants," Population and Development Review.
 
-Fall 2022
+## Week 7 ##
 
-Schelling segregation, gerrymandering, computational social choice,
-information gerrymandering
+**Tues 11/8 -- Cell phone and mobility data**
+- de Montjoye et al. (2013) "Unique in the Crowd: The privacy bounds of human mobility," Scientific Reports. 
+- Blumenstock, Cadamuro, On (2015) "Predicting poverty and wealth from mobile phone metadata", Science.
+- Aiken et al. (2022) "Machine learning and phone data can improve targeting of humanitarian aid", Nature.
+- Barbosa et al. (2018) "Human mobility: Models and applications," Physics Reports.
+- Chen, Rohla (2018) "The effect of partisanship and political advertising on close family ties", Science.
+- Alessandretti et al. (2020) "The scales of human mobility," Nature.
+- Athey et al. (2021) "Estimating experienced racial segregation in US cities using large-scale GPS data," PNAS.
+- Coston et al. (2021) "Leveraging Administrative Data for Bias Audits: Assessing Disparate Coverage with Mobility Data for COVID-19 Policy," FAccT.
 
-Fairness (from social choice): representation, proportionality,
-envy-freeness
 
-**Week 1**
+**Thurs 11/10  -- COVID and mobility (Guest lecture: Serina Chang)**
+- Chang et al. (2020) "Mobility network models of COVID-19 explain inequities and inform reopening," Nature.
 
-Tu 9/27 <span style="text-decoration: underline">Introduction</span>
 
--   CSS Special Issue in Nature\
-    > [https://www.nature.com/collections/cadaddgige](https://www.nature.com/collections/cadaddgige)
+## Week 8 ##
 
--   J Hofman et al. (2021) "Integrating explanation and prediction in
-    > computational social science" Nature.\
-    > [https://www.nature.com/articles/s41586-021-03659-0](https://www.nature.com/articles/s41586-021-03659-0)
+**Tues 11/15 -- Culturomics**
+- Lieberman et al. (2007) "Quantifying the evolutionary dynamics of language," Nature.
+- Michel et al. (2010) "Quantitative Analysis of Culture Using Millions of Digitized Books," Science. 
+- Card et al. (2022) "Computational analysis of 140 years of US political speeches reveals more positive but increasingly polarized framing ofimmigration," PNAS.
 
--   C Wagner et al. (2021) "Measuring algorithmically infused
-    > societies", Nature.\
-    > [https://www.nature.com/articles/s41586-021-03666-1](https://www.nature.com/articles/s41586-021-03666-1)
 
--   S Eddy (2005) "Antedisciplinary Science," PLOS Comp Bio.\
-    > [https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0010006](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0010006)
+**Thurs 11/17 -- Data Privacy**
+- **PS3: Due**
+- Digital exhaust
+- Data privacy models
+- Differential privacy
 
-Th 9/29 <span style="text-decoration: underline">Observational data and counting at scale</span>
+## (Thanksgiving break) ##
 
--   Big data, advanced applied counting
+## Week 9 ##
 
--   **PS1: Released/introduced**
+**Tues 11/29  -- Guest Lecture, Jenny Hong on Project Recon**
 
-**Week 2**
+**Thurs 12/1 -- Guest Lecture, Industry speaker (TBD)**
 
-Tu 10/4 <span style="text-decoration: underline">Causal Inference</span>
+## Week 10 ##
 
--   Prediction vs. Causal inference ("Y hat vs \\beta hat")
+**Tues 12/6 -- Project Presentations**
 
--   x
+**Thurs 12/8 -- Project Presentations**
 
--   Goel, Hofman, Lahaie, Pennock, Watts (2010) "Predicting consumer
-    > behavior with Web search," PNAS.
+## Exam week ##
 
-Th 10/6 <span style="text-decoration: underline">Social Algorithms 1: Web search</span>
-
--   Chakrabarti, Frieze, Vera (2005) "The influence of search engines on
-    > preferential attachment." SODA.
-
--   Fortunato, Flammini, Menczer, and Vespignani (2006) "Topical
-    > interests and the mitigation of search engine bias," PNAS.
-
--   Goel, Broder, Gabrilovich, Pang (2010) "Anatomy of the long tail:
-    > ordinary people with extraordinary tastes," WSDM.
-
--   Brynjolfsson, Hu, Simester (2011) "Goodbye pareto principle, hello
-    > long tail: The effect of search costs on the concentration of
-    > product sales," Management Science.
-
-**Week 3**
-
-Tu 10/11 <span style="text-decoration: underline">Social Algorithms II: Recommender systems</span>
-
--   Fleder and Hosanagar (2009) "Blockbuster culture's next rise or
-    > fall: The impact of recommender systems on sales diversity."
-    > Management Science..
-
--   Dandekar, Goel, Lee (2013) "Biased assimilation, homophily, and the
-    > dynamics of polarization," PNAS.
-
--   Abdollahpouri, Burke, Mobasher (2017) "Controlling popularity bias
-    > in learning-to-rank recommendation," RecSys.
-
--   Chaney, Stewart, Engelhardt (2018) "How Algorithmic Confounding in
-    > Recommendation Systems Increases Homogeneity and Decreases
-    > Utility," RecSys.
-
--   Anderson et al. (2020) "Algorithmic Effects on the Diversity of
-    > Consumption on Spotify", WWW.\
-    > [http://www.cs.toronto.edu/\~ashton/pubs/alg-effects-spotify-www2020.pdf](http://www.cs.toronto.edu/~ashton/pubs/alg-effects-spotify-www2020.pdf)
-
--   Kleinberg, Ragavan (2021) "Algorithmic monoculture and social
-    > welfare," PNAS.
-
--   Hardt, Jagadeesan, Mendler-Dünner (2022) "Performative Power",
-    > NeurIPS.\
-    > Recommender systems and "steering".
-
--   Kleinberg, Raghavan, Mullainathan (2022) "The Challenge of
-    > Understanding What Users Want: Inconsistent Preferences and
-    > Engagement Optimization," EC.\
-    > Recommendation systems and revealed preferences.
-
-> <span style="text-decoration: underline">Social Recommender systems: </span>
-
--   Zignani et al. (2014) "Link and Triadic Closure Delay: Temporal
-    > Metrics for Social Network Dynamics", ICWSM.
-
--   Su, Sharma, Goel (2016), "The Effect of Recommendations on Network
-    > Structure", WWW.
-
-Th 10/13 <span style="text-decoration: underline">Social Algorithms III: Feed algorithms</span>
-
--   Bakshy, Rosenn, Marlow, Adamic (2010) "The role of social networks
-    > in information diffusion," WWW.\
-    > [https://dl.acm.org/doi/abs/10.1145/2187836.2187907](https://dl.acm.org/doi/abs/10.1145/2187836.2187907)
-
--   Bernstein, Bakshy, Burke, Karrer (2013) "Quantifying the invisible
-    > audience in social networks," CHI.\
-    > [https://dl.acm.org/doi/10.1145/2470654.2470658](https://dl.acm.org/doi/10.1145/2470654.2470658)
-
--   Bakshy, Messing, Adamic (2015) "Exposure to ideologically diverse
-    > news and opinion on Facebook"\
-    > [https://www.science.org/doi/full/10.1126/science.aaa1160](https://www.science.org/doi/full/10.1126/science.aaa1160)
-
--   Flaxman, Goel, Rao (2016) "Filter Bubbles, Echo Chambers, and Online
-    > News Consumption", Public Opinion Quarterly.\
-    > [https://academic.oup.com/poq/article/80/S1/298/2223402](https://academic.oup.com/poq/article/80/S1/298/2223402)
-
--   Bail, Argyle, Brown, Volfovsky (2018) "Exposure to opposing views on
-    > social media can increase political polarization," PNAS.\
-    > [https://www.pnas.org/doi/10.1073/pnas.1804840115](https://www.pnas.org/doi/10.1073/pnas.1804840115)
-
--   J Allen et al. (2020) "Evaluating the fake news problem at the scale
-    > of the information ecosystem," Science Advances.\
-    > [https://www.science.org/doi/full/10.1126/sciadv.aay3539](https://www.science.org/doi/full/10.1126/sciadv.aay3539)
-
--   Huszar et al. (2021) "Algorithmic amplification of politics on
-    > Twitter", PNAS.\
-    > [https://www.pnas.org/doi/abs/10.1073/pnas.2025334119](https://www.pnas.org/doi/abs/10.1073/pnas.2025334119)
-
--   Hosseinmardi et al. (2021) "Examining the consumption of radical
-    > content on YouTube," PNAS.\
-    > [https://www.pnas.org/doi/10.1073/pnas.2101967118](https://www.pnas.org/doi/10.1073/pnas.2101967118)
-
--   **PS1: Due**
-
-**Week 4**
-
-Tu 10/18 <span style="text-decoration: underline">Network Analysis I</span>
-
--   From graph theory to network analysis
-
--   **PS2: Released/introduced**
-
-Th 10/20 <span style="text-decoration: underline">Network Analysis II</span>
-
--   Strength of weak ties
-
--   Friendship paradox
-
--   majority Illusion
-
-**Week 5**
-
-Tu 10/25 <span style="text-decoration: underline">Social Contagion, Social Diffusion</span>
-
--   Structural Diversity
-
--   Rumor cascades
-
--   Vosoughi et al
-
--   Juul & Ugander
-
-Th 10/27 <span style="text-decoration: underline">Social Influence, influence maximization</span>
-
--   Watts and Dodds
-
--   KKT 2003
-
--   Centola Complex contagion
-
--   **Project Proposal: Due**
-
-**Week 6**
-
-Tu 11/1 <span style="text-decoration: underline">Crowdsourcing and digital demography</span>
-
--   Sharad material
-
--   Emilio Z
-    > [https://www.zagheni.net/index.html](https://www.zagheni.net/index.html)
-
-Th 11/3 <span style="text-decoration: underline">Modern surveys, post-stratification</span>
-
--   Sharad's slides
-
--   Leah Rosenzsweig video\
-    > [https://www.youtube.com/watch?v=2WfScZ7a61o](https://www.youtube.com/watch?v=2WfScZ7a61o)
-
--   Survey sampling in the Global South using Facebook advertisements
-    > [https://osf.io/preprints/socarxiv/dka8f/](https://osf.io/preprints/socarxiv/dka8f/)
-
--   Google Survey papers? Hal Varian?
-
--   **PS2: Due**
-
--   **PS3: Released/introduced**
-
-**Week 7**
-
-Tu 11/8 <span style="text-decoration: underline">Cell phone and mobility data</span>
-
--   Unique in the crowd\
-    > [https://www.nature.com/articles/srep01376](https://www.nature.com/articles/srep01376)
-
--   Blumenstock poverty\
-    > [https://www.science.org/doi/abs/10.1126/science.aac4420](https://www.science.org/doi/abs/10.1126/science.aac4420)
-
--   Blumenstock 2022\
-    > https://www.nature.com/articles/s41586-022-04484-9
-
--   Review, which I haven't read:\
-    > [https://www.sciencedirect.com/science/article/pii/S037015731830022X](https://www.sciencedirect.com/science/article/pii/S037015731830022X)
-
--   Safegraph and family ties\
-    > [https://www.science.org/doi/10.1126/science.aaq1433](https://www.science.org/doi/10.1126/science.aaq1433)
-
--   L. Alessandretti et al. (2020) "The scales of human mobility,"
-    > Nature.\
-    > [https://www.nature.com/articles/s41586-020-2909-1](https://www.nature.com/articles/s41586-020-2909-1)
-
--   Racial segregation safegraph\
-    > [https://www.pnas.org/doi/10.1073/pnas.2026160118](https://www.pnas.org/doi/10.1073/pnas.2026160118)
-
--   Safagraphy bias covid Dan Ho\
-    > [https://law.stanford.edu/wp-content/uploads/2021/04/Leveraging-Administrative-Data-for-Bias-Audits-Assessing-Disparate-Coverage-with-Mobility-Data-for-COVID-19-Policy-March2021.pdf](https://law.stanford.edu/wp-content/uploads/2021/04/Leveraging-Administrative-Data-for-Bias-Audits-Assessing-Disparate-Coverage-with-Mobility-Data-for-COVID-19-Policy-March2021.pdf)
-
-Th 11/10 Guest lecture \-- Serina Chang, COVID and mobility
-
--   Chang et al. (2020) "Mobility network models of COVID-19 explain
-    > inequities and inform reopening," Nature.\
-    > [https://www.nature.com/articles/s41586-020-2923-3](https://www.nature.com/articles/s41586-020-2923-3)
-
-**Week 8**
-
-Tu 11/15 Culturomics
-
--   Lieerman et al. (2007) "Quantifying the evolutionary dynamics of
-    > language," Nature.\
-    > [https://www.nature.com/articles/nature06137](https://www.nature.com/articles/nature06137)
-
--   Michel et al. (2010) "Quantitative Analysis of Culture Using
-    > Millions of Digitized Books," Science.\
-    > [https://www.science.org/doi/10.1126/science.1199644](https://www.science.org/doi/10.1126/science.1199644)
-
--   Card et al. (2022) "Computational analysis of 140 years of US
-    > political speeches reveals more positive but increasingly
-    > polarized framing ofimmigration," PNAS.\
-    > [https://www.pnas.org/doi/full/10.1073/pnas.2120510119](https://www.pnas.org/doi/full/10.1073/pnas.2120510119)
-
-Th 11/17 Privacy
-
--   Differential Privacy and DP debate
-
--   Digital exhaust
-
--   PS3: Due
-
-**(Thanksgiving break)**
-
-**Week 9**
-
-Tu 11/29 Guest Lecture - Jenny Hong, Project Recon
-
-Th 12/1 Guest Lecture - Industry
-
-**Week 10**
-
-Tu 12/6 Project Presentations
-
-Th 12/8 Project Presentations
-
-**Exam week**
-
-Tu 12/13 **Project reports due**
+**Tues 12/13    Project reports due, 5pm PT**
