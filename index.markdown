@@ -6,5 +6,38 @@ layout: default
 title: "MS&E 231"
 ---
 
-Welcome to MS&E 231! The course website is currently **under construction**. It isn't safe yet to rely on this information --- it might (will) change in the next few days. This text will be removed once the information hosted here is reliable.
+## Course Description
 
+With a vast amount of information now collected on our online and offline actions — from what we buy, to where we travel, to who we interact with — we have an unprecedented opportunity to study complex social systems. This opportunity, however, comes with scientific, engineering, and ethical challenges. In this hands-on course, we develop ideas from computer science and statistics to address problems in sociology, economics, political science, and beyond. We cover techniques for collecting and parsing data, methods for large-scale machine learning, and principles for effectively communicating results. To see how these techniques are applied in practice, we discuss recent research findings in a variety of areas. 
+
+Prerequisites: An introductory course in applied statistics, and experience coding in Python.
+
+## Instructors
+Johan Ugander ([email](mailto:jugander@stanford.edu))
+
+Monte Fischer (TA) ([email](mailto:m0nte@stanford.edu))
+
+Greg Zanotti (TA) ([email](mailto:gzanotti@stanford.edu))
+
+## Schedule
+Class: Tuesdays & Thursdays @ 9:00 AM -- 10:20 AM in STLC 115
+
+
+**Office Hours**
+
+TBD
+
+We will use Gradescope to submit assignments. See the [course Github repo](https://www.github.com/mse231/mse231_f22) for code examples.
+
+
+## Computing Environment
+
+A Unix-like setup is required (e.g., Linux, OS X, or Cygwin). We will use Python 3 (JupyterLab is recommended). 
+
+## Evaluation
+* 45% Problem Sets (15% each)
+* 10% Project Proposal
+* 40% Project presentation and report
+* 5% Participation and collegiality
+
+For more information, see the [course syllabus](/syllabus).
