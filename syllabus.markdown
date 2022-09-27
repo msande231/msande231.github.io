@@ -17,12 +17,12 @@ title: "MS&E 231 Syllabus"
 
 **Thurs 9/29 -- Observational data and counting at scale**
 - **PS1: Released/introduced**
-- Advanced applied counting, social science with big data
+- Advanced applied counting, social science with big data.
 
 ## Week 2 ##
 
 **Tues 10/4 -- Causal Inference**
-- Prediction vs. causal inference in the social sciences
+- Prediction vs. causal inference in the social sciences.
 - Goel, Hofman, Lahaie, Pennock, Watts (2010) "Predicting consumer behavior with Web search," PNAS.
 - Choi, Varian (2012) "Predicting the Present with Google Trends," The Economic Record.
 - Kleinberg, Ludwig Mullainathan, Obermeyer (2015) "Prediction Policy Problems," AER. 
