@@ -53,21 +53,21 @@ Project: No extensions on the project. If you need an extension, please contact 
 
 In the event of a family or medical emergency, I am fundamentally a reasonable person.
 
-
 ## High level course schedule
+
 | Week | Topic | Assignments |
 | --- | --- | --- |
 | Week 1  | Introduction; observational CSS	| 			PS1 Out |
 | Week 2  | Causal Inference; Social algorithms I: search | |
-| Week 3  | Social algorithms II & III: Recsys, feed | 	PS1 Due |
+| Week 3  | Social algorithms II & III: Recsys, feed |  PS1 Due |
 | Week 4  | Network analysis						|   PS2 Out |
 | Week 5  | Social contagion, diffusion, social influence | Project Proposal Due|
 | Week 6  | Online surveys; digital demography |        PS2 Due; PS3 Out|
-| Week 7  | Cell phone and mobility data				||	
-| Week 8  | Culturomics; Privacy						| PS3 Due|
-| Week 9  | Guest lectures                              ||
-| Week 10 | Project presentations                       || 
-| Week 11 | (No exam)							|Projects Due| 
+| Week 7  | Cell phone and mobility data				| |	
+| Week 8  | Culturomics; Privacy						| PS3 Due |
+| Week 9  | Guest lectures                              | |
+| Week 10 | Project presentations                       | | 
+| Week 11 | (No exam)							| Projects Due | 
 
 | Problem set 1: 	| Counting things with the Twitter API | 
 | Problem set 2:  	| Network analysis of Twitter data | 
