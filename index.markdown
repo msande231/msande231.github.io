@@ -37,13 +37,12 @@ There is an ungraded “Problem Set 0” for self-evaluation, available on the c
 
 There is a $30 course materials fee for running experiments on Amazon Mechanical Turk (as part of Problem Set 3). There are no required textbooks or other course materials.
 
-## Grading:
+## Grading and late policies
 * 45% Problem Sets (15% each)
 * 10% Project proposal
 * 40% Project presentation and report
 * 5% Participation and collegiality
 
-## Late policies:
 Problem sets and project proposal: your best bet is to hit all the deadlines. Failing that, the following policy is designed to prioritize completing problem sets vs. not completing, submitting problem sets vs. not submitting.  
 - One single delay of up to 2 days (48 hours), no questions asked. 
 - After that: 5 points deducted per day (per 24h, including weekends), up to 6 days. Limited CA availability. 
@@ -57,7 +56,7 @@ In the event of a family or medical emergency, I am fundamentally a reasonable p
 
 | Week | Topic | Assignments |
 | --- | --- | --- |
-| Week 1  | Introduction; observational CSS	| 			PS1 Out |
+| Week 1  | Introduction; observational CSS	| 	PS0; PS1 Out |
 | Week 2  | Causal Inference; Social algorithms I: search | |
 | Week 3  | Social algorithms II & III: Recsys, feed |  PS1 Due |
 | Week 4  | Network analysis						|   PS2 Out |
@@ -65,16 +64,18 @@ In the event of a family or medical emergency, I am fundamentally a reasonable p
 | Week 6  | Online surveys; digital demography |        PS2 Due; PS3 Out|
 | Week 7  | Cell phone and mobility data				| |	
 | Week 8  | Culturomics; Privacy						| PS3 Due |
+| | Thanksgiving break | |
 | Week 9  | Guest lectures                              | |
 | Week 10 | Project presentations                       | | 
-| Week 11 | (No exam)							| Projects Due | 
+| Exam week | (No exam)							| Report Due | 
 
+Assignment overview:
 | Problem set 1: 	| Counting things with the Twitter API | 
 | Problem set 2:  	| Network analysis of Twitter data | 
 | Problem set 3: 	| Mechanical Turk surveys and post-stratification | 
 | Project: 	| Open ended, per proposal process |
 
-## Honor code violations:
+## Honor code violations
 In the event that a student is found to have violated the honor code (including through Early Resolution), the penalty may include a full denial of credit for the course (not just the assignment). See the Student Conduct Penalty Code, Section J.
 
 ## Students with Documented Disabilities:
