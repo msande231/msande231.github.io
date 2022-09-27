@@ -3,6 +3,7 @@
 **Tues 9/27 -- Introduction**
 - Hofman et al. (2021) "Integrating explanation and prediction in computational social science," Nature.
 - Wagner et al. (2021) "Measuring algorithmically infused societies", Nature.
+- Abebe et al. (2020) "Roles for Computing in Social Change," FAT.
 - Eddy (2005) "Antedisciplinary Science," PLOS Comp Bio.
 
 **Thurs 9/29 -- Observational data and counting at scale**
