@@ -139,7 +139,7 @@ you\'ll need to keep track of the machine and then directly ssh into it.
 
 **Step 4.** Each line of the output from the above commands is in JSON,
 and before you can analyze the results, you need to convert the data to
-a more suitable format. Write a Python script (named `parse\_tweets.py`)
+a more suitable format. Write a Python script (named `parse_tweets.py`)
 that takes a stream of tweets as input ([via
 stdin](https://web.archive.org/web/20210413060501/http://en.wikibooks.org/wiki/Python_Programming/Input_and_Output#Standard_File_Objects)),
 and writes tab-separated output (to stdout) where each row corresponds
@@ -156,12 +156,12 @@ to stdout:
 
 `zcat tweets.gz | python3 parse_tweets.py`
 
-Using your `parse\_tweets.py` script, parse the random sample of tweets
+Using your `parse_tweets.py` script, parse the random sample of tweets
 and also the filtered set of tweets, and save them to two separate
 files.
 
 Hint: Some entries collected from Twitter might not be \"valid\" (e.g.,
-deleted tweets, empty lines), so make sure your `parse\_tweets.py` script
+deleted tweets, empty lines), so make sure your `parse_tweets.py` script
 deals with theses situations gracefully.
 
 **Step 5.** Import your tweet data into Python. Devise and apply a
@@ -191,7 +191,7 @@ statistical strategy to gauge the extent to which this phenomenon may
 (or may not) occur in your data.
 
 Save your gender inference, plot generation, and homophily code in a
-single script called `tweet\_analysis.py`. Your script should be completely
+single script called `tweet_analysis.py`. Your script should be completely
 self-contained (e.g., load all necessary libraries), and not contain any
 extraneous calculations. In particular, if you run the script in a
 directory that contains the tweet data and the baby name files, it
@@ -199,7 +199,7 @@ should read in the data and output the plots in that same directory
 without any additional setup or user intervention. That is, the
 following command (which we will run) must reproduce your results:
 
-`python3 tweet\_analysis.py`
+`python3 tweet_analysis.py`
 
 Here are a few suggestions for making plots in matplotlib. First, use a white
 background. Second, format plot labels (e.g., numbers). Third, for reports, 
@@ -220,7 +220,7 @@ limitations of the methodology. The report is an important component of
 the assignment; we will be grading both the substantive content as well
 as the writing and presentation style.
 
-Submit the following: (1) `parse\_tweets.py`; (2) `tweet\_analysis.py`;
+Submit the following: (1) `parse_tweets.py`; (2) `tweet_analysis.py`;
 (3) the two files generated in Step 4 (i.e., the cleaned tweet data);
 and (4) your report, as a single PDF file.
 
