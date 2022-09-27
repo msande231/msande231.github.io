@@ -98,7 +98,7 @@ Project Proposal: Due
 
 **Tues 11/1 -- Modern surveys, post-stratification**
 - Gelman, Goel, Rivers, Rothschild (2016) "The Mythical Swing Voter," QJPS.
-- Gelman, Goel Rothschild, Wang (2016) "High-Frequency Polling with Non-Representative Data," Routledge Studies in Global Information, Politics and Society.
+- Gelman, Goel, Rothschild, Wang (2016) "High-Frequency Polling with Non-Representative Data," Routledge Studies in Global Information, Politics and Society.
 Rosenzsweig et al. (2022) "Survey sampling in the Global South using Facebook advertisements," SocArxiv.
 
 **Thurs 11/3 Digital demography**
