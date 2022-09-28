@@ -11,18 +11,17 @@ title: "MS&E 231"
 With a vast amount of data now collected on our online and offline actions -- from what we buy, to where we travel, to who we interact with -- we have an unprecedented opportunity to study traditional social systems with novel precision and detail, as well the emerging challenges of studying modern social systems infused with learning algorithms. In this hands-on course, we first develop ideas from computer science and statistics to address problems in sociology, economics, political science. Beyond that, we place a particular emphasis on the study of algorithm-in-the-loop social systems. To see how these techniques are applied in practice, we discuss recent research findings in a variety of areas. Prerequisites: introductory course in applied statistics and experience coding in Python.
 
 ## Instructors
-Johan Ugander ([email](mailto:jugander@stanford.edu))
+Johan Ugander, jugander@ 
 
-Monte Fischer (TA) ([email](mailto:m0nte@stanford.edu))
+Monte Fischer (TA), m0nte@ 
 
-Greg Zanotti (TA) ([email](mailto:gzanotti@stanford.edu))
+Greg Zanotti (TA), gzanotti@ 
 
 ## Schedule
 Class: Tuesdays & Thursdays @ 9:00 AM -- 10:20 AM in STLC 115
 
 **Office Hours**
 
-Problem sets: 
 * Monte: 3:00p -- 5:00p on Wednesday (starting October 5)
 * Greg: 11:00a -- 1:00p on Tuesday (starting October 4)
 * Johan: 10:20a -- 11:15a on Thursdays (starting October 6)
