@@ -22,10 +22,14 @@ Class: Tuesdays & Thursdays @ 9:00 AM -- 10:20 AM in STLC 115
 
 **Office Hours**
 
-Monte: 3:00PM -- 5:00PM on Wednesday (starting October 5)
-Greg: 11:00AM -- 1:00PM on Tuesday (starting October 4)
+Problem sets: 
+* Monte: 3:00p -- 5:00p on Wednesday (starting October 5)
+* Greg: 11:00a -- 1:00p on Tuesday (starting October 4)
+* Johan: 10:20a -- 11:15a on Thursdays (starting October 6)
 
-We will use Gradescope to submit assignments. See the [course Github repo](https://www.github.com/mse231/mse231_f22) for code examples.
+## Important Links
+* [Canvas page](https://canvas.stanford.edu/courses/162641)
+* [course Github repo](https://www.github.com/mse231/mse231_f22)
 
 ## Course structure and evaluation
 The class is organized around two lectures per week. Generally speaking, the first half of each lecture will be organized in “broadcast mode,” presenting an overview of an idea or field. The second half will transition to discussions of recent research literature.
