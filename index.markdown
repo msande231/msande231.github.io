@@ -33,7 +33,7 @@ Class: Tuesdays & Thursdays @ 9:00 AM -- 10:20 AM in STLC 115
 ## Course structure and evaluation
 The class is organized around two lectures per week. Generally speaking, the first half of each lecture will be organized in “broadcast mode,” presenting an overview of an idea or field. The second half will transition to discussions of recent research literature.
 
-There are three problem sets and a project. See the weekly schedule below for a timeline. There are no quizzes, midterms, or exams. All submissions are due on Gradescope by the start of lecture (9am) on the described days. Attendance is expected but not strictly mandatory.
+There are three problem sets and a project. See the weekly schedule below for a timeline. There are no quizzes, midterms, or exams. All submissions are due on Canvas by the start of lecture (9am) on the described days. Attendance is expected but not strictly mandatory.
 
 Homework assignments are to be done in groups of 2-3, and the final project in groups of 2-5. You are strongly encouraged to form interdisciplinary teams for both the homework and project. All group members should be involved in completing each part of the homework assignments (i.e., think pair programming as opposed to divide-and-conquer).
 
