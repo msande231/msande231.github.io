@@ -22,7 +22,7 @@ Class: Tuesdays & Thursdays @ 9:00 AM -- 10:20 AM in STLC 115
 
 **Office Hours**
 
-* Greg: Tues 11:00a -- Tues 1:00p (starting October 4)
+* Greg: Tues 11:00a -- 1:00p (starting October 4)
 * Monte: Weds 3:00p -- 5:00p (starting October 5)
 * Johan: Thurs 10:20a -- 11:15a (starting Sept 29)
 
