@@ -250,6 +250,6 @@ lessons from the visualization lecture kept in mind
 -   Quality of the report, which should focus on clearly communicating
 findings, insights, and limitations
 
-Please submit your work on Gradescope (only one submission per group), and
+Please submit your work on Canvas (only one submission per group), and
 ensure that all team members are listed on your report.
 
