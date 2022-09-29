@@ -22,7 +22,7 @@ Class: Tuesdays & Thursdays @ 9:00 AM -- 10:20 AM in STLC 115
 
 **Office Hours**
 
-* Monte: 3:00p -- 5:00p on Wednesday (starting October 5)
+* Monte: 3:00p -- 5:00p on Wednesday (starting October 5) @ Littlefield 103
 * Greg: 11:00a -- 1:00p on Tuesday (starting October 4)
 * Johan: 10:20a -- 11:15a on Thursdays (starting October 6)
 
