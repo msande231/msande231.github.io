@@ -260,8 +260,7 @@ loaded into memory in its entirety
 -   Appropriateness of your strategies for inferring gender and gender
 homophily
 -   Effectiveness of your plots: they must be clean and legible, with
-appropriate axis names, coloring, etc. that emphasize findings, with
-lessons from the visualization lecture kept in mind
+appropriate axis names, coloring, etc. 
 -   Quality of the report, which should focus on clearly communicating
 findings, insights, and limitations
 
