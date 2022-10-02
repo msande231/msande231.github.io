@@ -5,6 +5,21 @@ layout: default
 
 **Due Date: Thursday, October 13**
 
+**Submission instructions**:
+We ask that all project files (for calculations, the report, etc.) be uploaded to Canvas, and that a PDF of the report be uploaded to Gradescope. You can download Microsoft Office for free by visiting [https://uit.stanford.edu/software/office](https://uit.stanford.edu/software/office) if you need it to write the report.
+
+Finally, to help make sure your team gets the deliverables submitted correctly, here's a project submission checklist:   
+
+1. Write the names of all your group members, and your group number, into each file you submit. This is important to complete, as we may assign individual grades if we see major discrepancies between different parts of the project, so that everyone is treated fairly.
+2. Write the names of each group member and which parts of the project (that is, parts 1 through 3) they worked on at the top of your project PDF generated from the Word solution template. If all three or four of you worked on each part, that's fine, of course. If you split it up in any way, that's fine as well. For example, you can write: "Person A (part 1, part 2); Person B (part 2, part 3); Person C: (part 1, part 3)''.
+3. Go to the People page on Canvas, hit the Groups tab, and ensure that you're in the right group with the right people. If there's anyone else in your group who you are not working with, please email the TA team so that they can be moved to the right group. We'll be using these groups to assign grades, so it's very important that they're correct.
+4. Now, submit all files you made to create your report to the assignment on Canvas. This includes Python scripts, Jupyter notebooks, the submission PDF, etc. Only one person has to submit the files. Your group and its members will automatically be recorded on the submission.
+5. Finally, please submit just the report PDF, generated from the Word solution template, on Gradescope. On Gradescope, the group is not automatically recorded, so you'll have to select your group members when you submit. Only one person has to submit the PDF.
+
+Good luck!
+
+**Assignment description:**
+
 In this assignment, you\'ll investigate gender
 *[homophily](https://en.wikipedia.org/wiki/homophily)*
 on Twitter. In the process you\'ll learn about APIs, streaming
