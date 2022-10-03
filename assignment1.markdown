@@ -34,10 +34,10 @@ version of Python with [pip](https://pip.pypa.io/en/stable/installation/) instal
 There are a number of things that can go wrong in this assignment, so please start early!
 
 **Step 1.** The Twitter Streaming API provides access to a small
-[random](https://developer.twitter.com/en/docs/tweets/sample-realtime/overview/GET_statuse_sample)
+[random](https://developer.twitter.com/en/docs/twitter-api/tweets/volume-streams/introduction)
 sample of public tweets as they are generated, and also lets one query
 for tweets that
-[match](https://developer.twitter.com/en/docs/tweets/filter-realtime/overview)
+[match](https://developer.twitter.com/en/docs/twitter-api/tweets/filtered-stream/introduction)
 a user-provided list of keywords. We will use both of these features.
 
 To get started,
