@@ -18,6 +18,7 @@ title: "MS&E 231 Syllabus"
 **Thurs 9/29 -- Observational data and counting at scale**
 - **PS1: Released/introduced**
 - Advanced applied counting, social science with big data.
+- Salganik (2017) [Bit by Bit](https://www.bitbybitbook.com/), Chapter 2.
 
 ## Week 2 ##
 
