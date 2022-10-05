@@ -6,17 +6,27 @@ layout: default
 **Due Date: Thursday, October 13**
 
 **Submission instructions**:
-We ask that all project files (for calculations, the report, etc.) be uploaded to Canvas, and that a PDF of the report be uploaded to Gradescope. You can download Microsoft Office for free by visiting [https://uit.stanford.edu/software/office](https://uit.stanford.edu/software/office) if you need it to write the report.
+We ask that all project files (code and data) be uploaded to Canvas, and that a PDF of the report be uploaded to Gradescope.
 
-Finally, to help make sure your team gets the deliverables submitted correctly, here's a project submission checklist:   
+To help make sure your team gets the deliverables submitted correctly, here's a project submission checklist:   
 
-1. Write the names of all your group members, and your group number, into each file you submit. This is important to complete, as we may assign individual grades if we see major discrepancies between different parts of the project, so that everyone is treated fairly.
-2. Write the names of each group member and which parts of the project (that is, parts 1 through 3) they worked on at the top of your project PDF generated from the Word solution template. If all three or four of you worked on each part, that's fine, of course. If you split it up in any way, that's fine as well. For example, you can write: "Person A (part 1, part 2); Person B (part 2, part 3); Person C: (part 1, part 3)''.
-3. Go to the People page on Canvas, hit the Groups tab, and ensure that you're in the right group with the right people. If there's anyone else in your group who you are not working with, please email the TA team so that they can be moved to the right group. We'll be using these groups to assign grades, so it's very important that they're correct.
+1. Write the names of all your group members, and your group number, into the report PDF and at least one of the source code files you submit. This is important to complete, as we may assign individual grades if we see major discrepancies between different parts of the project, so that everyone is treated fairly.
+2. Write the names of each group member and which parts of the project they worked on at the top of your project PDF. You can all work on each part or split it up in any way you'd like. For example, you can write: "Person A (report); Person B (tweet_analysis.py); Person C: (report)''.
+3. Go to the People page on Canvas, hit the Groups tab, and ensure that you're in the right group with the right people. If there's anyone else in your group who you are not working with, please email the TA team or make a private post on Ed so that they can be moved to the right group. We'll be using these groups to assign grades, so it's very important that they're correct.
 4. Now, submit all files you made to create your report to the assignment on Canvas. This includes Python scripts, Jupyter notebooks, the submission PDF, etc. Only one person has to submit the files. Your group and its members will automatically be recorded on the submission.
-5. Finally, please submit just the report PDF, generated from the Word solution template, on Gradescope. On Gradescope, the group is not automatically recorded, so you'll have to select your group members when you submit. Only one person has to submit the PDF.
+5. Finally, please submit just the report PDF on Gradescope. On Gradescope, the group is not automatically recorded, so you'll have to select your group members when you submit. Only one person has to submit the PDF.
 
 Good luck!
+
+**Setting up FarmShare**
+
+To use the following instructions in the assignment description below, you will have to set up your FarmShare machine with newer versions of Python than are currently supported on FarmShare. _If you skip this step, the following steps will not work._ In the [course repo](https://github.com/mse231/mse231_f22) there is a script called `farmshare-setup.sh`. Please clone the course repo onto your FarmShare home directory (which is the default directory you enter when you SSH into FarmShare, e.g. `/home/your_user_name`). Copy `farmshare-setup.sh'` into this FarmShare home directory from the cloned repo directory. Then enter the following commands:
+1. `cd ~`
+3. `chmod +x farmshare-setup.sh'
+4. `tmux` (a new pane in the terminal will open when you execute this command; that's normal)
+5. `./farmshare-setup.sh`
+6. `exit`
+Step #5 above will take roughly 20 minutes as a large volume of output is written to the screen. If you get disconnected from the server during this time, please reconnect via SSH and enter the command `tmux a -t 0` to be brought back to the executing setup process. When you see "DONE!" printed to the screen and a return to the command prompt, you can safely exit tmux and continue with the below instructions.
 
 **Assignment description:**
 
@@ -122,6 +132,11 @@ or
 For example, with nohup, you can run the command in the background with:
 
 `nohup python3 tweet_stream.py --keyfile creds.txt --gzip tweets.gz &`
+
+Generally, we recommend using tmux, as it offers greater flexibility
+and is consistently useful for running processes on remote servers. You
+can visit [this tmux commands cheat sheet](https://tmuxguide.readthedocs.io/en/latest/tmux/tmux.html)
+for basic usage information, or find several tutorial videos on YouTube.
 
 Note that you are only allowed to connect to at most one streaming API
 endpoint at a time, and attempting to connect to more than one
