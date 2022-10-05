@@ -23,12 +23,12 @@ Good luck!
 
 To use the following instructions in the assignment description below, you will have to set up your FarmShare machine with newer versions of Python than are currently supported on FarmShare. _If you skip this step, the following steps will not work._ In the [course repo](https://github.com/mse231/mse231_f22) there is a script called `farmshare-setup.sh`. Please clone the course repo onto your FarmShare home directory (which is the default directory you enter when you SSH into FarmShare, e.g. `/home/your_user_name`). Copy `farmshare-setup.sh` into this FarmShare home directory from the cloned repo directory. Then enter the following commands:
 1. `cd ~`
-3. `chmod +x farmshare-setup.sh`
-4. `tmux` (a new pane in the terminal will open when you execute this command; that's normal)
-5. `./farmshare-setup.sh`
-6. `exit`
+2. `chmod +x farmshare-setup.sh`
+3. `tmux` (a new pane in the terminal will open when you execute this command; that's normal)
+4. `./farmshare-setup.sh`
+5. `exit`
 
-Step #5 above will take roughly 20 minutes as a large volume of output is written to the screen. If you get disconnected from the server during this time, please reconnect via SSH and enter the command `tmux a -t 0` to be brought back to the executing setup process. When you see "DONE" printed to the terminal and are returned to the command prompt, you can safely exit tmux and continue with the below instructions.
+Step #4 above will take roughly 20 minutes as a large volume of output is written to the screen. If you get disconnected from the server during this time, please reconnect via SSH and enter the command `tmux a -t 0` to be brought back to the executing setup process. When you see "DONE" printed to the terminal and are returned to the command prompt, you can safely exit tmux and continue with the below instructions.
 
 **Assignment description:**
 
