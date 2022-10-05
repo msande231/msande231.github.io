@@ -5,7 +5,8 @@ layout: default
 
 **Due Date: Thursday, October 13**
 
-**Submission instructions**:
+**Submission instructions:**
+
 We ask that all project files (code and data) be uploaded to Canvas, and that a PDF of the report be uploaded to Gradescope.
 
 To help make sure your team gets the deliverables submitted correctly, here's a project submission checklist:   
@@ -18,7 +19,7 @@ To help make sure your team gets the deliverables submitted correctly, here's a 
 
 Good luck!
 
-**Setting up FarmShare**
+**Setting up FarmShare:**
 
 To use the following instructions in the assignment description below, you will have to set up your FarmShare machine with newer versions of Python than are currently supported on FarmShare. _If you skip this step, the following steps will not work._ In the [course repo](https://github.com/mse231/mse231_f22) there is a script called `farmshare-setup.sh`. Please clone the course repo onto your FarmShare home directory (which is the default directory you enter when you SSH into FarmShare, e.g. `/home/your_user_name`). Copy `farmshare-setup.sh'` into this FarmShare home directory from the cloned repo directory. Then enter the following commands:
 1. `cd ~`
