@@ -26,7 +26,7 @@ To use the following instructions in the assignment description below, you will 
 4. `tmux` (a new pane in the terminal will open when you execute this command; that's normal)
 5. `./farmshare-setup.sh`
 6. `exit`
-Step #5 above will take roughly 20 minutes as a large volume of output is written to the screen. If you get disconnected from the server during this time, please reconnect via SSH and enter the command `tmux a -t 0` to be brought back to the executing setup process. When you see "DONE!" printed to the screen and a return to the command prompt, you can safely exit tmux and continue with the below instructions.
+Step #5 above will take roughly 20 minutes as a large volume of output is written to the screen. If you get disconnected from the server during this time, please reconnect via SSH and enter the command `tmux a -t 0` to be brought back to the executing setup process. When you see "DONE" printed to the terminal and are returned to the command prompt, you can safely exit tmux and continue with the below instructions.
 
 **Assignment description:**
 
