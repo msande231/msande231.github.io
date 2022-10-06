@@ -24,7 +24,7 @@ title: "MS&E 231 Syllabus"
 
 **Tues 10/4 -- Causal Inference**
 - Prediction vs. causal inference in the social sciences.
-- Salganik (2017) Bit by Bit, [Chapter 4]](https://www.bitbybitbook.com/en/1st-ed/preface/).
+- Salganik (2017) Bit by Bit, [Chapter 4](https://www.bitbybitbook.com/en/1st-ed/preface/).
 - Goel, Hofman, Lahaie, Pennock, Watts (2010) "Predicting consumer behavior with Web search," PNAS.
 - Choi, Varian (2012) "Predicting the Present with Google Trends," The Economic Record.
 - Kleinberg, Ludwig Mullainathan, Obermeyer (2015) "Prediction Policy Problems," AER. 
