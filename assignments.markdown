@@ -11,7 +11,8 @@ To demonstrate your coding and statistics proficiency, please answer the followi
 You should use Python 3. This is a zero point assignment. You should only need about 20 lines of code to solve this problem, but it requires some thought to do so correctly. If you're struggling with this assignment but would still like to take the class, please talk with one of the instructors to see if the course is the right fit for you. 
 
 ## Assignment 1
-[Click here!](assignment1)
+**Due Date: Tuesday, October 18**
+[Assignment details](assignment1)
 
 ## Assignment 2
 Coming soon!

@@ -3,7 +3,7 @@ layout: default
 ---
 # Assignment 1
 
-**Due Date: Thursday, October 13**
+**Due Date: Tuesday, October 18**
 
 **Submission instructions:**
 
