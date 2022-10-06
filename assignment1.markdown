@@ -12,7 +12,7 @@ We ask that all project files (code and data) be uploaded to Canvas, and that a 
 To help make sure your team gets the deliverables submitted correctly, here's a project submission checklist:   
 
 1. Write the names of all your group members, and your group number, into the report PDF and at least one of the source code files you submit. This is important to complete, as we may assign individual grades if we see major discrepancies between different parts of the project, so that everyone is treated fairly.
-2. Write the names of each group member and which parts of the project they worked on at the top of your project PDF. You can all work on each part or split it up in any way you'd like. For example, you can write: "Person A (report); Person B (tweet_analysis.py); Person C: (report)''.
+2. Write the names of each group member and which parts of the project they worked on at the top of your project PDF. You can all work on each part or split it up in any way you'd like. For example, you can write: "Person A (report); Person B (`tweet_analysis.py`); Person C: (report)''.
 3. Go to the People page on Canvas, hit the Groups tab, and ensure that you're in the right group with the right people. If there's anyone else in your group who you are not working with, please email the TA team or make a private post on Ed so that they can be moved to the right group. We'll be using these groups to assign grades, so it's very important that they're correct.
 4. Now, submit all files you made to create your report to the assignment on Canvas. This includes Python scripts, Jupyter notebooks, the submission PDF, etc. Only one person has to submit the files. Your group and its members will automatically be recorded on the submission.
 5. Finally, please submit just the report PDF on Gradescope. On Gradescope, the group is not automatically recorded, so you'll have to select your group members when you submit. Only one person has to submit the PDF.
@@ -45,7 +45,7 @@ and you'll be ready to start the assignment! Many thanks to Daniel Jenson for [s
 
 **Option 2: Use the setup script from the course repo**
 
-_If you skip this step, the following steps will not work._ In the [course repo](https://github.com/mse231/mse231_f22) there is a script called `farmshare-setup.sh`. Please clone the course repo onto your FarmShare home directory (which is the default directory you enter when you SSH into FarmShare, e.g. `/home/your_user_name`). Copy `farmshare-setup.sh` into this FarmShare home directory from the cloned repo directory. Then enter the following commands:
+_If you skip this step, the following steps of Option 2 will not work._ In the [course repo](https://github.com/mse231/mse231_f22) there is a script called `farmshare-setup.sh`. Please clone the course repo onto your FarmShare home directory (which is the default directory you enter when you SSH into FarmShare, e.g. `/home/your_user_name`). Copy `farmshare-setup.sh` into this FarmShare home directory from the cloned repo directory. Then enter the following commands:
 1. `cd ~`
 2. `chmod +x farmshare-setup.sh`
 3. `tmux` (a new pane in the terminal will open when you execute this command; that's normal)
@@ -131,8 +131,8 @@ version of the results as follows:
 `python3 tweet_stream.py --keyfile creds.txt --gzip tweets.gz`
 
 You can view the compressed data with
-[zless](https://web.archive.org/web/20210413060501/http://linux.die.net/man/1/zless),
-[zcat](https://web.archive.org/web/20210413060501/http://linux.die.net/man/1/zcat),
+[zless](http://linux.die.net/man/1/zless),
+[zcat](http://linux.die.net/man/1/zcat),
 or similar utilities (e.g., gzcat on OS X).
 
 In addition to simply returning a random sample of tweets, the Twitter
@@ -152,9 +152,9 @@ choosing. Select a term that you believe will show an interesting time
 trend and gender pattern. Collect at least 24 hours worth of tweets. To
 prevent your command from terminating when you disconnect from the
 session, you can use a utility such as
-[tmux](https://web.archive.org/web/20210413060501/http://en.wikipedia.org/wiki/Tmux)
+[tmux](http://en.wikipedia.org/wiki/Tmux)
 or
-[nohup](https://web.archive.org/web/20210413060501/http://en.wikipedia.org/wiki/Nohup).
+[nohup](http://en.wikipedia.org/wiki/Nohup).
 For example, with nohup, you can run the command in the background with:
 
 `nohup python3 tweet_stream.py --keyfile creds.txt --gzip tweets.gz &`
@@ -200,7 +200,7 @@ you\'ll need to keep track of the machine and then directly ssh into it.
 and before you can analyze the results, you need to convert the data to
 a more suitable format. Write a Python script (named `parse_tweets.py`)
 that takes a stream of tweets as input ([via
-stdin](https://web.archive.org/web/20210413060501/http://en.wikibooks.org/wiki/Python_Programming/Input_and_Output#Standard_File_Objects)),
+stdin](http://en.wikibooks.org/wiki/Python_Programming/Input_and_Output#Standard_File_Objects)),
 and writes tab-separated output (to stdout) where each row corresponds
 to a tweet and the four columns of the output are: (1) date; (2) time
 rounded to the nearest 15-minute interval (e.g., 18:30); (3) the name of
