@@ -19,9 +19,33 @@ To help make sure your team gets the deliverables submitted correctly, here's a 
 
 Good luck!
 
-**Setting up FarmShare:**
+## Setting up FarmShare:
 
-To use the following instructions in the assignment description below, you will have to set up your FarmShare machine with newer versions of Python than are currently supported on FarmShare. _If you skip this step, the following steps will not work._ In the [course repo](https://github.com/mse231/mse231_f22) there is a script called `farmshare-setup.sh`. Please clone the course repo onto your FarmShare home directory (which is the default directory you enter when you SSH into FarmShare, e.g. `/home/your_user_name`). Copy `farmshare-setup.sh` into this FarmShare home directory from the cloned repo directory. Then enter the following commands:
+To use the following instructions in the assignment description below, you will have to set up your FarmShare machine with a newer version of Python than is currently supported on FarmShare out of the box.
+
+**Option 1: Use `pyenv` (RECOMMENDED)**
+
+This is the most elegant solution. SSH into FarmShare and from your home directory, install `pyenv` with:
+```
+curl https://pyenv.run | bash
+```
+Once this finishes, add the lines your `.bashrc` that the `pyenv` install script suggests to make your life easier in the future. Then install Python 3.7.14 (it is important that you install a 3.7.x version, or else you might run into issues with the old version of openssl running on FarmShare). 
+```
+pyenv install -v 3.7.14
+```
+Navigate to your project directory. Assuming you cloned it to your home directory from the course repo without changing the name: `cd mse231_f22`. From this directory, run
+```
+pyenv local 3.7.14
+```
+to configure `pyenv` to use Python 3.7.14 for the course repository. To test that it is working, you should run `python --version` and observe `Python 3.7.14`. Install `tweepy` with
+```
+pip install tweepy
+```
+and you'll be ready to start the assignment! Many thanks to Daniel Jenson for [suggesting this on Ed](https://edstem.org/us/courses/30212/discussion/1869524).
+
+**Option 2: Use the setup script from the course repo**
+
+_If you skip this step, the following steps will not work._ In the [course repo](https://github.com/mse231/mse231_f22) there is a script called `farmshare-setup.sh`. Please clone the course repo onto your FarmShare home directory (which is the default directory you enter when you SSH into FarmShare, e.g. `/home/your_user_name`). Copy `farmshare-setup.sh` into this FarmShare home directory from the cloned repo directory. Then enter the following commands:
 1. `cd ~`
 2. `chmod +x farmshare-setup.sh`
 3. `tmux` (a new pane in the terminal will open when you execute this command; that's normal)
