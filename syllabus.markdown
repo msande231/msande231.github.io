@@ -18,7 +18,7 @@ title: "MS&E 231 Syllabus"
 **Thurs 9/29 -- Observational data and counting at scale**
 - **PS1: Released/introduced**
 - Advanced applied counting, social science with big data.
-- Salganik (2017) Bit by Bit, [Chapter 2]](https://www.bitbybitbook.com/en/1st-ed/preface/).
+- Salganik (2017) Bit by Bit, [Chapter 2](https://www.bitbybitbook.com/en/1st-ed/preface/).
 
 ## Week 2 ##
 
@@ -31,6 +31,7 @@ title: "MS&E 231 Syllabus"
 
 **Thurs 10/6 -- Social Algorithms 1: Web search**
 - Chakrabarti, Frieze, Vera (2005) "The influence of search engines on preferential attachment," SODA.
+- Salganik, Dodds, Watts (2006) "Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market," Science.
 - Fortunato, Flammini, Menczer, and Vespignani (2006) "Topical interests and the mitigation of search engine bias," PNAS.
 - Goel, Broder, Gabrilovich, Pang (2010) "Anatomy of the long tail: ordinary people with extraordinary tastes," WSDM.
 - Brynjolfsson, Hu, Simester (2011) "Goodbye pareto principle, hello long tail: The effect of search costs on the concentration of product sales," Management Science.
@@ -51,7 +52,6 @@ Social Recommender systems:
 - Su, Sharma, Goel (2016), "The Effect of Recommendations on Network Structure", WWW. 
 
 **Thurs 10/13 -- Social Algorithms III: Feed algorithms**
-- **PS1: Due**
 - Bakshy, Rosenn, Marlow, Adamic (2010) "The role of social networks in information diffusion," WWW.
 - Bernstein, Bakshy, Burke, Karrer (2013) "Quantifying the invisible audience in social networks," CHI.
 - Bakshy, Messing, Adamic (2015) "Exposure to ideologically diverse news and opinion on Facebook"
@@ -64,6 +64,7 @@ Social Recommender systems:
 ## Week 4 ##
 
 **Tues 10/18 -- Network Analysis I (Guest Lecture: Dr. Martin Saveski)**
+- **PS1: Due**
 - **PS2 Released/introduced**
 - Graph theory, social network analysis, and network science.
 
