@@ -39,7 +39,7 @@ title: "MS&E 231 Syllabus"
 ## Week 3 ##
 
 **Tues 10/11 -- Social Algorithms II: Recommender systems**
-- Fleder and Hosanagar (2009) "Blockbuster culture’s next rise or fall: The impact of recommender systems on sales diversity," Management Science..
+- Fleder and Hosanagar (2009) "Blockbuster culture’s next rise or fall: The impact of recommender systems on sales diversity," Management Science.
 - Dandekar, Goel, Lee (2013) "Biased assimilation, homophily, and the dynamics of polarization," PNAS.
 - Abdollahpouri, Burke, Mobasher (2017) "Controlling popularity bias in learning-to-rank recommendation," RecSys.
 - Chaney, Stewart, Engelhardt (2018) "How Algorithmic Confounding in Recommendation Systems Increases Homogeneity and Decreases Utility," RecSys.
@@ -47,6 +47,7 @@ title: "MS&E 231 Syllabus"
 - Kleinberg, Ragavan (2021) "Algorithmic monoculture and social welfare," PNAS.
 - Hardt, Jagadeesan, Mendler-Dünner (2022) "Performative Power", NeurIPS. // Recommender systems and "steering".
 - Kleinberg, Raghavan, Mullainathan (2022) "The Challenge of Understanding What Users Want: Inconsistent Preferences and Engagement Optimization," EC.  // Recommendation systems and revealed preferences.
+
 Social Recommender systems: 
 - Zignani et al. (2014) "Link and Triadic Closure Delay: Temporal Metrics for Social Network Dynamics", ICWSM.
 - Su, Sharma, Goel (2016), "The Effect of Recommendations on Network Structure", WWW. 
