@@ -24,6 +24,7 @@ Class: Tuesdays & Thursdays @ 9:00 AM -- 10:20 AM in STLC 115
 
 * Greg: Tues 11:30a -- 1:30p (starting October 4) @ Encina W 101
 * Monte: Weds 3:00p -- 5:00p (starting October 5) @ Littlefield 103
+	* **NOTE:** Monte will hold office hours on Monday, 10/17 from 4--6pm @ Littlefield 103 instead of Wednesday to accommodate the new Assignment 1 deadline of 10/18.
 * Johan: Thurs 10:20a -- 11:15a (starting Sept 29)
 
 ## Important Links
