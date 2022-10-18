@@ -15,7 +15,8 @@ You should use Python 3. This is a zero point assignment. You should only need a
 [Assignment details](assignment1)
 
 ## Assignment 2
-Coming soon!
+**Due Date: Thursday, November 3**
+[Assignment details](assignment2)
 
 ## Assignment 3
 Coming soon!
