@@ -7,6 +7,8 @@ layout: default
 
 **Due Date: November 3, 2022, 11:59pm**
 
+A reminder: you must complete this assignment in a group of 2--3. Submission instructions are included below.
+
 In this assignment, you will build on your experience collecting Twitter data in PS1 to investigate the structural differences between Twitter conversations prompted by Democrat vs. Republican members of the United States Congress. 
 
 Every time a Twitter user posts a tweet, other users can reply to it, then others can reply to the reply, and so on, leaving behind a structural signature of how the conversation proceeded. 
