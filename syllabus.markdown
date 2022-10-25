@@ -78,29 +78,22 @@ Weak ties:
 - Gee et al. (2017) "The paradox of weak ties in 55 countries," Journal of Economic Behavior & Organization.
 - Rajkumar et al. (2022) "A causal test of the strength of weak ties," Science.
 
-Friendship paradox:
-- Feld (1991). "Why your friends have more friends than you do," American Journal of Sociology.
-- Ugander, Karrer, Backstrom, Marlow (2011) "The Anatomy of the Facebook Social Graph," arXiv.
-- Kooti, Hodas, Lerman (2014) "Network Weirdness: Exploring the Origins of Network Paradoxes", Proceedings of ICWSM.
-- Lerman et al. (2016) "The Majority Illusion in Social Networks," PLOS One.
-- Steward et al. (2019) "Information gerrymandering and undemocratic decisions," Nature. 
-
 ## Week 5 ##
 
-**Tues 10/25  -- Social Contagion, Social Diffusion**
+**Tues 10/25  -- Social Influence, influence maximization**
+- Kempe, Kleinberg, Tardos (2003) "Maximizing the spread of influence through a social network," Proceedings of KDD.
+- Centola, Macy (2007) "Complex contagions and the weakness of long ties," AJS.
+- Centola (2010) "The spread of behavior in an online social network experiment," Science.
+- Centola (2011) "An experimental study of homophily in the adoption of health behavior," Science.
+- Aral, Muchnik, Sundararajan (2009) "Distinguishing influence-based contagion from homophily-driven diffusion in dynamic networks," PNAS.
+- Ugander, Backstrom, Marlow, Kleinberg. (2012) "Structural Diversity in Social Contagion," PNAS.
+- Muchnik, Taylor, Aral (2013) "Social Influence Bias: A Randomized Experiment," Science.
+
+**Thurs 10/27  -- Social Contagion, Social Diffusion**
 - Dodds, Watts (2007) "Influentials, Networks, and Public Opinion Formation," J Consumer Research.
 - Friggeri et al. (2014) "Rumor cascades," ICWSM.
 - Vosoughi et al. (2018) "The spread of true and false news online," Science.
 - Juul, Ugander (2022) "Comparing information diffusion mechanisms by matching on cascade size," PNAS.
-
-**Thurs 10/27  -- Social Influence, influence maximization**
-- Kempe, Kleinberg, Tardos (2003) "Maximizing the spread of influence through a social network," Proceedings of KDD.
-- Aral, Muchnik, Sundararajan (2009) "Distinguishing influence-based contagion from homophily-driven diffusion in dynamic networks," PNAS.
-- Centola, Macy (2007) "Complex contagions and the weakness of long ties," AJS.
-- Centola (2010) "The spread of behavior in an online social network experiment," Science.
-- Centola (2011) "An experimental study of homophily in the adoption of health behavior," Science.
-- Ugander, Backstrom, Marlow, Kleinberg. (2012) "Structural Diversity in Social Contagion," PNAS.
-- Muchnik, Taylor, Aral (2013) "Social Influence Bias: A Randomized Experiment," Science.
 
 Seeding:
 - Pastor-Satorras, Vespignani (2002) "Immunization of complex networks," PRE.
@@ -108,6 +101,13 @@ Seeding:
 - Kim et al. (2015) "Social network targeting to maximise population behaviour change: a cluster randomised controlled trial", The Lancet.
 - Chin, Eckles, Ugander (2021) "Evaluating stochastic seeding strategies in networks," Management Science.
 Project Proposal: Due
+
+Friendship paradox:
+- Feld (1991). "Why your friends have more friends than you do," American Journal of Sociology.
+- Ugander, Karrer, Backstrom, Marlow (2011) "The Anatomy of the Facebook Social Graph," arXiv.
+- Kooti, Hodas, Lerman (2014) "Network Weirdness: Exploring the Origins of Network Paradoxes", Proceedings of ICWSM.
+- Lerman et al. (2016) "The Majority Illusion in Social Networks," PLOS One.
+- Steward et al. (2019) "Information gerrymandering and undemocratic decisions," Nature. 
 
 ## Week 6 ##
 
