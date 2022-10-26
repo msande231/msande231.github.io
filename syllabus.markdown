@@ -100,7 +100,6 @@ Seeding:
 - Christakis, Fowler (2010) "Social network sensors for early detection of contagious outbreaks," PLOS One.
 - Kim et al. (2015) "Social network targeting to maximise population behaviour change: a cluster randomised controlled trial", The Lancet.
 - Chin, Eckles, Ugander (2021) "Evaluating stochastic seeding strategies in networks," Management Science.
-Project Proposal: Due
 
 Friendship paradox:
 - Feld (1991). "Why your friends have more friends than you do," American Journal of Sociology.
@@ -126,7 +125,16 @@ Rosenzsweig et al. (2022) "Survey sampling in the Global South using Facebook ad
 
 ## Week 7 ##
 
-**Tues 11/8 -- Cell phone and mobility data**
+**Tues 11/8 -- No lecture, Election Day!**
+- **Project Proposal: Due**
+
+**Thurs 11/10  -- COVID and mobility (Guest lecture: Serina Chang)**
+- Chang et al. (2020) "Mobility network models of COVID-19 explain inequities and inform reopening," Nature.
+
+
+## Week 8 ##
+
+**Tues 11/15 -- Cell phone and mobility data**
 - de Montjoye et al. (2013) "Unique in the Crowd: The privacy bounds of human mobility," Scientific Reports. 
 - Blumenstock, Cadamuro, On (2015) "Predicting poverty and wealth from mobile phone metadata", Science.
 - Aiken et al. (2022) "Machine learning and phone data can improve targeting of humanitarian aid", Nature.
@@ -136,17 +144,12 @@ Rosenzsweig et al. (2022) "Survey sampling in the Global South using Facebook ad
 - Athey et al. (2021) "Estimating experienced racial segregation in US cities using large-scale GPS data," PNAS.
 - Coston et al. (2021) "Leveraging Administrative Data for Bias Audits: Assessing Disparate Coverage with Mobility Data for COVID-19 Policy," FAccT.
 
-
-**Thurs 11/10  -- COVID and mobility (Guest lecture: Serina Chang)**
-- Chang et al. (2020) "Mobility network models of COVID-19 explain inequities and inform reopening," Nature.
-
-
-## Week 8 ##
-
+<!--
 **Tues 11/15 -- Culturomics**
 - Lieberman et al. (2007) "Quantifying the evolutionary dynamics of language," Nature.
 - Michel et al. (2010) "Quantitative Analysis of Culture Using Millions of Digitized Books," Science. 
 - Card et al. (2022) "Computational analysis of 140 years of US political speeches reveals more positive but increasingly polarized framing ofimmigration," PNAS.
+-->
 
 
 **Thurs 11/17 -- Data Privacy**
