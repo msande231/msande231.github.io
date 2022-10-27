@@ -81,6 +81,7 @@ Weak ties:
 ## Week 5 ##
 
 **Tues 10/25  -- Social Influence, influence maximization**
+- Dodds, Watts (2007) "Influentials, Networks, and Public Opinion Formation," J Consumer Research.
 - Kempe, Kleinberg, Tardos (2003) "Maximizing the spread of influence through a social network," Proceedings of KDD.
 - Centola, Macy (2007) "Complex contagions and the weakness of long ties," AJS.
 - Centola (2010) "The spread of behavior in an online social network experiment," Science.
@@ -90,12 +91,13 @@ Weak ties:
 - Muchnik, Taylor, Aral (2013) "Social Influence Bias: A Randomized Experiment," Science.
 
 **Thurs 10/27  -- Social Contagion, Social Diffusion**
-- Dodds, Watts (2007) "Influentials, Networks, and Public Opinion Formation," J Consumer Research.
-- Friggeri et al. (2014) "Rumor cascades," ICWSM.
-- Vosoughi et al. (2018) "The spread of true and false news online," Science.
-- Juul, Ugander (2022) "Comparing information diffusion mechanisms by matching on cascade size," PNAS.
 
-Seeding:
+Diffusion studies:
+- Banarjee et al. (2013) "The Diffusion of Microfinance," Science.
+- Chami et al. (2017) "Diffusion of treatment in social networks and mass drug administration," Nature Comms.
+- Beaman et al. (2021) "Can Network Theory-Based Targeting Increase Technology Adoption?," AER.
+
+Nomination targetting:
 - Pastor-Satorras, Vespignani (2002) "Immunization of complex networks," PRE.
 - Christakis, Fowler (2010) "Social network sensors for early detection of contagious outbreaks," PLOS One.
 - Kim et al. (2015) "Social network targeting to maximise population behaviour change: a cluster randomised controlled trial", The Lancet.
@@ -107,6 +109,11 @@ Friendship paradox:
 - Kooti, Hodas, Lerman (2014) "Network Weirdness: Exploring the Origins of Network Paradoxes", Proceedings of ICWSM.
 - Lerman et al. (2016) "The Majority Illusion in Social Networks," PLOS One.
 - Steward et al. (2019) "Information gerrymandering and undemocratic decisions," Nature. 
+
+True and false news:
+- Friggeri et al. (2014) "Rumor cascades," ICWSM.
+- Vosoughi et al. (2018) "The spread of true and false news online," Science.
+- Juul, Ugander (2022) "Comparing information diffusion mechanisms by matching on cascade size," PNAS.
 
 ## Week 6 ##
 

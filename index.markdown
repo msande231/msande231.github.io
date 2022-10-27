@@ -65,9 +65,9 @@ In the event of a family or medical emergency, I am fundamentally a reasonable p
 | Week 2  | Causal Inference; Social algorithms I: search | |
 | Week 3  | Social algorithms II & III: Recsys, feed |  PS1 Due |
 | Week 4  | Network analysis						|   PS2 Out |
-| Week 5  | Social contagion, diffusion, social influence | Project Proposal Due|
+| Week 5  | Social contagion, diffusion, social influence | |
 | Week 6  | Online surveys; digital demography |        PS2 Due; PS3 Out|
-| Week 7  | Cell phone and mobility data				| |	
+| Week 7  | Cell phone and mobility data				| Project Proposal Due |	
 | Week 8  | Culturomics; Privacy						| PS3 Due |
 | | Thanksgiving break | |
 | Week 9  | Guest lectures                              | |
