@@ -11,12 +11,12 @@ To demonstrate your coding and statistics proficiency, please answer the followi
 You should use Python 3. This is a zero point assignment. You should only need about 20 lines of code to solve this problem, but it requires some thought to do so correctly. If you're struggling with this assignment but would still like to take the class, please talk with one of the instructors to see if the course is the right fit for you. 
 
 ## Assignment 1
-**Due Date: Tuesday, October 18**
+**Due Date: Tuesday October 18th at 11:59pm Pacific Time**
 
 [Assignment details](assignment1)
 
 ## Assignment 2
-**Due Date: Thursday, November 3**
+**Due Date: Thursday November 3rd at 11:59pm Pacific Time**
 
 [Assignment details](assignment2)
 
@@ -24,6 +24,6 @@ You should use Python 3. This is a zero point assignment. You should only need a
 Coming soon!
 
 ## Project
-**Due Date: TBD, Exam Week**
+**Due Date: Tuesday December 13th at 5:00pm Pacific Time**
 
 [Assignment details](project)
