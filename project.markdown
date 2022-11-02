@@ -21,11 +21,11 @@ Mixing and elements from these is ok as long as your project does _at least_ as 
 
 A few details on organization:
 - The group size is 3-5 students. We don't expect to offer any variations from this. Please make a post on Ed in the group formation thread 
-  to find people to work with!
+  to find people to work with here: https://edstem.org/us/courses/30212/discussion/1855572
 - Once you have your group, please make time to get feedback from or iterate on ideas with the TAs, via private Ed post or office hours.
 
 The project comprises the following deadlines:
-1. **Proposal:** Write a ~0.5-1 page proposal describing your intended project work. Due 11/8 (election day, no class!)
+1. **Proposal:** Write a ~0.5-1 page proposal describing your intended project work (references don't count towards limit). Due 11/8 (election day, no class!)
 2. **Presentations:** In class Tu 12/6, Th 12/8
 3. **Project report due:** Tu 12/13, 5p PT 
 
