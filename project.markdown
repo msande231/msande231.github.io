@@ -3,7 +3,7 @@ layout: default
 ---
 # Project
 
-**Due Date: TBD, during Exam Week**
+**Due Date: Tuesday December 13th at 5pm Pacific Time**
 
 ## Options
 
@@ -25,9 +25,9 @@ A few details on organization:
 - Once you have your group, please make time to get feedback from or iterate on ideas with the TAs, via private Ed post or office hours.
 
 The project comprises the following deadlines:
-1. **Proposal:** Write a ~0.5-1 page proposal describing your intended project work (references don't count towards limit). Due 11/8 (election day, no class!)
-2. **Presentations:** In class Tu 12/6, Th 12/8
-3. **Project report due:** Tu 12/13, 5p PT 
+1. **Proposal:** Write a ~0.5-1 page proposal describing your intended project work (references don't count towards limit). Due Tuesday Nov 8th (election day, no class!)
+2. **Presentations:** In class Tuesday Dec 6th, Thursday Dec 8th
+3. **Project report due:** Tuesday Dec 13th, 5pm PT 
 
 ## Submission instructions
 
