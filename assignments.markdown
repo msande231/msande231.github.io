@@ -22,3 +22,8 @@ You should use Python 3. This is a zero point assignment. You should only need a
 
 ## Assignment 3
 Coming soon!
+
+## Project
+**Due Date: TBD, Exam Week**
+
+[Assignment details](project)
