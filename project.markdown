@@ -7,13 +7,15 @@ layout: default
 
 ## Options
 
-We're offering three different project templates to base your project upon:
+We're offering three different types of projects you can pursue:
 
 1. Skim a few papers from the syllabus. Pick one to read carefully, including supplemental material. Write a referee report on the paper 
    (published papers are not flawless!).
 2. Replicate an analysis from a published paper, possibly extending but emphasis on replication. Use either the original data if available
    or similar data if not.
 3. Explore an empirical or theoretical research question.
+
+Mixing and elements from these is ok as long as your project does _at least_ as much as one of these options.
    
 ## Details
 
