@@ -21,7 +21,9 @@ You should use Python 3. This is a zero point assignment. You should only need a
 [Assignment details](assignment2)
 
 ## Assignment 3
-Coming soon!
+**Due Date: Thursday November 17th at 11:59pm Pacific Time**
+
+[Assignment details](assignment3)
 
 ## Project
 **Due Date: Tuesday December 13th at 5:00pm Pacific Time**
