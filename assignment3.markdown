@@ -17,7 +17,7 @@ In this first part of the assignment you'll augment an existing survey dataset a
 
 **Step 2: Data Augmentation.** Using Google Forms or Qualtrics, replicate the survey represented in the baseline dataset. Administer this survey to at least 10 additional people -- including the demographic data! Process the downloaded file into a separate `.csv` formatted identically to the original survey dataset named `new_comma_survey.csv` in whatever way you deem best (dataframe manipulation with `pandas`, processing answers line-by-line, etc.).
 
-**Step 3: Post-stratification Step 1** Now generate statistically adjusted estimates for the survey questions by post-stratifying the data on sex, age, income, and education. You'll do this in two steps. First, create a script `survey_poststrat.py` that fits multinomial logistic regression models that predict survey responses as a function of the respondent's demographics (use separate models for each substantive question). You can do this with `sklearn` using `sklearn.linear_model.LogisticRegression` with `multi_class='multinomial'`. Train a separate model for each response variable, e.g.
+**Step 3: Post-stratification I** Now generate statistically adjusted estimates for the survey questions by post-stratifying the data on sex, age, income, and education. You'll do this in two steps. First, create a script `survey_poststrat.py` that fits multinomial logistic regression models that predict survey responses as a function of the respondent's demographics (use separate models for each substantive question). You can do this with `sklearn` using `sklearn.linear_model.LogisticRegression` with `multi_class='multinomial'`. Train a separate model for each response variable, e.g.
 
 ```
 from sklearn.linear_model import LogisticRegression
@@ -32,7 +32,7 @@ Ensure that you preprocess the data properly before training; you'll find the cl
 
 Open the `API TABULATE QUERY` url and save the resulting `.json` file. You will need to construct the mapping between the data labels in the `.json` file and the original categories you selected from the MDAT interface. This can be done manually (if you find an automated way to retrieve this mapping, let us know and we'll update this assignment). Load the census counts
 
-**Step 5: Post-stratification Step 2** Finally, use your fitted models to estimate attitudes for each combination of sex, age, race, and education, and then weight the cell-level estimates by the number of U.S. adults in each cell you collected in Step 4 to generate population-level estimates. (Note: you can use the `sklearn.linear_model.LogisticRegression.predict_proba` function to generate cell-level estimates from your model.) Include your code for this in `survey-poststrat.py`. Hint: you might consider using [itertools](https://docs.python.org/3/library/itertools.html) to generate the possible cells as part of this task.
+**Step 5: Post-stratification II** Finally, use your fitted models to estimate attitudes for each combination of sex, age, race, and education, and then weight the cell-level estimates by the number of U.S. adults in each cell you collected in Step 4 to generate population-level estimates. (Note: you can use the `sklearn.linear_model.LogisticRegression.predict_proba` function to generate cell-level estimates from your model.) Include your code for this in `survey-poststrat.py`. Hint: you might consider using [itertools](https://docs.python.org/3/library/itertools.html) to generate the possible cells as part of this task.
 
 ## Part II. 
 
