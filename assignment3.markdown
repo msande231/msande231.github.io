@@ -3,7 +3,7 @@ layout: default
 ---
 # Assignment 3
 
-NOTE: THIS PAGE IS WORK-IN-PROGRESS. INSTRUCTIONS HERE ARE NOT YET FINALIZED.
+NOTE: This page may be updated in the next few days as we evaluate feedback.
 
 **Due Date: Thursday November 17th at 11:59pm**
 
