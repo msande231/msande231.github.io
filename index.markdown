@@ -40,7 +40,7 @@ Homework assignments are to be done in groups of 2-3, and the final project in g
 
 There is an ungraded “Problem Set 0” for self-evaluation, available on the course homepage. It is intended to make sure you feel comfortable coding at the level that will be assumed as prerequisite. It is very strongly encouraged (if only to clean up your coding environment after a summer away from classes). No submissions of PS0 will be accepted.
 
-There is a $30 course materials fee for running experiments on Amazon Mechanical Turk (as part of Problem Set 3). There are no required textbooks or other course materials.
+There is a $30 course materials fee. There are no required textbooks or other course materials.
 
 ## Grading and late policies
 * 45% Problem Sets (15% each)
@@ -78,7 +78,7 @@ Assignment overview:
 
 | Problem set 1: 	| Counting things with the Twitter API | 
 | Problem set 2:  	| Network analysis of Twitter data | 
-| Problem set 3: 	| Mechanical Turk surveys and post-stratification | 
+| Problem set 3: 	| Surveys and post-stratification | 
 | Project: 	| Open ended, per proposal process |
 
 ## Honor code violations
