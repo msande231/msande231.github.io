@@ -5,7 +5,7 @@ layout: default
 
 NOTE: THIS PAGE IS WORK-IN-PROGRESS. INSTRUCTIONS HERE ARE NOT YET FINALIZED.
 
-**Due Date: Thursday, November 17**
+**Due Date: Thursday November 17th at 11:59pm**
 
 This assignment is divided into two independent parts, as described below.
 
@@ -29,7 +29,7 @@ lr = LogisticRegression(multi_class='multinomial', ...)
 q1_model = lr.fit(X_demographics, y_q1)
 ```
 
-Be sure to combine your `new_comma_survey.csv` data with `comma_survey.csv` when fitting the logistic regressions.
+Ensure that you preprocess the data properly before training; you'll find the classes of `sklearn.preprocessing` quite useful in this regard. Be sure to combine your `new_comma_survey.csv` data with `comma_survey.csv` when fitting the logistic regressions as well.
 
 **Step 4: Census Data Gathering.** Your survey population does not necessarily match the population demographics of the United States. In order to post-stratify the data on age, sex, income, education, and location, you'll need to gather this information from [US Census MDAT](data.census.gov/mdat). Using the 2021 vintage, construct a table consisting of the relevant categories for your dataset (age, sex, etc.). The MDAT web interface allows you to bin variables, so you can construct the categories which are relevant for the survey data. Make sure to gather "counts" instead of Having done so, navigate to the Download tab and click the `COPY API TABULATE QUERY` button. (Note: it might also be convenient to bookmark the `COPY BOOKMARK` so that you don't have to redo all of your earlier work to fix a mistake.) Include this URL in your report.
 
