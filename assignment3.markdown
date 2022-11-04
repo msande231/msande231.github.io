@@ -3,6 +3,8 @@ layout: default
 ---
 # Assignment 3
 
+NOTE: THIS PAGE IS WORK-IN-PROGRESS. INSTRUCTIONS HERE ARE NOT YET FINALIZED.
+
 **Due Date: Thursday, November 17**
 
 This assignment is divided into two independent parts, as described below.
@@ -18,17 +20,17 @@ In this first part of the assignment you'll augment an existing survey dataset a
 python3 parse_survey.py YOUR_COLLECTED_DATA_FILE > new_comma_survey.csv
 ```
 
-**Step 3: Census Data Gathering.** Your survey population does not necessarily match the population demographics of the United States. In order to post-stratify the data on age, sex, income, education, and location, you'll need to gather this information from [US Census MDAT](data.census.gov/mdat). Using the 2021 vintage, construct a table consisting of the relevant categories for your dataset (age, sex, etc.). The MDAT web interface allows you to bin variables, so you can construct the categories which are relevant for the survey data. Having done so, navigate to the Download tab and click the `COPY API TABULATE QUERY` button. (Note: it might also be convenient to bookmark the `COPY BOOKMARK` so that you don't have to redo all of your earlier work to fix a mistake.)
-
-Open the `API TABULATE QUERY` url and save the resulting `.json` file. You will need to construct the mapping between the data labels in the `.json` file and the original categories you selected from the MDAT interface. This can be done manually (if you find an automated way to retrieve this mapping, let us know and we'll update this assignment). 
-
 **Step 4.** Now generate statistically adjusted estimates for your substantive questions by post-stratifying the data on sex, age, race, and education. You'll do this is two steps. First fit multinomial logistic regression models that predict survey responses as a function of the respondent's demographics (use separate models for each substantive question). **REPLACE THIS WITH PYTHON**You can do this with the multinom function in the nnet package. For example, if the question answer is recorded in a column named q1 in a DataFrame named `response_data`, you can do the following:
 
 ```
 q1_model <- multinom(q1 ~ sex + age + race + education, data=response_data)
 ```
 
-**Step 5.** Finally, use your fitted models to estimate attitudes for each combination of sex, age, race, and education, and then weight the cell-level estimates by the number of U.S. adults in each cell to generate population-level estimates. To help you do this, we computed the number of people in each cell, based on the 2015 PUMS data from the U.S. Census Bureau. (Note: you can use the predict function to generate cell-level estimates from your model.)
+**Step 3: Census Data Gathering.** Your survey population does not necessarily match the population demographics of the United States. In order to post-stratify the data on age, sex, income, education, and location, you'll need to gather this information from [US Census MDAT](data.census.gov/mdat). Using the 2021 vintage, construct a table consisting of the relevant categories for your dataset (age, sex, etc.). The MDAT web interface allows you to bin variables, so you can construct the categories which are relevant for the survey data. Having done so, navigate to the Download tab and click the `COPY API TABULATE QUERY` button. (Note: it might also be convenient to bookmark the `COPY BOOKMARK` so that you don't have to redo all of your earlier work to fix a mistake.) Include this URL in your report.
+
+Open the `API TABULATE QUERY` url and save the resulting `.json` file. You will need to construct the mapping between the data labels in the `.json` file and the original categories you selected from the MDAT interface. This can be done manually (if you find an automated way to retrieve this mapping, let us know and we'll update this assignment). 
+
+**Step 5.** Finally, use your fitted models to estimate attitudes for each combination of sex, age, race, and education, and then weight the cell-level estimates by the number of U.S. adults in each cell you collected in Step 3 to generate population-level estimates. (Note: you can use the predict function to generate cell-level estimates from your model.)
 
 
 ## Part II. 
@@ -39,8 +41,9 @@ Submission. Submit the following files: (1) your report (as a PDF file) from Par
 Grading rubric. This assignment will be graded on the following criteria:
 
 Part I.
-* Survey contains the required demographics.
+* You augmented the survey data as asked.
 * Your code is readable and well formatted.
+* You correctly gathered Census data using appropriate cells.
 * Correct computation for step 7 and step 8.
 * Report should be well written and formated. It should be no longer than 3 pages.
 Part II.
