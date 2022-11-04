@@ -5,7 +5,7 @@ layout: default
 
 NOTE: THIS PAGE IS WORK-IN-PROGRESS. INSTRUCTIONS HERE ARE NOT YET FINALIZED.
 
-**Due Date: Thursday, November 17**
+**Due Date: Thursday November 17th at 11:59pm**
 
 This assignment is divided into two independent parts, as described below.
 
@@ -13,7 +13,7 @@ This assignment is divided into two independent parts, as described below.
 
 In this first part of the assignment you'll augment an existing survey dataset and statistically correct for potential sample biases using US Census data.
 
-**Step 1: Data Exploration.** The survey dataset we'll be working with can be found [here](https://raw.githubusercontent.com/fivethirtyeight/data/master/comma-survey/comma-survey.csv). Spend some time exploring the dataset --- which demographic groups are respesented in the data? Is there missingness in the collected data?  Write an Python script (called `survey_analysis.py`) to analyze the responses. Compute and plot the demographic distributions, and analyze the (unadjusted) answers for the substantive questions.
+**Step 1: Data Exploration.** The survey dataset we'll be working with can be found [here](https://raw.githubusercontent.com/fivethirtyeight/data/master/comma-survey/comma-survey.csv). Spend some time exploring the dataset --- which demographic groups are respesented in the data? Is there missingness in the collected data?  Write a Python script (called `survey_analysis.py`) to analyze the responses. Compute and plot the demographic distributions, and analyze the (unadjusted) answers for the substantive questions.
 
 **Step 2: Data Augmentation.** Using Google Forms or Qualtrics, replicate the survey represented in the baseline dataset. Administer this survey to at least 10 additional people -- including the demographic data! Process the downloaded file into a separate `.csv` formatted identically to the original survey dataset named `new_comma_survey.csv` in whatever way you deem best (dataframe manipulation with `pandas`, processing answers line-by-line, etc.).
 
@@ -26,7 +26,7 @@ lr = LogisticRegression(multi_class='multinomial', ...)
 q1_model = lr.fit(X_demographics, y_q1)
 ```
 
-Be sure to combine `new_comma_survey.csv` with `comma_survey.csv` when fitting the logistic regressions toyour data.
+Ensure that you preprocess the data properly before training; you'll find the classes of `sklearn.preprocessing` quite useful in this regard. Be sure to combine your `new_comma_survey.csv` data with `comma_survey.csv` when fitting the logistic regressions as well.
 
 **Step 4: Census Data Gathering.** Your survey population does not necessarily match the population demographics of the United States. In order to post-stratify the data on age, sex, income, education, and location, you'll need to gather this information from [US Census MDAT](data.census.gov/mdat). Using the 2021 vintage, construct a table consisting of the relevant categories for your dataset (age, sex, etc.). The MDAT web interface allows you to bin variables, so you can construct the categories which are relevant for the survey data. Make sure to gather "counts" instead of Having done so, navigate to the Download tab and click the `COPY API TABULATE QUERY` button. (Note: it might also be convenient to bookmark the `COPY BOOKMARK` so that you don't have to redo all of your earlier work to fix a mistake.) Include this URL in your report.
 
