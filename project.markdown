@@ -31,8 +31,6 @@ The project comprises the following deadlines:
 
 ## Submission instructions
 
-*Note that these are different from Assignment submission instructions!*
-
 For the *Proposal* and *Presentation*, we only ask that a PDF be uploaded to Gradescope.
 
 For the *Project Report*, we ask that all project files (code and data) be uploaded to Canvas as a .zip file, and the report PDF be uploaded to Gradescope.
