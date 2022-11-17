@@ -3,8 +3,6 @@ layout: default
 ---
 # Assignment 3
 
-NOTE: This page may be updated in the next few days as we evaluate feedback.
-
 **Due Date: Thursday November 17th at 11:59pm**
 
 This assignment is divided into two independent parts, as described below.
@@ -34,7 +32,7 @@ Open the `API TABULATE QUERY` url and save the resulting `.json` file. You will 
 
 **Step 5: Post-stratification II** Finally, use your fitted models to estimate attitudes for each combination of sex, age, education, and location, and then weight the cell-level estimates by the number of U.S. adults in each cell you collected in Step 4 to generate population-level estimates. (Note: you can use the `sklearn.linear_model.LogisticRegression.predict_proba` function to generate cell-level estimates from your model.) Include your code for this in `survey-poststrat.py`. Hint: you might consider using [itertools](https://docs.python.org/3/library/itertools.html) to generate the possible cells as part of this task.
 
-Please submit a .csv file clearly tabulating your results, along with the code you used. For the report, please give a brief low-dimensional summary or visualization of how weight moved before and after post-stratification, e.g. what census regions gained / lost weight, summing over the finer granularities.
+Please include your final population-level estimates in the report, along with a brief description of how your post-stratified estimates differ from what you would have estimated directly from the data using sample means.
 
 ## Part II. 
 
