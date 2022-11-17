@@ -34,6 +34,8 @@ Open the `API TABULATE QUERY` url and save the resulting `.json` file. You will 
 
 **Step 5: Post-stratification II** Finally, use your fitted models to estimate attitudes for each combination of sex, age, education, and location, and then weight the cell-level estimates by the number of U.S. adults in each cell you collected in Step 4 to generate population-level estimates. (Note: you can use the `sklearn.linear_model.LogisticRegression.predict_proba` function to generate cell-level estimates from your model.) Include your code for this in `survey-poststrat.py`. Hint: you might consider using [itertools](https://docs.python.org/3/library/itertools.html) to generate the possible cells as part of this task.
 
+Please submit a .csv file clearly tabulating your results, along with the code you used. For the report, please give a brief low-dimensional summary or visualization of how weight moved before and after post-stratification, e.g. what census regions gained / lost weight, summing over the finer granularities.
+
 ## Part II. 
 
 Let us consider two papers not discussed in the course. [Michel et al. (2011)](https://www.science.org/doi/epdf/10.1126/science.1199644) analyzed a corpus of five million books to quantitatively study cultural trends. [White et al. (2012)](https://academic.oup.com/jamia/article-pdf/20/3/404/17374497/20-3-404.pdf) mined web search queries to detect drug-drug interactions. If you had access to the full digitized text of every book ever written and/or the full log of search queries, what scientific questions would you ask? Write a short, 1 page (single-spaced) proposal defining your question and how you think one of these datasets would help answer it. Be sure to discuss the benefits and downsides of such data sources over traditional data sources or experiments for answering the scientific question(s) you propose.
@@ -44,9 +46,10 @@ Let us consider two papers not discussed in the course. [Michel et al. (2011)](h
 
 Part I.
 * You explored the unadjusted base survey data.
-* You augmented the survey data and used this data in the rrest of the assignment.
+* You augmented the survey data and used this data in the rest of the assignment.
 * You correctly gathered census data using appropriate cells.
 * Correct computation for step 3 and step 5.
+* CSV of post-stratified attitudes and summary for the report.
 * Your code is readable and well formatted.
 * Report should be well written and formated. It should be no longer than 3 pages.
 
