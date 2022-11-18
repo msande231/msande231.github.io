@@ -38,7 +38,7 @@ Please include your final population-level estimates in the report, along with a
 
 Let us consider two papers not discussed in the course. [Michel et al. (2011)](https://www.science.org/doi/epdf/10.1126/science.1199644) analyzed a corpus of five million books to quantitatively study cultural trends. [White et al. (2012)](https://academic.oup.com/jamia/article-pdf/20/3/404/17374497/20-3-404.pdf) mined web search queries to detect drug-drug interactions. If you had access to the full digitized text of every book ever written and/or the full log of search queries, what scientific questions would you ask? Write a short, 1 page (single-spaced) proposal defining your question and how you think one of these datasets would help answer it. Be sure to discuss the benefits and downsides of such data sources over traditional data sources or experiments for answering the scientific question(s) you propose.
 
-**Submission.** Submit the following files: (1) your report (as a PDF file) from Part I of the assignment, which shoul detail the results from your survey and your analysis decisions; (2) your processed survey data `new_comma_survey.csv`; (3) your `survey_analysis.py` and `survey_poststrat.py` scripts; and (4) your proposal (as a PDF) from Part II.
+**Submission.** Submit the following files: (1) your report (as a PDF file) from Part I of the assignment, which should detail the results from your survey and your analysis decisions; (2) your processed survey data `new_comma_survey.csv`; (3) your `survey_analysis.py` and `survey_poststrat.py` scripts; and (4) your proposal (as a PDF) from Part II.
 
 **Grading rubric.** This assignment will be graded on the following criteria:
 
