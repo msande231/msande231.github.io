@@ -26,21 +26,21 @@ A few details on organization:
 
 The project comprises the following deadlines:
 1. **Proposal:** Write a ~0.5-1 page proposal describing your intended project work (references don't count towards limit). Due remotely Tuesday Nov 8th (election day, no class!). Please only submit this PDF to Gradescope.
-2. **Presentations:** Due in class Tuesday Dec 6th, Thursday Dec 8th. Please only submit the presentation PDF to Gradescope.
-3. **Project Report:** Due remotely Tuesday Dec 13th, 5pm PT. Please submit the PDF to Gradescope, and all files in a .zip to Canvas.
+2. **Presentations:** Create a set of slides for a 10 minute presentation about your project to be given in class with your group. Due in class Tuesday Dec 6th, Thursday Dec 8th. Please only submit the presentation PDF to Gradescope.
+3. **Project Report:** Write a 5-10 page report describing your project and findings. Due remotely Tuesday Dec 13th, 5pm PT. Please submit the PDF to Gradescope, and all files (including presentation slides PDF) in a .zip to Canvas.
 
 ## Submission instructions
 
 For the *Proposal* and *Presentation*, we only ask that a PDF be uploaded to Gradescope.
 
-For the *Project Report*, we ask that all project files (code and data) be uploaded to Canvas as a .zip file, and the report PDF be uploaded to Gradescope.
+For the *Project Report*, we ask that all project files (code, data, and the presentation slides PDF) be uploaded to Canvas as a .zip file, and the report PDF be uploaded to Gradescope.
 
 To help make sure your team gets the deliverables submitted correctly, here's a submission checklist *for the Project Report*:
 
 1. Write the names of all your group members, and your group number, into the PDF. If you submit source files, make sure at least one of the source code files has all the names of your group members and your group number in a comment near the top. This is important to complete, as we may assign individual grades if we see major discrepancies between different parts of the project, so that everyone is treated fairly.
 2. Write the names of each group member and which parts of the project they worked on at the top of your PDF. You can all work on each part or split it up in any way you'd like. For example, for the project report, you can write: "Person A (`data.py`, report); Person B (`analysis.py`, report); Person C: (report)''.
 3. Go to the People page on Canvas, hit the Groups tab, and ensure that you're in the right group with the right people. If there's anyone else in your group who you are not working with, please email the TA team or make a private post on Ed so that they can be moved to the right group. We'll be using these groups to assign grades, so it's very important that they're correct. The group set for all three submissions for the project is "Project".
-4. Now, submit all files you made to create your report to the assignment on Canvas as a .zip file. This includes Python scripts, Jupyter notebooks, the submission PDF, etc. Only one person has to submit the .zip file containing these files. Your group and its members will automatically be recorded on the submission.
+4. Now, submit all files you made to create your report to the assignment on Canvas as a .zip file. This includes Python scripts, Jupyter notebooks, the submission PDF, the presentation slides PDF, etc. Only one person has to submit the .zip file containing these files. Your group and its members will automatically be recorded on the submission.
 5. Finally, please submit just the project report PDF on Gradescope. On Gradescope, the group is not automatically recorded, so you’ll have to select your group members when you submit. Only one person has to submit the project report PDF.
 
 
