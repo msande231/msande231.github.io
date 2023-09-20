@@ -13,27 +13,26 @@ With a vast amount of data now collected on our online and offline actions -- fr
 ## Instructors
 Johan Ugander, jugander@ 
 
-TAs: TBD 
+Monte Fischer (TA), m0nte@ 
+
+Greg Zanotti (TA), gzanotti@ 
 
 ## Schedule
-Class: Tuesdays & Thursdays @ 9:00 AM -- 10:20 AM in TBD
+Class: Tuesdays & Thursdays @ 9:00 AM -- 10:20 AM in STLC 115
 
 **Office Hours**
 
-TBD
-<!--
 * Greg: Tues 11:30a -- 1:30p (starting October 4) @ Encina W 101
 * Monte: Weds 3:00p -- 5:00p (starting October 5) @ Littlefield 103
 	* **NOTE:** Monte will hold office hours on Monday, 10/17 from 4--6pm @ Littlefield 103 instead of Wednesday to accommodate the new Assignment 1 deadline of 10/18.
 * Johan: Thurs 10:20a -- 11:15a (starting Sept 29)
--->
 
 ## Important Links
 * [Canvas page](https://canvas.stanford.edu/courses/162641)
 * [course Github repo](https://www.github.com/mse231/mse231_f22)
 
 ## Course structure and evaluation
-The class is organized around two lectures per week. Generally speaking, the first lecture of each week will on the technology, with the second lecture of the week being focused on impacts and evaluations. Lectures are designs to be discussion-driven, espcially when we debate conclusions from the impacts and evalutations literature.
+The class is organized around two lectures per week. Generally speaking, the first half of each lecture will be organized in “broadcast mode,” presenting an overview of an idea or field. The second half will transition to discussions of recent research literature.
 
 There are three problem sets and a project. See the weekly schedule below for a timeline. There are no quizzes, midterms, or exams. All submissions are due on Canvas by the start of lecture (9am) on the described days. Attendance is expected but not strictly mandatory.
 
@@ -49,7 +48,7 @@ There is a $30 course materials fee. There are no required textbooks or other co
 * 40% Project presentation and report
 * 5% Participation and collegiality
 
-Problem sets and project proposal: your best bet is to hit all the deadlines. Failing that, the following policy is designed to prioritize completing problem sets vs. not completing them, submitting problem sets vs. not submitting them.  
+Problem sets and project proposal: your best bet is to hit all the deadlines. Failing that, the following policy is designed to prioritize completing problem sets vs. not completing, submitting problem sets vs. not submitting.  
 - One single delay of up to 2 days (48 hours), no questions asked. 
 - After that: 5 points deducted per day (per 24h, including weekends), up to 6 days. Limited CA availability. 
 - After that: no CA support will be provided and max grade is a 70. Must be submitted by Monday Dec 5, 11:59p PT (after that, grade is 0), and no guarantees on grading turn-around time.
@@ -63,23 +62,17 @@ In the event of a family or medical emergency, I am fundamentally a reasonable p
 | Week | Topic | Assignments |
 | --- | --- | --- |
 | Week 1  | Introduction; observational CSS	| 	PS0; PS1 Out |
-| Week 2  | Network analysis | |
-| Week 3  | Search engines |  PS1 Due |
-| Week 4  | Recommendation systems						|   PS2 Out |
-| Week 5  | Feed algorithms | |
-| Week 6  | Content moderation |        PS2 Due; PS3 Out|
-| Week 7  | Network interventions				| Project Proposal Due |	
-| Week 8  | Digital demography (cell phones, mobility)	| PS3 Due |
+| Week 2  | Causal Inference; Social algorithms I: search | |
+| Week 3  | Social algorithms II & III: Recsys, feed |  PS1 Due |
+| Week 4  | Network analysis						|   PS2 Out |
+| Week 5  | Social contagion, diffusion, social influence | |
+| Week 6  | Online surveys; digital demography |        PS2 Due; PS3 Out|
+| Week 7  | Cell phone and mobility data				| Project Proposal Due |	
+| Week 8  | Culturomics; Privacy						| PS3 Due |
 | | Thanksgiving break | |
 | Week 9  | Guest lectures                              | |
 | Week 10 | Project presentations                       | | 
 | Exam week | (No exam)							| Report Due | 
-
-<!--
-Social contagion, diffusion, social influence
-Online surveys; digital demography
-Cell phone and mobility data
--->
 
 Assignment overview:
 
