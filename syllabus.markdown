@@ -9,36 +9,45 @@ title: "MS&E 231 Syllabus"
 
 ## Week 1 ##
 
-**Tues 9/27 -- Introduction**
+**Tues 9/26 -- Introduction**
 - Hofman et al. (2021) "Integrating explanation and prediction in computational social science," Nature.
 - Wagner et al. (2021) "Measuring algorithmically infused societies", Nature.
-- Abebe et al. (2020) "Roles for Computing in Social Change," FAT.
+- Abebe et al. (2020) "Roles for Computing in Social Change," FAccT.
 - Eddy (2005) "Antedisciplinary Science," PLOS Comp Bio.
 
-**Thurs 9/29 -- Observational data and counting at scale**
+**Thurs 9/28 -- Observational data and counting at scale**
 - **PS1: Released/introduced**
 - Advanced applied counting, social science with big data.
 - Salganik (2017) Bit by Bit, [Chapter 2](https://www.bitbybitbook.com/en/1st-ed/preface/).
-
-## Week 2 ##
-
-**Tues 10/4 -- Causal Inference**
 - Prediction vs. causal inference in the social sciences.
 - Salganik (2017) Bit by Bit, [Chapter 4](https://www.bitbybitbook.com/en/1st-ed/preface/).
 - Goel, Hofman, Lahaie, Pennock, Watts (2010) "Predicting consumer behavior with Web search," PNAS.
 - Choi, Varian (2012) "Predicting the Present with Google Trends," The Economic Record.
 - Kleinberg, Ludwig Mullainathan, Obermeyer (2015) "Prediction Policy Problems," AER. 
 
-**Thurs 10/6 -- Social Algorithms 1: Web search**
+## Week 2 -- Network analysis ##
+**Tues 10/3 & Thurs 10/5**
+
+- Graph theory, social network analysis, and network science.
+- Weak ties:
+- Granovetter (1973) "The Strength of Weak Ties," AJS.
+- Granovetter (1983) "The Strength of Weak Ties: A Network Theory Revisited," Sociological Theory.
+- Gee, Jones, Burke (2017) "Social Networks and Labor Markets: How Strong Ties Relate to Job Finding on Facebook’s Social Network," J Labor Economics.
+- Gee et al. (2017) "The paradox of weak ties in 55 countries," Journal of Economic Behavior & Organization.
+- Rajkumar et al. (2022) "A causal test of the strength of weak ties," Science.
+
+## Week 3 -- Search engines ##
+**Tues 10/10 & Thurs 10/12**
+
 - Chakrabarti, Frieze, Vera (2005) "The influence of search engines on preferential attachment," SODA.
 - Salganik, Dodds, Watts (2006) "Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market," Science.
 - Fortunato, Flammini, Menczer, and Vespignani (2006) "Topical interests and the mitigation of search engine bias," PNAS.
 - Goel, Broder, Gabrilovich, Pang (2010) "Anatomy of the long tail: ordinary people with extraordinary tastes," WSDM.
 - Brynjolfsson, Hu, Simester (2011) "Goodbye pareto principle, hello long tail: The effect of search costs on the concentration of product sales," Management Science.
 
-## Week 3 ##
+## Week 4 -- Product recommendations ##
+**Tues 10/17 & Thurs 10/19**
 
-**Tues 10/11 -- Social Algorithms II: Recommender systems**
 - Fleder and Hosanagar (2009) "Blockbuster culture’s next rise or fall: The impact of recommender systems on sales diversity," Management Science.
 - Dandekar, Goel, Lee (2013) "Biased assimilation, homophily, and the dynamics of polarization," PNAS.
 - Abdollahpouri, Burke, Mobasher (2017) "Controlling popularity bias in learning-to-rank recommendation," RecSys.
@@ -48,11 +57,16 @@ title: "MS&E 231 Syllabus"
 - Hardt, Jagadeesan, Mendler-Dünner (2022) "Performative Power", NeurIPS. // Recommender systems and "steering".
 - Kleinberg, Raghavan, Mullainathan (2022) "The Challenge of Understanding What Users Want: Inconsistent Preferences and Engagement Optimization," EC.  // Recommendation systems and revealed preferences.
 
-Social Recommender systems: 
+
+## Week 5 -- Friend recommendations ##
+**Tues 10/24 & Thurs 10/26**
+
 - Zignani et al. (2014) "Link and Triadic Closure Delay: Temporal Metrics for Social Network Dynamics", ICWSM.
 - Su, Sharma, Goel (2016), "The Effect of Recommendations on Network Structure", WWW. 
 
-**Thurs 10/13 -- Social Algorithms III: Feed algorithms**
+## Week 6 -- Feed algorithms ##
+**Tues 10/31 & Thurs 11/2**
+
 - Bakshy, Rosenn, Marlow, Adamic (2010) "The role of social networks in information diffusion," WWW.
 - Bernstein, Bakshy, Burke, Karrer (2013) "Quantifying the invisible audience in social networks," CHI.
 - Bakshy, Messing, Adamic (2015) "Exposure to ideologically diverse news and opinion on Facebook"
@@ -62,25 +76,17 @@ Social Recommender systems:
 - Huszar et al. (2021) "Algorithmic amplification of politics on Twitter", PNAS.
 - Hosseinmardi et al. (2021) "Examining the consumption of radical content on YouTube," PNAS.
 
-## Week 4 ##
+True and false news:
+- Friggeri et al. (2014) "Rumor cascades," ICWSM.
+- Vosoughi et al. (2018) "The spread of true and false news online," Science.
+- Juul, Ugander (2022) "Comparing information diffusion mechanisms by matching on cascade size," PNAS.
 
-**Tues 10/18 -- Network Analysis I (Guest Lecture: Dr. Martin Saveski)**
-- **PS1: Due**
-- **PS2 Released/introduced**
-- Graph theory, social network analysis, and network science.
 
-**Thurs 10/20 -- Network Analysis II**
+## Week 7 -- Content moderation ##
 
-Weak ties:
-- Granovetter (1973) "The Strength of Weak Ties," AJS.
-- Granovetter (1983) "The Strength of Weak Ties: A Network Theory Revisited," Sociological Theory.
-- Gee, Jones, Burke (2017) "Social Networks and Labor Markets: How Strong Ties Relate to Job Finding on Facebook’s Social Network," J Labor Economics.
-- Gee et al. (2017) "The paradox of weak ties in 55 countries," Journal of Economic Behavior & Organization.
-- Rajkumar et al. (2022) "A causal test of the strength of weak ties," Science.
-
-## Week 5 ##
-
-**Tues 10/25  -- Social Influence, influence maximization**
+- 
+<!--
+**Tues 10/24  -- Social Influence, influence maximization**
 - Dodds, Watts (2007) "Influentials, Networks, and Public Opinion Formation," J Consumer Research.
 - Kempe, Kleinberg, Tardos (2003) "Maximizing the spread of influence through a social network," Proceedings of KDD.
 - Centola, Macy (2007) "Complex contagions and the weakness of long ties," AJS.
@@ -90,7 +96,7 @@ Weak ties:
 - Ugander, Backstrom, Marlow, Kleinberg. (2012) "Structural Diversity in Social Contagion," PNAS.
 - Muchnik, Taylor, Aral (2013) "Social Influence Bias: A Randomized Experiment," Science.
 
-**Thurs 10/27  -- Social Contagion, Social Diffusion**
+**Thurs 10/26  -- Social Contagion, Social Diffusion**
 
 Diffusion studies:
 - Banarjee et al. (2013) "The Diffusion of Microfinance," Science.
@@ -110,19 +116,14 @@ Friendship paradox:
 - Lerman et al. (2016) "The Majority Illusion in Social Networks," PLOS One.
 - Steward et al. (2019) "Information gerrymandering and undemocratic decisions," Nature. 
 
-True and false news:
-- Friggeri et al. (2014) "Rumor cascades," ICWSM.
-- Vosoughi et al. (2018) "The spread of true and false news online," Science.
-- Juul, Ugander (2022) "Comparing information diffusion mechanisms by matching on cascade size," PNAS.
-
 ## Week 6 ##
 
-**Tues 11/1 -- Modern surveys, post-stratification**
+**Tues 10/31 -- Modern surveys, post-stratification**
 - Wang, Rothschild, Goel Gelman, (2015) "Forecasting elections with non-representative polls," Routledge Studies in Global Information, Politics and Society.
 - Gelman, Goel, Rivers, Rothschild (2016) "The Mythical Swing Voter," QJPS.
 - Rosenzsweig et al. (2022) "Survey sampling in the Global South using Facebook advertisements," SocArxiv.
 
-**Thurs 11/3 Digital demography**
+**Thurs 11/2 Digital demography**
 - **PS2: Due**
 - **PS3: Released/introduced**
 - Zagheni, Garimella, Weber, State (2014) "Inferring international and internal migration patterns from twitter data", WWW.
@@ -132,16 +133,16 @@ True and false news:
 
 ## Week 7 ##
 
-**Tues 11/8 -- No lecture, Election Day!**
+**Tues 11/7 -- No lecture, Election Day!**
 - **Project Proposal: Due**
 
-**Thurs 11/10  -- COVID and mobility (Guest lecture: Serina Chang)**
+**Thurs 11/9  -- COVID and mobility (Guest lecture: Serina Chang)**
 - Chang et al. (2020) "Mobility network models of COVID-19 explain inequities and inform reopening," Nature.
 
 
 ## Week 8 ##
 
-**Tues 11/15 -- Cell phone and mobility data**
+**Tues 11/14 -- Cell phone and mobility data**
 - de Montjoye et al. (2013) "Unique in the Crowd: The privacy bounds of human mobility," Scientific Reports. 
 - Blumenstock, Cadamuro, On (2015) "Predicting poverty and wealth from mobile phone metadata", Science.
 - Aiken et al. (2022) "Machine learning and phone data can improve targeting of humanitarian aid", Nature.
@@ -151,34 +152,32 @@ True and false news:
 - Athey et al. (2021) "Estimating experienced racial segregation in US cities using large-scale GPS data," PNAS.
 - Coston et al. (2021) "Leveraging Administrative Data for Bias Audits: Assessing Disparate Coverage with Mobility Data for COVID-19 Policy," FAccT.
 
-<!--
 **Tues 11/15 -- Culturomics**
 - Lieberman et al. (2007) "Quantifying the evolutionary dynamics of language," Nature.
 - Michel et al. (2010) "Quantitative Analysis of Culture Using Millions of Digitized Books," Science. 
 - Card et al. (2022) "Computational analysis of 140 years of US political speeches reveals more positive but increasingly polarized framing ofimmigration," PNAS.
--->
 
 
-**Thurs 11/17 -- Data Privacy**
+**Thurs 11/16 -- Data Privacy**
 - **PS3: Due**
 - Digital exhaust
 - Data privacy models
 - Differential privacy
+-->
 
 ## (Thanksgiving break) ##
 
-## Week 9 ##
+## Week 9 -- Meta 2020 Election studies ##
+**Tues 11/28 & Thurs 11/30**
 
-**Tues 11/29  -- Guest Lecture, Jenny Hong on Project Recon**
-
-**Thurs 12/1 -- Guest Lecture, Industry speaker (TBD)**
+- x
 
 ## Week 10 ##
 
-**Tues 12/6 -- Project Presentations**
+**Tues 12/5 -- Project Presentations**
 
-**Thurs 12/8 -- Project Presentations**
+**Thurs 12/7 -- Project Presentations**
 
-## Exam week ##
+## Exam week -- Project Due ##
 
-**Tues 12/13    Project reports due, 5pm PT**
+**Tues 12/12    Project reports due, 5pm PT**
