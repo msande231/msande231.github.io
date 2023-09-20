@@ -23,7 +23,7 @@ email: jugander@stanford.edu
 description: >- # this means to ignore newlines until "baseurl:"
     Fall 2023
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mse231.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://msande231.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  msande231
 
 # Build settings
