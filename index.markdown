@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: "MS&E 231"
+title: "MS&E 231: Social Algorithms"
 ---
 
 ## NOTE: Sylalbus in progress -- will be removed when syllabus is finalized.
