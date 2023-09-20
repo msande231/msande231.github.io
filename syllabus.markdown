@@ -7,16 +7,18 @@ title: "MS&E 231 Syllabus"
 ---
 
 
-## Week 1 ##
+## Week 1 -- Introduction ##
 
-**Tues 9/26 -- Introduction**
+**Tues 9/26**
 - Hofman et al. (2021) "Integrating explanation and prediction in computational social science," Nature.
 - Wagner et al. (2021) "Measuring algorithmically infused societies", Nature.
 - Abebe et al. (2020) "Roles for Computing in Social Change," FAccT.
 - Eddy (2005) "Antedisciplinary Science," PLOS Comp Bio.
 
-**Thurs 9/28 -- Observational data and counting at scale**
+**Thurs 9/28**
+<!-- 
 - **PS1: Released/introduced**
+-->
 - Advanced applied counting, social science with big data.
 - Salganik (2017) Bit by Bit, [Chapter 2](https://www.bitbybitbook.com/en/1st-ed/preface/).
 - Prediction vs. causal inference in the social sciences.
@@ -34,7 +36,6 @@ title: "MS&E 231 Syllabus"
 - Granovetter (1983) "The Strength of Weak Ties: A Network Theory Revisited," Sociological Theory.
 - Gee, Jones, Burke (2017) "Social Networks and Labor Markets: How Strong Ties Relate to Job Finding on Facebook’s Social Network," J Labor Economics.
 - Gee et al. (2017) "The paradox of weak ties in 55 countries," Journal of Economic Behavior & Organization.
-- Rajkumar et al. (2022) "A causal test of the strength of weak ties," Science.
 
 ## Week 3 -- Search engines ##
 **Tues 10/10 & Thurs 10/12**
@@ -63,6 +64,7 @@ title: "MS&E 231 Syllabus"
 
 - Zignani et al. (2014) "Link and Triadic Closure Delay: Temporal Metrics for Social Network Dynamics", ICWSM.
 - Su, Sharma, Goel (2016), "The Effect of Recommendations on Network Structure", WWW. 
+- Rajkumar et al. (2022) "A causal test of the strength of weak ties," Science.
 
 ## Week 6 -- Feed algorithms ##
 **Tues 10/31 & Thurs 11/2**
@@ -84,7 +86,6 @@ True and false news:
 
 ## Week 7 -- Content moderation ##
 
-- 
 <!--
 **Tues 10/24  -- Social Influence, influence maximization**
 - Dodds, Watts (2007) "Influentials, Networks, and Public Opinion Formation," J Consumer Research.
