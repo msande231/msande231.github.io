@@ -16,9 +16,11 @@ title: "MS&E 231 Syllabus"
 - Eddy (2005) "Antedisciplinary Science," PLOS Comp Bio.
 
 **Thurs 9/28**
+
 <!-- 
 - **PS1: Released/introduced**
 -->
+
 - Advanced applied counting, social science with big data.
 - Salganik (2017) Bit by Bit, [Chapter 2](https://www.bitbybitbook.com/en/1st-ed/preface/).
 - Prediction vs. causal inference in the social sciences.
@@ -85,9 +87,15 @@ True and false news:
 
 
 ## Week 7 -- Content moderation ##
+**Tues 11/7 & Thurs 11/9**
 
-<!--
-**Tues 10/24  -- Social Influence, influence maximization**
+- Birdwatch
+- Attention to accuracy
+
+
+## Week 8 -- Network interventions ##
+**Tues 11/14 & Thurs 11/16**
+
 - Dodds, Watts (2007) "Influentials, Networks, and Public Opinion Formation," J Consumer Research.
 - Kempe, Kleinberg, Tardos (2003) "Maximizing the spread of influence through a social network," Proceedings of KDD.
 - Centola, Macy (2007) "Complex contagions and the weakness of long ties," AJS.
@@ -96,8 +104,6 @@ True and false news:
 - Aral, Muchnik, Sundararajan (2009) "Distinguishing influence-based contagion from homophily-driven diffusion in dynamic networks," PNAS.
 - Ugander, Backstrom, Marlow, Kleinberg. (2012) "Structural Diversity in Social Contagion," PNAS.
 - Muchnik, Taylor, Aral (2013) "Social Influence Bias: A Randomized Experiment," Science.
-
-**Thurs 10/26  -- Social Contagion, Social Diffusion**
 
 Diffusion studies:
 - Banarjee et al. (2013) "The Diffusion of Microfinance," Science.
@@ -116,6 +122,13 @@ Friendship paradox:
 - Kooti, Hodas, Lerman (2014) "Network Weirdness: Exploring the Origins of Network Paradoxes", Proceedings of ICWSM.
 - Lerman et al. (2016) "The Majority Illusion in Social Networks," PLOS One.
 - Steward et al. (2019) "Information gerrymandering and undemocratic decisions," Nature. 
+
+
+<!--
+**Tues 10/24  -- Social Influence, influence maximization**
+
+**Thurs 10/26  -- Social Contagion, Social Diffusion**
+
 
 ## Week 6 ##
 
