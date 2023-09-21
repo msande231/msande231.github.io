@@ -10,6 +10,8 @@ title: "MS&E 231 Syllabus"
 ## Week 1 -- Introduction ##
 
 **Tues 9/26**
+
+Introduction:
 - Hofman et al. (2021) "Integrating explanation and prediction in computational social science," Nature.
 - Wagner et al. (2021) "Measuring algorithmically infused societies", Nature.
 - Abebe et al. (2020) "Roles for Computing in Social Change," FAccT.
@@ -21,25 +23,14 @@ title: "MS&E 231 Syllabus"
 - **PS1: Released/introduced**
 -->
 
-- Advanced applied counting, social science with big data.
-- Salganik (2017) Bit by Bit, [Chapter 2](https://www.bitbybitbook.com/en/1st-ed/preface/).
-- Prediction vs. causal inference in the social sciences.
-- Salganik (2017) Bit by Bit, [Chapter 4](https://www.bitbybitbook.com/en/1st-ed/preface/).
+Social science in the age "big data":
+- Salganik (2017) Bit by Bit, [Chapter 2-4](https://www.bitbybitbook.com/en/1st-ed/preface/).
 - Goel, Hofman, Lahaie, Pennock, Watts (2010) "Predicting consumer behavior with Web search," PNAS.
 - Choi, Varian (2012) "Predicting the Present with Google Trends," The Economic Record.
 - Kleinberg, Ludwig Mullainathan, Obermeyer (2015) "Prediction Policy Problems," AER. 
 
-## Week 2 -- Search engines ##
+## Week 2 -- Product recommendations ##
 **Tues 10/3 & Thurs 10/5**
-
-- Chakrabarti, Frieze, Vera (2005) "The influence of search engines on preferential attachment," SODA.
-- Salganik, Dodds, Watts (2006) "Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market," Science.
-- Fortunato, Flammini, Menczer, and Vespignani (2006) "Topical interests and the mitigation of search engine bias," PNAS.
-- Goel, Broder, Gabrilovich, Pang (2010) "Anatomy of the long tail: ordinary people with extraordinary tastes," WSDM.
-- Brynjolfsson, Hu, Simester (2011) "Goodbye pareto principle, hello long tail: The effect of search costs on the concentration of product sales," Management Science.
-
-## Week 3 -- Product recommendations ##
-**Tues 10/10 & Thurs 10/12**
 
 - Fleder and Hosanagar (2009) "Blockbuster culture’s next rise or fall: The impact of recommender systems on sales diversity," Management Science.
 - Dandekar, Goel, Lee (2013) "Biased assimilation, homophily, and the dynamics of polarization," PNAS.
@@ -51,14 +42,13 @@ title: "MS&E 231 Syllabus"
 - Kleinberg, Raghavan, Mullainathan (2022) "The Challenge of Understanding What Users Want: Inconsistent Preferences and Engagement Optimization," EC.  // Recommendation systems and revealed preferences.
 
 
-## Week 4 -- Friend recommendations ##
-**Tues 10/17 & Thurs 10/19**
+## Week 3 -- Friend recommendations ##
+**Tues 10/10 & Thurs 10/12**
 
 - Ugander, Backstrom, Marlow, Kleinberg. (2012) "Structural Diversity in Social Contagion," PNAS.
 - Zignani et al. (2014) "Link and Triadic Closure Delay: Temporal Metrics for Social Network Dynamics", ICWSM.
 - Su, Sharma, Goel (2016), "The Effect of Recommendations on Network Structure", WWW. 
 - Su, Kamath, Sharma, Ugander, Goel (2020) "An Experimental Study of Structural Diversity in Social Networks," ICWSM. 
-
 
 Weak ties:
 - Granovetter (1973) "The Strength of Weak Ties," AJS.
@@ -68,6 +58,14 @@ Weak ties:
 - Rajkumar et al. (2022) "A causal test of the strength of weak ties," Science.
 - Jahani, Fraiberger, Bailey, Eckles (2023) "Long ties, disruptive life events, and economic prosperity," PNAS.
 
+## Week 4 -- Search engines ##
+**Tues 10/17 & Thurs 10/19**
+
+- Chakrabarti, Frieze, Vera (2005) "The influence of search engines on preferential attachment," SODA.
+- Salganik, Dodds, Watts (2006) "Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market," Science.
+- Fortunato, Flammini, Menczer, and Vespignani (2006) "Topical interests and the mitigation of search engine bias," PNAS.
+- Goel, Broder, Gabrilovich, Pang (2010) "Anatomy of the long tail: ordinary people with extraordinary tastes," WSDM.
+- Brynjolfsson, Hu, Simester (2011) "Goodbye pareto principle, hello long tail: The effect of search costs on the concentration of product sales," Management Science.
 
 ## Week 5 -- Feed algorithms ##
 **Tues 10/24 & Thurs 10/26**
@@ -77,22 +75,24 @@ Weak ties:
 - Bakshy, Messing, Adamic (2015) "Exposure to ideologically diverse news and opinion on Facebook"
 - Flaxman, Goel, Rao (2016) "Filter Bubbles, Echo Chambers, and Online News Consumption", Public Opinion Quarterly.
 - Bail, Argyle, Brown, Volfovsky (2018) "Exposure to opposing views on social media can increase political polarization," PNAS.
-- Allen et al. (2020) "Evaluating the fake news problem at the scale of the information ecosystem," Science Advances.
 - Huszar et al. (2021) "Algorithmic amplification of politics on Twitter", PNAS.
-- Hosseinmardi et al. (2021) "Examining the consumption of radical content on YouTube," PNAS.
+
+
+## Week 6 -- Misinformation and content moderation ##
+**Tues 10/31 & Thurs 11/2**
 
 True and false news:
 - Friggeri et al. (2014) "Rumor cascades," ICWSM.
 - Vosoughi et al. (2018) "The spread of true and false news online," Science.
+- Allen et al. (2020) "Evaluating the fake news problem at the scale of the information ecosystem," Science Advances.
+- Hosseinmardi et al. (2021) "Examining the consumption of radical content on YouTube," PNAS.
 - Juul, Ugander (2022) "Comparing information diffusion mechanisms by matching on cascade size," PNAS.
 
-
-## Week 6 -- Content moderation ##
-**Tues 10/31 & Thurs 11/2**
-
-- Birdwatch
-- Attention to accuracy
-
+Birdwatch aka Community Notes:
+- Wojcik et al. (2022) "Birdwatch: Crowd Wisdom and Bridging Algorithms can Inform Understanding and Reduce the Spread of Misinformation," arXiv.
+- Allen, Martel, Rand (2022) "Birds of a feather don’t fact-check each other: Partisanship and the evaluation of news in Twitter’s Birdwatch crowdsourced fact-checking program," CHI.
+- Martel, Allen, Rand (2023) "Crowds Can Effectively Identify Misinformation at Scale," Perspectives on Psychological Science. 
+- Pennycook, Epstein, Mosleh, Arechar, Eckles, Rand (2021) "Shifting attention to accuracy can reduce misinformation online," Nature.
 
 ## Week 7 -- Network effects and interventions ##
 **Tues 11/7 & Thurs 11/9**

@@ -67,18 +67,18 @@ In the event of a family or medical emergency, I am fundamentally a reasonable p
 
 | Week | Topic | Assignments |
 | --- | --- | --- |
-| Week 1  | Introduction; causal inference	| 	PS0; PS1 Out |
-| Week 2  | Network analysis | |
-| Week 3  | Search engines |  PS1 Due |
-| Week 4  | Product recommendations						|   PS2 Out |
-| Week 5  | Friend recommendations | |
-| Week 6  | Feed algorithms |        PS2 Due; PS3 Out|
-| Week 7  | Content moderation				| Project Proposal Due |	
-| Week 8  | Network interventions	| PS3 Due |
-| | Thanksgiving break | |
-| Week 9  | Meta 2020 elections studies                 | |
-| Week 10 | Project presentations                       | | 
-| Exam week | (No exam)							| Report Due | 
+| Week 1  | Introduction; causal inference	| PS0; PS1 Out |
+| Week 2  | Product recommendations 		| |
+| Week 3  | Friend recommendations			| PS1 Due; PS2 Out |
+| Week 4  | Search engines			      	| |
+| Week 5  | Feed algorithms             	| |
+| Week 6  | Content moderation	 	    	| PS2 Due|
+| Week 7  | Network interventions	    	| |
+| Week 8  | Project pitches 				| Project Proposal Due | 
+| | Thanksgiving break 						| |
+| Week 9  | Meta 2020 elections studies     | |
+| Week 10 | Project presentations           | | 
+| Exam week | (No exam)						| Report Due | 
 
 <!--
 Social contagion, diffusion, social influence
