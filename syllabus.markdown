@@ -29,18 +29,8 @@ title: "MS&E 231 Syllabus"
 - Choi, Varian (2012) "Predicting the Present with Google Trends," The Economic Record.
 - Kleinberg, Ludwig Mullainathan, Obermeyer (2015) "Prediction Policy Problems," AER. 
 
-## Week 2 -- Network analysis ##
+## Week 2 -- Search engines ##
 **Tues 10/3 & Thurs 10/5**
-
-- Graph theory, social network analysis, and network science.
-- Weak ties:
-- Granovetter (1973) "The Strength of Weak Ties," AJS.
-- Granovetter (1983) "The Strength of Weak Ties: A Network Theory Revisited," Sociological Theory.
-- Gee, Jones, Burke (2017) "Social Networks and Labor Markets: How Strong Ties Relate to Job Finding on Facebook’s Social Network," J Labor Economics.
-- Gee et al. (2017) "The paradox of weak ties in 55 countries," Journal of Economic Behavior & Organization.
-
-## Week 3 -- Search engines ##
-**Tues 10/10 & Thurs 10/12**
 
 - Chakrabarti, Frieze, Vera (2005) "The influence of search engines on preferential attachment," SODA.
 - Salganik, Dodds, Watts (2006) "Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market," Science.
@@ -48,8 +38,8 @@ title: "MS&E 231 Syllabus"
 - Goel, Broder, Gabrilovich, Pang (2010) "Anatomy of the long tail: ordinary people with extraordinary tastes," WSDM.
 - Brynjolfsson, Hu, Simester (2011) "Goodbye pareto principle, hello long tail: The effect of search costs on the concentration of product sales," Management Science.
 
-## Week 4 -- Product recommendations ##
-**Tues 10/17 & Thurs 10/19**
+## Week 3 -- Product recommendations ##
+**Tues 10/10 & Thurs 10/12**
 
 - Fleder and Hosanagar (2009) "Blockbuster culture’s next rise or fall: The impact of recommender systems on sales diversity," Management Science.
 - Dandekar, Goel, Lee (2013) "Biased assimilation, homophily, and the dynamics of polarization," PNAS.
@@ -61,15 +51,26 @@ title: "MS&E 231 Syllabus"
 - Kleinberg, Raghavan, Mullainathan (2022) "The Challenge of Understanding What Users Want: Inconsistent Preferences and Engagement Optimization," EC.  // Recommendation systems and revealed preferences.
 
 
-## Week 5 -- Friend recommendations ##
-**Tues 10/24 & Thurs 10/26**
+## Week 4 -- Friend recommendations ##
+**Tues 10/17 & Thurs 10/19**
 
+- Ugander, Backstrom, Marlow, Kleinberg. (2012) "Structural Diversity in Social Contagion," PNAS.
 - Zignani et al. (2014) "Link and Triadic Closure Delay: Temporal Metrics for Social Network Dynamics", ICWSM.
 - Su, Sharma, Goel (2016), "The Effect of Recommendations on Network Structure", WWW. 
-- Rajkumar et al. (2022) "A causal test of the strength of weak ties," Science.
+- Su, Kamath, Sharma, Ugander, Goel (2020) "An Experimental Study of Structural Diversity in Social Networks," ICWSM. 
 
-## Week 6 -- Feed algorithms ##
-**Tues 10/31 & Thurs 11/2**
+
+Weak ties:
+- Granovetter (1973) "The Strength of Weak Ties," AJS.
+- Granovetter (1983) "The Strength of Weak Ties: A Network Theory Revisited," Sociological Theory.
+- Gee, Jones, Burke (2017) "Social Networks and Labor Markets: How Strong Ties Relate to Job Finding on Facebook’s Social Network," J Labor Economics.
+- Gee et al. (2017) "The paradox of weak ties in 55 countries," Journal of Economic Behavior & Organization.
+- Rajkumar et al. (2022) "A causal test of the strength of weak ties," Science.
+- Jahani, Fraiberger, Bailey, Eckles (2023) "Long ties, disruptive life events, and economic prosperity," PNAS.
+
+
+## Week 5 -- Feed algorithms ##
+**Tues 10/24 & Thurs 10/26**
 
 - Bakshy, Rosenn, Marlow, Adamic (2010) "The role of social networks in information diffusion," WWW.
 - Bernstein, Bakshy, Burke, Karrer (2013) "Quantifying the invisible audience in social networks," CHI.
@@ -86,15 +87,15 @@ True and false news:
 - Juul, Ugander (2022) "Comparing information diffusion mechanisms by matching on cascade size," PNAS.
 
 
-## Week 7 -- Content moderation ##
-**Tues 11/7 & Thurs 11/9**
+## Week 6 -- Content moderation ##
+**Tues 10/31 & Thurs 11/2**
 
 - Birdwatch
 - Attention to accuracy
 
 
-## Week 8 -- Network interventions ##
-**Tues 11/14 & Thurs 11/16**
+## Week 7 -- Network effects and interventions ##
+**Tues 11/7 & Thurs 11/9**
 
 - Dodds, Watts (2007) "Influentials, Networks, and Public Opinion Formation," J Consumer Research.
 - Kempe, Kleinberg, Tardos (2003) "Maximizing the spread of influence through a social network," Proceedings of KDD.
@@ -102,7 +103,6 @@ True and false news:
 - Centola (2010) "The spread of behavior in an online social network experiment," Science.
 - Centola (2011) "An experimental study of homophily in the adoption of health behavior," Science.
 - Aral, Muchnik, Sundararajan (2009) "Distinguishing influence-based contagion from homophily-driven diffusion in dynamic networks," PNAS.
-- Ugander, Backstrom, Marlow, Kleinberg. (2012) "Structural Diversity in Social Contagion," PNAS.
 - Muchnik, Taylor, Aral (2013) "Social Influence Bias: A Randomized Experiment," Science.
 
 Diffusion studies:
@@ -123,6 +123,8 @@ Friendship paradox:
 - Lerman et al. (2016) "The Majority Illusion in Social Networks," PLOS One.
 - Steward et al. (2019) "Information gerrymandering and undemocratic decisions," Nature. 
 
+## Week 8 -- Project proposals ##
+**Tues 11/14 & Thurs 11/16**
 
 <!--
 **Tues 10/24  -- Social Influence, influence maximization**
@@ -184,7 +186,11 @@ Friendship paradox:
 ## Week 9 -- Meta 2020 Election studies ##
 **Tues 11/28 & Thurs 11/30**
 
-- x
+- González-Bailón et al. (2023) "Asymmetric ideological segregation in exposure to political news on Facebook", Science.
+- Guess et al. (2023) "Reshares on social media amplify political news but do not detectably affect beliefs or opinions," Science.
+- Guess et al. (2023) "How do social media feed algorithms affect attitudes and behavior in an election campaign?," Science.
+- Nyhan et al. (2023) "Like-minded sources on Facebook are prevalent but not polarizing," Nature.
+
 
 ## Week 10 ##
 
