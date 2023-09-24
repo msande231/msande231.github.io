@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-# Assignment 1
+# Assignment 2
 
-**Due Date: Thursday, November 2, 11:59p**
+**Due Date: Thursday, November 2, 11:59pm PT **
 
 **Submission instructions:**
 
