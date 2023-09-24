@@ -40,7 +40,7 @@ TBD
 ## Course structure and evaluation
 The class is organized around two lectures per week. Generally speaking, the first lecture of each week will on the technology, with the second lecture of the week being focused on impacts and evaluations. Lectures are designs to be discussion-driven, espcially when we debate conclusions from the impacts and evalutations literature.
 
-There are three problem sets and a project. See the weekly schedule below for a timeline. There are no quizzes, midterms, or exams. All submissions are due on Canvas by the start of lecture (9am) on the described days. Attendance is expected but not strictly mandatory.
+There are two problem sets and a project. See the weekly schedule below for a timeline. There are no quizzes, midterms, or exams. All submissions are due on Canvas by the start of lecture (9am) on the described days. Attendance is expected (and participation part of the grade) but not strictly mandatory.
 
 Homework assignments are to be done in groups of 2-3, and the final project in groups of 2-5. You are strongly encouraged to form interdisciplinary teams for both the homework and project. All group members should be involved in completing each part of the homework assignments (i.e., think pair programming as opposed to divide-and-conquer). Projects are fine to divide-and-conquer.
 
@@ -49,8 +49,8 @@ There is an ungraded “Problem Set 0” for self-evaluation, available on the c
 There is a $30 course materials fee. There are no required textbooks or other course materials.
 
 ## Grading and late policies
-* 45% Problem Sets (15% each)
-* 10% Project proposal
+* 40% Problem Sets (20% each)
+* 15% Project proposal
 * 40% Project presentation and report
 * 5% Participation and collegiality
 
@@ -67,14 +67,14 @@ In the event of a family or medical emergency, I am fundamentally a reasonable p
 
 | Week | Topic | Assignments |
 | --- | --- | --- |
-| Week 1  | Introduction; causal inference	| PS0; PS1 Out |
-| Week 2  | Product recommendations 		| |
-| Week 3  | Friend recommendations			| PS1 Due; PS2 Out |
-| Week 4  | Search engines			      	| |
+| Week 1  | Introduction                	| PS0; Thurs: PS1 Out|
+| Week 2  | Friend recommendations 	      	| |
+| Week 3  | Product recommendations			| |
+| Week 4  | Search engines              	| Tues: PS1 Due, PS2 Out|
 | Week 5  | Feed algorithms             	| |
-| Week 6  | Content moderation	 	    	| PS2 Due|
+| Week 6  | Content moderation	 	    	| Thurs: PS2 Due|
 | Week 7  | Network interventions	    	| |
-| Week 8  | Project pitches 				| Project Proposal Due | 
+| Week 8  | Project proposals 		    	| Project proposals | 
 | | Thanksgiving break 						| |
 | Week 9  | Meta 2020 elections studies     | |
 | Week 10 | Project presentations           | | 
@@ -88,10 +88,16 @@ Cell phone and mobility data
 
 Assignment overview:
 
+| Problem set 1: 	| Surveys and post-stratification | 
+| Problem set 2: 	| Network analysis of Twitter data | 
+| Project: 	| Open-ended, per proposal process |
+
+<!--
 | Problem set 1: 	| Counting things with the Twitter API | 
 | Problem set 2:  	| Network analysis of Twitter data | 
 | Problem set 3: 	| Surveys and post-stratification | 
 | Project: 	| Open-ended, per proposal process |
+-->
 
 ## Honor code violations
 In the event that a student is found to have violated the honor code 

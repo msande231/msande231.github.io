@@ -19,18 +19,36 @@ Introduction:
 
 **Thurs 9/28**
 
-<!-- 
-- **PS1: Released/introduced**
--->
-
 Social science in the age "big data":
 - Salganik (2017) Bit by Bit, [Chapter 2-4](https://www.bitbybitbook.com/en/1st-ed/preface/).
 - Goel, Hofman, Lahaie, Pennock, Watts (2010) "Predicting consumer behavior with Web search," PNAS.
 - Choi, Varian (2012) "Predicting the Present with Google Trends," The Economic Record.
 - Kleinberg, Ludwig Mullainathan, Obermeyer (2015) "Prediction Policy Problems," AER. 
 
-## Week 2 -- Product recommendations ##
+Surveys and post-stratification
+- Wang, Rothschild, Goel Gelman, (2015) "Forecasting elections with non-representative polls," Routledge Studies in Global Information, Politics and Society.
+- Gelman, Goel, Rivers, Rothschild (2016) "The Mythical Swing Voter," QJPS.
+- Rosenzsweig et al. (2022) "Survey sampling in the Global South using Facebook advertisements," SocArxiv.
+
+
+## Week 2 -- Friend recommendations ##
 **Tues 10/3 & Thurs 10/5**
+
+- Ugander, Backstrom, Marlow, Kleinberg. (2012) "Structural Diversity in Social Contagion," PNAS.
+- Zignani et al. (2014) "Link and Triadic Closure Delay: Temporal Metrics for Social Network Dynamics", ICWSM.
+- Su, Sharma, Goel (2016), "The Effect of Recommendations on Network Structure", WWW. 
+- Su, Kamath, Sharma, Ugander, Goel (2020) "An Experimental Study of Structural Diversity in Social Networks," ICWSM.
+
+Weak ties:
+- Granovetter (1973) "The Strength of Weak Ties," AJS.
+- Granovetter (1983) "The Strength of Weak Ties: A Network Theory Revisited," Sociological Theory.
+- Gee, Jones, Burke (2017) "Social Networks and Labor Markets: How Strong Ties Relate to Job Finding on Facebook’s Social Network," J Labor Economics.
+- Gee et al. (2017) "The paradox of weak ties in 55 countries," Journal of Economic Behavior & Organization.
+- Rajkumar et al. (2022) "A causal test of the strength of weak ties," Science.
+- Jahani, Fraiberger, Bailey, Eckles (2023) "Long ties, disruptive life events, and economic prosperity," PNAS.
+
+## Week 3 -- Product recommendations ##
+**Tues 10/10 & Thurs 10/12**
 
 - Fleder and Hosanagar (2009) "Blockbuster culture’s next rise or fall: The impact of recommender systems on sales diversity," Management Science.
 - Dandekar, Goel, Lee (2013) "Biased assimilation, homophily, and the dynamics of polarization," PNAS.
@@ -42,22 +60,6 @@ Social science in the age "big data":
 - Kleinberg, Raghavan, Mullainathan (2022) "The Challenge of Understanding What Users Want: Inconsistent Preferences and Engagement Optimization," EC.  // Recommendation systems and revealed preferences.
 
 
-## Week 3 -- Friend recommendations ##
-**Tues 10/10 & Thurs 10/12**
-
-- Ugander, Backstrom, Marlow, Kleinberg. (2012) "Structural Diversity in Social Contagion," PNAS.
-- Zignani et al. (2014) "Link and Triadic Closure Delay: Temporal Metrics for Social Network Dynamics", ICWSM.
-- Su, Sharma, Goel (2016), "The Effect of Recommendations on Network Structure", WWW. 
-- Su, Kamath, Sharma, Ugander, Goel (2020) "An Experimental Study of Structural Diversity in Social Networks," ICWSM. 
-
-Weak ties:
-- Granovetter (1973) "The Strength of Weak Ties," AJS.
-- Granovetter (1983) "The Strength of Weak Ties: A Network Theory Revisited," Sociological Theory.
-- Gee, Jones, Burke (2017) "Social Networks and Labor Markets: How Strong Ties Relate to Job Finding on Facebook’s Social Network," J Labor Economics.
-- Gee et al. (2017) "The paradox of weak ties in 55 countries," Journal of Economic Behavior & Organization.
-- Rajkumar et al. (2022) "A causal test of the strength of weak ties," Science.
-- Jahani, Fraiberger, Bailey, Eckles (2023) "Long ties, disruptive life events, and economic prosperity," PNAS.
-
 ## Week 4 -- Search engines ##
 **Tues 10/17 & Thurs 10/19**
 
@@ -66,6 +68,8 @@ Weak ties:
 - Fortunato, Flammini, Menczer, and Vespignani (2006) "Topical interests and the mitigation of search engine bias," PNAS.
 - Goel, Broder, Gabrilovich, Pang (2010) "Anatomy of the long tail: ordinary people with extraordinary tastes," WSDM.
 - Brynjolfsson, Hu, Simester (2011) "Goodbye pareto principle, hello long tail: The effect of search costs on the concentration of product sales," Management Science.
+- White & Horvitz (2015) "Belief Dynamics and Biases in Web Search," ACM Transactions on Information Systems.
+
 
 ## Week 5 -- Feed algorithms ##
 **Tues 10/24 & Thurs 10/26**
@@ -77,9 +81,17 @@ Weak ties:
 - Bail, Argyle, Brown, Volfovsky (2018) "Exposure to opposing views on social media can increase political polarization," PNAS.
 - Huszar et al. (2021) "Algorithmic amplification of politics on Twitter", PNAS.
 
+Algorithm aversion:
+- B. Dietvorst, J. Simmons, C. Massey (2014) "Algorithm aversion: People erroneously avoid algorithms after seeing them err," Journal of Experimental Psychology.
+- Berkeley Dietvorst, Joseph Simmons, Cade Massey (2016) "Overcoming Algorithm Aversion: People Will Use Imperfect Algorithms If They Can (Even Slightly) Modify Them," Management Science.
+-  Vaccaro et al. (2017) "The Illusion of Control: Placebo Effects of Control Settings,"" CHI.
 
-## Week 6 -- Misinformation and content moderation ##
+
+## Week 6 -- Content moderation, misinformation ##
 **Tues 10/31 & Thurs 11/2**
+
+- Crawford & Gillespie (2016) "What is a flag for? Social media reporting tools and the vocabulary of complaint," New Media & Society.
+- Gillespie (2021) "Custodians of the Internet platforms, content moderation, and the hidden decisions that shape social media," Yale University Press.
 
 True and false news:
 - Friggeri et al. (2014) "Rumor cascades," ICWSM.
@@ -192,11 +204,9 @@ Friendship paradox:
 - Nyhan et al. (2023) "Like-minded sources on Facebook are prevalent but not polarizing," Nature.
 
 
-## Week 10 ##
+## Week 10 Project Presentations ##
 
-**Tues 12/5 -- Project Presentations**
-
-**Thurs 12/7 -- Project Presentations**
+**Tues 12/5 & Thurs 12/7**
 
 ## Exam week -- Project Due ##
 
