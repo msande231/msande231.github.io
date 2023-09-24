@@ -13,21 +13,21 @@ You should use Python 3. This is a zero point assignment. You should only need a
 ## Assignment 1
 **Due Date: Tuesday October 17 at 11:59p PT **
 
-[Assignment details](assignment1)
+[Assignment details](assignment1) (WARNING: not yet finalized)
 
 ## Assignment 2
 **Due Date: Thursday November 2 at 11:59p PT **
 
-[Assignment details](assignment2)
+[Assignment details](assignment2) (WARNING: not yet finalized)
 
 <!--
 ## Assignment 3
 **Due Date: Thursday November 17th at 11:59p PT **
 
 [Assignment details](assignment3)
--->
 
 ## Project
 **Due Date: Tuesday December 12 at 5:00p PT **
 
 [Assignment details](project)
+-->

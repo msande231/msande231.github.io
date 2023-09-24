@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Assignment 2
+# Assignment 2 -- Warning: not yet finalized
 
 **Due Date: Thursday, November 2, 11:59pm PT **
 

@@ -3,7 +3,7 @@ layout: default
 ---
 # Project
 
-**Due Date: Tuesday December 13th at 5pm Pacific Time**
+**Due Date: Tuesday December 12, 5pm PT**
 
 ## Options
 
@@ -21,13 +21,15 @@ Mixing and elements from these is ok as long as your project does _at least_ as 
 
 A few details on organization:
 - The group size is 3-5 students. We don't expect to offer any variations from this. Please make a post on Ed in the group formation thread 
-  to find people to work with here: https://edstem.org/us/courses/30212/discussion/1855572
-- Once you have your group, please make time to get feedback from or iterate on ideas with the TAs, via private Ed post or office hours.
+  to find people to work with here: [TBD]
+<!--  https://edstem.org/us/courses/30212/discussion/1855572
+-->
+- Once you have your group, please make time to get feedback from or iterate on ideas with the teaching team, via private Ed post or office hours.
 
 The project comprises the following deadlines:
-1. **Proposal:** Write a ~0.5-1 page proposal describing your intended project work (references don't count towards limit). Due remotely Tuesday Nov 8th (election day, no class!). Please only submit this PDF to Gradescope.
-2. **Presentations:** Create a set of slides for a 10 minute presentation about your project to be given in class with your group. Due in class Tuesday Dec 6th, Thursday Dec 8th. Please only submit the presentation PDF to Gradescope.
-3. **Project Report:** Write a 5-10 page report describing your project and findings. Due remotely Tuesday Dec 13th, 5pm PT. Please submit the PDF to Gradescope, and all files (including presentation slides PDF) in a .zip to Canvas.
+1. **Proposal:** Write a ~0.5-1 page proposal describing your intended project work (references don't count towards limit). Due TBD. Please only submit this PDF to Gradescope.
+2. **Presentations:** Create a set of slides for a 10 minute presentation about your project to be given in class with your group. Due in class Tuesday Dec 5th, Thursday Dec 7th. Please only submit the presentation PDF to Gradescope.
+3. **Project Report:** Write a 5-10 page report describing your project and findings. Due remotely Tuesday Dec 12th, 5pm PT. Please submit the PDF to Gradescope, and all files (including presentation slides PDF) in a .zip to Canvas.
 
 ## Submission instructions
 
