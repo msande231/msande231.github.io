@@ -3,7 +3,7 @@ layout: default
 ---
 # Assignment 1
 
-**Due Date: Tuesday October 17 at 11:59p PT**
+**Due Date: Tuesday October 17, 11:59p PT**
 
 This assignment is divided into two independent parts, as described below.
 
