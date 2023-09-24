@@ -90,8 +90,8 @@ Cell phone and mobility data
 
 Assignment overview:
 
-| Problem set 1: 	| Surveys and post-stratification | 
-| Problem set 2: 	| Network analysis of Twitter data | 
+| Problem set 1 (Oct 17): 	| Surveys and post-stratification | 
+| Problem set 2 (Nov 2): 	| Network analysis of Twitter data | 
 | Project: 	| Open-ended, per proposal process |
 
 <!--

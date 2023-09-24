@@ -1,79 +1,9 @@
 ---
 layout: default
 ---
-# Assignment 2
+# Assignment 1
 
-## Twitter Conversation Analysis
-
-**Due Date: November 3, 2022, 11:59pm**
-
-A reminder: you must complete this assignment in a group of 2--3. Submission instructions are included below.
-
-In this assignment, you will build on your experience collecting Twitter data in PS1 to investigate the structural differences between Twitter conversations prompted by Democrat vs. Republican members of the United States Congress. 
-
-Every time a Twitter user posts a tweet, other users can reply to it, then others can reply to the reply, and so on, leaving behind a structural signature of how the conversation proceeded. 
-
-We will consider two ways of representing the structure of Twitter conversations: reply trees and reply graphs.
-
-- The *reply trees* encode the relationship between individual tweets. The root node is the tweet that started the conversation, the descendant nodes are the replies, and one tweet is connected to another if it is posted in reply to it. Each tweet is a reply to only one other tweet, but a tweet may have multiple replies, forming a reply tree as the one described above. 
-
-- The *reply graphs* are user-centric views of the conversations, where each node represents a user who participated in the conversation, and one node is connected to another if they replied to one of their tweets. (This definition describes an unweighted directed graph, but you are free to consider other definitions of the graph that may be useful in computing informative aggregate statistics describing the conversation, e.g., adding weights or ignoring the direction of the edges.)
-
-**Step 1: Identify Twitter accounts whose conversation you are going to analyze.**
-Use the [congress-legislators](https://github.com/unitedstates/congress-legislators) Github repository to compile the Twitter accounts and biographical information of the current members of Congress. The legislators’ bio information (including their political party) can be found in the file called `legislators-current`, and their official social media accounts can be found in `legislators-social-media`. You will find more information about the files in the repository’s read me file. Use pandas to read the two files, select the relevant fields, and join them into a single table. To simplify the analysis, you can ignore the Independents. Save both the legislators’ Twitter user names and user IDs, but rely on the user IDs to fetch their tweets as their user names may change. These two files change frequently and to ensure that your analysis can be replicated, timestamp the copy that you will download and use in the rest of the analysis. 
-
-The assignment is framed around conversations prompted by Republican vs. Democrat legislators, but there are several allowable study populations. We expect ~90% of students to (a) choose to use those two populations as their populations of interest for this assignment. But you are welcome to (b) choose to study these legislators under another division of the legislator population (e.g., members of the House vs. the Senate, male vs. female, young vs. old) or (c) you can also consider a completely different set of accounts that interests you, e.g., left-leaning vs. right-leaning news outlets. 
-
-To answer this step of the assignment, define your two populations and describe hypotheses about how the Twitter conversations around posts by these groups may differ.
-
-If going a non-traditional route (b) or (c) above, make sure that the accounts post often enough (you can fetch tweets only from the last 7 days) and that their tweets get enough replies (single tweet conversations have a pretty boring structure). 
-
-**Step 2: Download tweets posted by the selected Twitter accounts.**
-
-Use the [`get-users-id-tweets` API](https://developer.twitter.com/en/docs/twitter-api/tweets/timelines/api-reference/get-users-id-tweets) end-point ([tweepy API](https://docs.tweepy.org/en/stable/client.html#tweepy.Client.get_users_tweets)) to download the tweets posted by the accounts identified in Step 1. Ignore tweets that are replies (i.e., not root tweets) and retweets. Use the `expansions` and `tweet.fields` query parameters to request additional information that will help you construct the reply trees and reply graphs in the following steps. Save only tweets posted in the last 7 days since you will be able to search and download tweets/replies to those tweets posted in during that time frame. 
-
-**Step 3. Download the conversations started by the tweets collected in Step 2.**
-
-Use the [`get-tweets-search-recent` API](https://developer.twitter.com/en/docs/twitter-api/tweets/search/api-reference/get-tweets-search-recent) end-point to search for tweets posted as part of the conversations prompted by the tweets collected in Step 2. Use `conversation_id` as a filter operator in your queries (more information [here](https://developer.twitter.com/en/docs/twitter-api/conversation-id)). Use the `expansions` and `tweet.fields` query parameters to request the information you will need in the later analysis.
-
-Test your code on a single conversation and make sure that you have all the data you need to complete the following steps before you download all conversations. You might be missing a field and would have to fetch the data again. (If that happens, use the tweet ids and fetch more information about them using the [`get tweets` API](https://developer.twitter.com/en/docs/twitter-api/tweets/lookup/api-reference/get-tweets) which does not contribute to your accounts tweet cap.) Spot check a few conversations by comparing the downloaded tweets on the web (you can open any tweet by going to `https://twitter.com/anything/status/<tweet_id>`). 
-
-**Step 4. Construct the reply trees and reply graphs.**
-
-Group the tweets by conversation ID and construct the reply tree and reply graphs for each conversation. You can use the [`treelib` Python package](https://treelib.readthedocs.io/en/latest/) to construct and process the reply trees, and [`networkx`](https://networkx.org/documentation/stable/install.html) or [`igraph-python`](https://igraph.org/python/versions/latest/) to construct and analyze the reply graphs. You can also save some tweet or user information as node attributes (e.g., users follower count) that might be useful in Step 5. 
-
-Visualize some reply trees and reply graphs and include at least one visualization of each kind in your report that clearly visualize the structure of a conversation. 
-
-**Step 5. Characterize the reply trees and the reply graphs.**
-Compute various characteristics of the reply trees (e.g., size, depth, breadth) and the reply graphs (e.g., size, density, number of connected components, reciprocity). Use the web interface (i.e [twitter.com](twitter.com)) to browse conversations from each category and think of interesting features that may be a good summary of the conversation structure. If you are looking for inspiration, read carefully the papers on information diffusion we discussed in Week 4 and consider which diffusion tree features may be relevant in describing the reply trees. Note that the features may use certain user or tweet characteristics, e.g., follower count [assortativity](https://networkx.org/nx-guides/content/algorithms/assortativity/correlation.html).
-
-While the main focus of this problem set are the structural features, you can also include other features which you believe are important descriptors of the conversations and may help you build better classifiers in Step 6.
-
-**Step 6. Build a conversation classifier.**
-Using the conversation characteristics computed in the previous step, train a model that classifies the conversations by whether they were started by a Democrat or a Republican (or whichever groups you defined). You can use the [`scikit-learn` package](https://scikit-learn.org/stable/) to train and evaluate your models. You are free to use any model. Run k-fold cross-validation and report the model performance. Next, rank the features (i.e., conversation characteristics) by an appropriate measure of predictive power (e.g., single-feature model performance, but you may opt for other measures). Examine and visualize the distributions of the most predictive features across the conversation categories.
-
-**Step 7. Write a report.**
-Prepare a short report (8 page maximum) detailing your findings. 
-
-**Pointers**
-* To avoid exceeding your account’s monthly tweet cap, use the [tweet count](https://developer.twitter.com/en/docs/twitter-api/tweets/counts/api-reference) API end-points before starting a loop of requests.
-* Respect the Twitter rate limit and add some wait time (`time.sleep(x)`) between your requests.
-* You can use the [tweepy documentation](https://docs.tweepy.org/en/stable/client.html) to identify the appropriate methods to call in your Python code.
-* For multipage results use the [`Paginator`](https://docs.tweepy.org/en/stable/v2_pagination.html)
-* If the model you are using in Step 6 does not allow you to easily rank the features by predictive power, use [permutation feature importance](https://scikit-learn.org/stable/modules/permutation_importance.html) to rank the features.
-
-**Grading rubric.** 
-
-The following are requirements for a "good grade":
-* Gather conversation data using the Twitter v2 API. Include your data gathering script in your submission.
-* Correctly assemble reply trees and reply graphs from conversations and visualize an example of each in the report.
-* Extract features from trees and graphs. The baseline is what Martin discussed in lecture on October 18 --- but we encourage and reward groups that design different features. Explain your choices in the report.
-* Include sensible visualizations of the distribution of these features in your dataset, including (when relevant) CCDF plots, in your report.
-* Train a conversation classifier, assess its performance using k-fold cross-validation, rank and visualize features by an appropriate measure of predictive power, and visualize the distributions of the most predictive features across conversation categories. Include this information in your report.
-
-Please submit your work on Canvas (only one submission per group), and
-ensure that all team members are listed on your report.
-
+**Due Date: Thursday, November 2, 11:59p**
 
 **Submission instructions:**
 
@@ -88,3 +18,293 @@ To help make sure your team gets the deliverables submitted correctly, here's a 
 5. Finally, please submit just the report PDF on Gradescope. On Gradescope, the group is not automatically recorded, so you'll have to select your group members when you submit. Only one person has to submit the PDF.
 
 Good luck!
+
+## Setting up FarmShare:
+
+To use the following instructions in the assignment description below, you will have to set up your FarmShare machine with a newer version of Python than is currently supported on FarmShare out of the box.
+
+**Option 1: Use `pyenv` (RECOMMENDED)**
+
+This is the most elegant solution. SSH into FarmShare and from your home directory, install `pyenv` with:
+```
+curl https://pyenv.run | bash
+```
+Once this finishes, add the lines your `.bashrc` that the `pyenv` install script suggests to make your life easier in the future. Then install Python 3.7.14 (it is important that you install a 3.7.x version, or else you might run into issues with the old version of openssl running on FarmShare). 
+```
+pyenv install -v 3.7.14
+```
+Navigate to your project directory. Assuming you cloned it to your home directory from the course repo without changing the name: `cd mse231_f22`. From this directory, run
+```
+pyenv local 3.7.14
+```
+to configure `pyenv` to use Python 3.7.14 for the course repository. To test that it is working, you should run `python --version` and observe `Python 3.7.14`. Install `tweepy` with
+```
+pip install tweepy
+```
+and you'll be ready to start the assignment! Many thanks to Daniel Jenson for [suggesting this on Ed](https://edstem.org/us/courses/30212/discussion/1869524).
+
+**Option 2: Use the setup script from the course repo**
+
+_If you skip this step, the following steps of Option 2 will not work._ In the [course repo](https://github.com/mse231/mse231_f22) there is a script called `farmshare-setup.sh`. Please clone the course repo onto your FarmShare home directory (which is the default directory you enter when you SSH into FarmShare, e.g. `/home/your_user_name`). Copy `farmshare-setup.sh` into this FarmShare home directory from the cloned repo directory. Then enter the following commands:
+1. `cd ~`
+2. `chmod +x farmshare-setup.sh`
+3. `tmux` (a new pane in the terminal will open when you execute this command; that's normal)
+4. `./farmshare-setup.sh`
+5. `exit`
+
+Step #4 above will take roughly 20 minutes as a large volume of output is written to the screen. If you get disconnected from the server during this time, please reconnect via SSH and enter the command `tmux a -t 0` to be brought back to the executing setup process. When you see "DONE" printed to the terminal and are returned to the command prompt, you can safely exit tmux and continue with the below instructions.
+
+**Assignment description:**
+
+In this assignment, you\'ll investigate gender
+*[homophily](https://en.wikipedia.org/wiki/homophily)*
+on Twitter. In the process you\'ll learn about APIs, streaming
+computation, data manipulation, and plotting. While it is possible to
+complete this assignment entirely on a local machine (e.g., your
+personal laptop), we *highly* recommend setting up a remote server. If
+you don\'t already have a remote server setup, you can always use
+[Stanford
+Farmshare](https://web.stanford.edu/group/farmshare/cgi-bin/wiki/index.php/User_Guide) (additional information [here](https://uit.stanford.edu/service/sharedcomputing)). If you
+are using your own setup, make sure you that you can use a recent (3.5+) 
+version of Python with [pip](https://pip.pypa.io/en/stable/installation/) installed.
+There are a number of things that can go wrong in this assignment, so please start early!
+
+**Step 1.** The Twitter Streaming API provides access to a small
+[random](https://developer.twitter.com/en/docs/twitter-api/tweets/volume-streams/introduction)
+sample of public tweets as they are generated, and also lets one query
+for tweets that
+[match](https://developer.twitter.com/en/docs/twitter-api/tweets/filtered-stream/introduction)
+a user-provided list of keywords. We will use both of these features.
+
+To get started,
+[create](https://developer.twitter.com/en/apps)
+a Twitter application that you\'ll use to access the API. (In order to
+create the application, you may need to first
+[apply](https://developer.twitter.com/en/apply-for-access)
+for a developer account; your account only needs permission to analyze
+tweets, not send tweets.) The application will only be used by you, so
+what you enter for the name, description and website are not terribly
+important.
+
+After creating your application, select the \"keys and tokens\" tab, and
+then create an access token. You\'ll need to save five pieces of
+information from this page: the API key, API secret key, access token,
+access token secret, and the bearer token. If you need to access or update your
+application information at a later data, you can return to it via the
+[management
+console](https://developer.twitter.com/en/apps).
+
+**Step 2.** Install
+[Tweepy](https://github.com/tweepy/tweepy),
+a Python wrapper for the Twitter API. The easiest way to install it is
+with pip, using the \"\--user\" option to install to your home
+directory:
+
+`pip3 install --user tweepy`
+
+**Step 3.** To help you get started with Tweepy and the Twitter
+Streaming API, we wrote a short Python script,
+[tweet\_stream.py](https://github.com/mse231/mse231_f22/blob/main/assignment1/tweet_stream.py). The script requires that you
+create a file with your API credentials in [this
+format](https://github.com/mse231/mse231_f22/blob/main/assignment1/creds.txt), where you replace the parameters with your
+own credentials. (For example, replace `<YOUR_API_KEY>` with your
+actual API key.) Assuming you save the file as creds.txt in your working
+directory, you can run the script with the command:
+
+`python3 tweet_stream.py --keyfile creds.txt`
+
+Enter
+[Control-C](https://en.wikipedia.org/wiki/Control-C)
+to terminate the script. The output of the above call is a near
+real-time
+[JSON](https://en.wikipedia.org/wiki/JSON)
+stream of randomly selected tweets. To save the results, you can
+redirect the output to a file like this:
+
+`python3 tweet_stream.py --keyfile creds.txt > tweets`
+
+However, as the API returns a fair amount of data, it\'s more efficient
+to store a compressed version of the data. The script lets you store a
+[gzipped](https://en.wikipedia.org/wiki/Gzip)
+version of the results as follows:
+
+`python3 tweet_stream.py --keyfile creds.txt --gzip tweets.gz`
+
+You can view the compressed data with
+[zless](http://linux.die.net/man/1/zless),
+[zcat](http://linux.die.net/man/1/zcat),
+or similar utilities (e.g., gzcat on OS X).
+
+In addition to simply returning a random sample of tweets, the Twitter
+API lets you fetch all tweets that contain a specific word. For example,
+via `tweet_stream.py`, you can obtain the stream of all tweets that
+contain \"stanford\" (where the matching is case-insensitive) with the
+command:
+
+`python3 tweet_stream.py --keyfile creds.txt --filter stanford`
+
+(The API limits the number of results it will return, so if your filter
+term is too common, you\'ll only get a subset of the tweets.)
+
+After playing with the API, start collecting a random sample of tweets,
+and also collect a filtered set of tweets matching a term of your
+choosing. Select a term that you believe will show an interesting time
+trend and gender pattern. Collect at least 24 hours worth of tweets. To
+prevent your command from terminating when you disconnect from the
+session, you can use a utility such as
+[tmux](http://en.wikipedia.org/wiki/Tmux)
+or
+[nohup](http://en.wikipedia.org/wiki/Nohup).
+For example, with nohup, you can run the command in the background with:
+
+`nohup python3 tweet_stream.py --keyfile creds.txt --gzip tweets.gz &`
+
+Generally, we recommend using tmux, as it offers greater flexibility
+and is consistently useful for running processes on remote servers. You
+can visit [this tmux commands cheat sheet](https://tmuxguide.readthedocs.io/en/latest/tmux/tmux.html)
+for basic usage information, or find several tutorial videos on YouTube.
+
+Note that you are only allowed to connect to at most one streaming API
+endpoint at a time, and attempting to connect to more than one
+simultaneously may result in some of the streams being terminated.
+However, your teammates can each use their own credentials to poll the
+API in parallel.
+
+To terminate a script that's running in the background, first find its
+[process
+ID](https://en.wikipedia.org/wiki/Process_identifier)
+with:
+
+`ps -u<user-id>`
+
+where you replace \<user-id\> with your actual user ID. Then kill it
+with:
+
+`kill <pid>`
+
+where \<pid\> is the process ID you found with ps.
+
+When using [Stanford Farmshare
+machines](https://web.stanford.edu/group/farmshare/cgi-bin/wiki/index.php/Main_Page),
+there are a couple things to be aware of: (1) Farmshare machines have
+regular maintenance, and may shut down for a scheduled period of time;
+regularly check the [system
+status](https://web.stanford.edu/group/farmshare/cgi-bin/wiki/index.php/Main_Page#System_Status)
+for scheduled maintenance/service outages. (2) ssh\'ing into
+rice.stanford.edu will redirect you to a specific machine (e.g.,
+rice*11*.stanford.edu) depending on load. When you start your process,
+it will be running on that *specific* machine, so to return to it later
+you\'ll need to keep track of the machine and then directly ssh into it.
+
+**Step 4.** Each line of the output from the above commands is in JSON,
+and before you can analyze the results, you need to convert the data to
+a more suitable format. Write a Python script (named `parse_tweets.py`)
+that takes a stream of tweets as input ([via
+stdin](http://en.wikibooks.org/wiki/Python_Programming/Input_and_Output#Standard_File_Objects)),
+and writes tab-separated output (to stdout) where each row corresponds
+to a tweet and the four columns of the output are: (1) date; (2) time
+rounded to the nearest 15-minute interval (e.g., 18:30); (3) the name of
+the user; and (4) the name of the original poster, if the tweet is a
+retweet (otherwise \'NA\'). The
+[json](https://docs.python.org/3/library/json.html)
+module is useful for parsing the input. **Ensure that your script is not
+memory intensive (i.e., convert the data in a streaming fashion).**
+
+Your script should run with the following command, writing the results
+to stdout:
+
+`zcat tweets.gz | python3 parse_tweets.py`
+
+Using your `parse_tweets.py` script, parse the random sample of tweets
+and also the filtered set of tweets, and save them to two separate
+files.
+
+Hint: Some entries collected from Twitter might not be \"valid\" (e.g.,
+deleted tweets, empty lines), so make sure your `parse_tweets.py` script
+deals with theses situations gracefully.
+
+**Step 5.** Import your tweet data into Python. Devise and apply a
+(simple) statistical strategy to infer the gender of users based on
+their first names. To do so, you may use baby name popularity data
+provided by the [Social Security
+Administration](http://www.ssa.gov/oact/babynames/limits.html)
+(SSA): the
+[female](/assets/hw1/female_names.tsv.gz)
+and
+[male](/assets/hw1/male_names.tsv.gz)
+datasets give the number of times each name was registered in the United
+States, annually, from 1880 to 2013. What are the limitations of your
+strategy?
+
+Use [`matplotlib`](https://matplotlib.org/) (again, install with pip)
+to plot the volume of tweets over time, with separate lines indicating
+the volume by gender (i.e., gender of the user who posted the tweet, not
+the gender of the original user). To generate the plot, first compute 
+the volume of tweets in each 15-minute interval in your data
+(separately by gender).  Make two plots: One for the random sample 
+of tweets, and one for the filtered set of tweets.
+
+Do you see evidence of gender *homophily*, in which women retweet women
+and men retweet men disproportionately often? Devise a (simple)
+statistical strategy to gauge the extent to which this phenomenon may
+(or may not) occur in your data.
+
+Save your gender inference, plot generation, and homophily code in a
+single script called `tweet_analysis.py`. Your script should be completely
+self-contained (e.g., load all necessary libraries), and not contain any
+extraneous calculations. In particular, if you run the script in a
+directory that contains the tweet data and the baby name files, it
+should read in the data and output the plots in that same directory
+without any additional setup or user intervention. That is, the
+following command (which we will run) must reproduce your results:
+
+`python3 tweet_analysis.py`
+
+Here are a few suggestions for making plots in matplotlib. First, use a white
+background. Second, format plot labels (e.g., numbers). Third, for reports, 
+save plots in PDF (a [vector format](https://en.wikipedia.org/wiki/Vector_graphics))
+rather than PNG or JPEG ([raster](https://en.wikipedia.org/wiki/Raster_graphics)
+formats). Finally, explicitly set the height and width of plots to get
+the appropriate aspect ratio (this also has the added benefit of helping
+to ensure the axis labels are appropriately sized). For example, for a
+square plot you might use something like this to set an x inch by y inch size:
+```
+import matplotlib.pyplot as plt
+...
+plt.figure(figsize=(x,y))
+```
+See also the [`matplotlib` documentation](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.figure.html) for `plt.figure`.
+
+**Step 6.** Prepare a short report (2-page maximum) detailing your
+results. The report should include a description of your approach to
+inferring gender, your strategy for measuring gender homophily, and the
+two plots you generated. Brief describe your conclusions and discuss
+limitations of the methodology. The report is an important component of
+the assignment; we will be grading both the substantive content as well
+as the writing and presentation style.
+
+Submit the following: (1) `parse_tweets.py`; (2) `tweet_analysis.py`;
+(3) the two files generated in Step 4 (i.e., the cleaned tweet data);
+and (4) your report, as a single PDF file.
+
+We will run diagnostic tests on your code. You can assume that we will
+run your code in a directory that contains *female\_names.tsv.gz* and
+*male\_names.tsv.gz*, so please ensure your scripts load those files
+from the local directory.
+
+**Grading rubric.** This assignment will be graded on the following
+criteria:
+
+-   Coverage of tweets collected (at least 24 hours)
+-   Correct stream parsing of the raw tweet data; the data *must not* be
+loaded into memory in its entirety
+-   Appropriateness of your strategies for inferring gender and gender
+homophily
+-   Effectiveness of your plots: they must be clean and legible, with
+appropriate axis names, coloring, etc. 
+-   Quality of the report, which should focus on clearly communicating
+findings, insights, and limitations
+
+Please submit your work on Canvas (only one submission per group), and
+ensure that all team members are listed on your report.
+
