@@ -16,14 +16,16 @@ With a vast amount of data now collected on our online and offline actions -- fr
 ## Instructors
 Johan Ugander, jugander@ 
 
-TAs: TBD 
+TA: Nirali Parekh, nirali25@
 
 ## Schedule
-Class: Tuesdays & Thursdays @ 9:00 AM -- 10:20 AM in STLC 115
+Class: Tuesdays & Thursdays @ 9:00 am -- 10:20 am in STLC 115
 
 **Office Hours**
 
-TBD
+Prof. Ugander: Thurs 10:20 -- 11:20, Huang 357
+Nirali: TBD
+
 <!--
 * Greg: Tues 11:30a -- 1:30p (starting October 4) @ Encina W 101
 * Monte: Weds 3:00p -- 5:00p (starting October 5) @ Littlefield 103
