@@ -25,9 +25,11 @@ You should use Python 3. This is a zero point assignment. You should only need a
 **Due Date: Thursday November 17th at 11:59p PT **
 
 [Assignment details](assignment3)
+-->
 
 ## Project
 **Due Date: Tuesday December 12 at 5:00p PT **
 
+<!--
 [Assignment details](project)
 -->
