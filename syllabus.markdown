@@ -30,7 +30,6 @@ Surveys and post-stratification
 - Gelman, Goel, Rivers, Rothschild (2016) "The Mythical Swing Voter," QJPS.
 - Rosenzsweig et al. (2022) "Survey sampling in the Global South using Facebook advertisements," SocArxiv.
 
-
 ## Week 2 -- Friend recommendations ##
 **Tues 10/3 & Thurs 10/5**
 
