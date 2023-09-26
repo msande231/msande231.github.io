@@ -112,6 +112,11 @@ Birdwatch aka Community Notes:
 ## Week 7 -- Network effects and interventions ##
 **Tues 11/7 & Thurs 11/9**
 
+**Tues 11/7**
+Democracy Day -- no class.
+
+**Tues 11/9**
+
 - Dodds, Watts (2007) "Influentials, Networks, and Public Opinion Formation," J Consumer Research.
 - Kempe, Kleinberg, Tardos (2003) "Maximizing the spread of influence through a social network," Proceedings of KDD.
 - Centola, Macy (2007) "Complex contagions and the weakness of long ties," AJS.
@@ -138,8 +143,14 @@ Friendship paradox:
 - Lerman et al. (2016) "The Majority Illusion in Social Networks," PLOS One.
 - Steward et al. (2019) "Information gerrymandering and undemocratic decisions," Nature. 
 
-## Week 8 -- Project proposals ##
-**Tues 11/14 & Thurs 11/16**
+## Week 8 -- Network effects II, project proposals ##
+**Tues 11/14**
+
+Continuation.
+
+**Thurs 11/16**
+
+Lightening talks pitching projects to the class.
 
 <!--
 **Tues 10/24  -- Social Influence, influence maximization**
