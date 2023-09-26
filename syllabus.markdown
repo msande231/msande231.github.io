@@ -67,7 +67,10 @@ Weak ties:
 - Fortunato, Flammini, Menczer, and Vespignani (2006) "Topical interests and the mitigation of search engine bias," PNAS.
 - Goel, Broder, Gabrilovich, Pang (2010) "Anatomy of the long tail: ordinary people with extraordinary tastes," WSDM.
 - Brynjolfsson, Hu, Simester (2011) "Goodbye pareto principle, hello long tail: The effect of search costs on the concentration of product sales," Management Science.
+- White & Horvitz (2013) "Cyberchondria: Studies of the escalation of medical concerns in Web search," ACM Transactions on Information Systems. 
 - White & Horvitz (2015) "Belief Dynamics and Biases in Web Search," ACM Transactions on Information Systems.
+- Williams-Ceci, Macy, Naaman (2023) "Trustworthiness Evaluations of Search Results: The Impact of
+Rank and Misinformation," arXiv.
 
 
 ## Week 5 -- Feed algorithms ##
@@ -79,6 +82,7 @@ Weak ties:
 - Flaxman, Goel, Rao (2016) "Filter Bubbles, Echo Chambers, and Online News Consumption", Public Opinion Quarterly.
 - Bail, Argyle, Brown, Volfovsky (2018) "Exposure to opposing views on social media can increase political polarization," PNAS.
 - Huszar et al. (2021) "Algorithmic amplification of politics on Twitter", PNAS.
+- Jia et al. (2023) "Embedding Democratic Values into Social Media AIs via Societal Objective Functions," arXiv.
 
 Algorithm aversion:
 - B. Dietvorst, J. Simmons, C. Massey (2014) "Algorithm aversion: People erroneously avoid algorithms after seeing them err," Journal of Experimental Psychology.
