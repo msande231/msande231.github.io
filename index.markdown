@@ -6,9 +6,6 @@ layout: default
 title: "MS&E 231: Social Algorithms"
 ---
 
-## NOTE: Sylalbus in progress -- will be removed when syllabus is finalized.
-
-
 ## Course Description
 
 With a vast amount of data now collected on our online and offline actions -- from what we buy, to where we travel, to who we interact with -- we have an unprecedented opportunity to study traditional social systems with novel precision and detail, as well the emerging challenges of studying modern social systems infused with learning algorithms. In this hands-on course, we first develop ideas from computer science and statistics to address problems in sociology, economics, political science. Beyond that, we place a particular emphasis on the study of algorithm-in-the-loop social systems. To see how these techniques are applied in practice, we discuss recent research findings in a variety of areas. Prerequisites: introductory course in applied statistics and experience coding in Python.
