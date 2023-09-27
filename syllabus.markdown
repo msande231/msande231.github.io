@@ -112,12 +112,13 @@ Birdwatch aka Community Notes:
 ## Week 7/8 -- Network effects and interventions ##
 
 **Tues 11/7**
+
 Democracy Day -- no class.
 
 **Thurs 11/9 and Tues 11/14**
 
 - Dodds, Watts (2007) "Influentials, Networks, and Public Opinion Formation," J Consumer Research.
-- Kempe, Kleinberg, Tardos (2003) "Maximizing the spread of influence through a social network," Proceedings of KDD.
+- Kempe, Kleinberg, Tardos (2003) "Maximizing the spread of influence through a social network," KDD.
 - Centola, Macy (2007) "Complex contagions and the weakness of long ties," AJS.
 - Centola (2010) "The spread of behavior in an online social network experiment," Science.
 - Centola (2011) "An experimental study of homophily in the adoption of health behavior," Science.
@@ -138,7 +139,7 @@ Nomination targetting:
 Friendship paradox:
 - Feld (1991). "Why your friends have more friends than you do," American Journal of Sociology.
 - Ugander, Karrer, Backstrom, Marlow (2011) "The Anatomy of the Facebook Social Graph," arXiv.
-- Kooti, Hodas, Lerman (2014) "Network Weirdness: Exploring the Origins of Network Paradoxes", Proceedings of ICWSM.
+- Kooti, Hodas, Lerman (2014) "Network Weirdness: Exploring the Origins of Network Paradoxes", ICWSM.
 - Lerman et al. (2016) "The Majority Illusion in Social Networks," PLOS One.
 - Steward et al. (2019) "Information gerrymandering and undemocratic decisions," Nature. 
 
