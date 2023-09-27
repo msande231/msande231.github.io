@@ -142,7 +142,7 @@ Friendship paradox:
 - Ugander, Karrer, Backstrom, Marlow (2011) "The Anatomy of the Facebook Social Graph," arXiv.
 - Kooti, Hodas, Lerman (2014) "Network Weirdness: Exploring the Origins of Network Paradoxes", ICWSM.
 - Lerman et al. (2016) "The Majority Illusion in Social Networks," PLOS One.
-- Steward et al. (2019) "Information gerrymandering and undemocratic decisions," Nature. 
+- Stewart et al. (2019) "Information gerrymandering and undemocratic decisions," Nature. 
 
 **Thurs 11/16**
 
