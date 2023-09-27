@@ -98,6 +98,7 @@ Algorithm aversion:
 
 True and false news:
 - Friggeri et al. (2014) "Rumor cascades," ICWSM.
+- Goel et al. (2016) "The Structural Virality of Online Diffusion," Management Science.
 - Vosoughi et al. (2018) "The spread of true and false news online," Science.
 - Allen et al. (2020) "Evaluating the fake news problem at the scale of the information ecosystem," Science Advances.
 - Hosseinmardi et al. (2021) "Examining the consumption of radical content on YouTube," PNAS.
