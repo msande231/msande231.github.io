@@ -109,13 +109,12 @@ Birdwatch aka Community Notes:
 - Martel, Allen, Rand (2023) "Crowds Can Effectively Identify Misinformation at Scale," Perspectives on Psychological Science. 
 - Pennycook, Epstein, Mosleh, Arechar, Eckles, Rand (2021) "Shifting attention to accuracy can reduce misinformation online," Nature.
 
-## Week 7 -- Network effects and interventions ##
-**Tues 11/7 & Thurs 11/9**
+## Week 7/8 -- Network effects and interventions ##
 
 **Tues 11/7**
 Democracy Day -- no class.
 
-**Tues 11/9**
+**Thurs 11/9 and Tues 11/14**
 
 - Dodds, Watts (2007) "Influentials, Networks, and Public Opinion Formation," J Consumer Research.
 - Kempe, Kleinberg, Tardos (2003) "Maximizing the spread of influence through a social network," Proceedings of KDD.
@@ -143,14 +142,9 @@ Friendship paradox:
 - Lerman et al. (2016) "The Majority Illusion in Social Networks," PLOS One.
 - Steward et al. (2019) "Information gerrymandering and undemocratic decisions," Nature. 
 
-## Week 8 -- Network effects II, project proposals ##
-**Tues 11/14**
-
-Continuation.
-
 **Thurs 11/16**
 
-Lightening talks pitching projects to the class.
+Lightening talks pitching project proposals to the class.
 
 <!--
 **Tues 10/24  -- Social Influence, influence maximization**
