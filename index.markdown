@@ -33,6 +33,7 @@ Nirali: Mon 10:30a-12:30; Weds 6:00p-8:00p, w2-6, Location TBD
 
 ## Important Links
 * [Canvas page](https://canvas.stanford.edu/courses/180471)
+
 <!--
 * [course Github repo](https://www.github.com/msande231/mse231_f22)
 -->
