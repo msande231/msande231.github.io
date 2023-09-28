@@ -20,8 +20,8 @@ Class: Tuesdays & Thursdays @ 9:00 am -- 10:20 am in STLC 115
 
 **Office Hours**
 
-Prof. Ugander: Thurs 10:20 -- 11:20, Huang 357
-Nirali: TBD
+Prof. Ugander: Thurs 10:20a -11:20a, w1-10, Huang 357
+Nirali: Mon 10:30a-12:30; Weds 6:00p-8:00p, w2-6, Location TBD
 
 <!--
 * Greg: Tues 11:30a -- 1:30p (starting October 4) @ Encina W 101
@@ -31,9 +31,9 @@ Nirali: TBD
 -->
 
 ## Important Links
-<!-- 
-* [Canvas page](https://canvas.stanford.edu/courses/x)
-* [course Github repo](https://www.github.com/mse231/mse231_f22)
+* [Canvas page](https://canvas.stanford.edu/courses/166109)
+<!--
+* [course Github repo](https://www.github.com/msande231/mse231_f22)
 -->
 
 ## Course structure and evaluation
