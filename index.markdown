@@ -21,6 +21,7 @@ Class: Tuesdays & Thursdays @ 9:00 am -- 10:20 am in STLC 115
 **Office Hours**
 
 Prof. Ugander: Thurs 10:20a -11:20a, w1-10, Huang 357
+
 Nirali: Mon 10:30a-12:30; Weds 6:00p-8:00p, w2-6, Location TBD
 
 <!--
