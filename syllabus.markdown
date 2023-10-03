@@ -30,9 +30,18 @@ Surveys and post-stratification
 - Gelman, Goel, Rivers, Rothschild (2016) "The Mythical Swing Voter," QJPS.
 - Rosenzsweig et al. (2022) "Survey sampling in the Global South using Facebook advertisements," SocArxiv.
 
-## Week 2 -- Friend recommendations ##
+## Week 2 -- Networks and recommendations ##
 **Tues 10/3 & Thurs 10/5**
 
+Diffusion cascades, true and false news:
+- Friggeri et al. (2014) "Rumor cascades," ICWSM.
+- Goel et al. (2016) "The Structural Virality of Online Diffusion," Management Science.
+- Vosoughi et al. (2018) "The spread of true and false news online," Science.
+- Allen et al. (2020) "Evaluating the fake news problem at the scale of the information ecosystem," Science Advances.
+- Hosseinmardi et al. (2021) "Examining the consumption of radical content on YouTube," PNAS.
+- Juul, Ugander (2022) "Comparing information diffusion mechanisms by matching on cascade size," PNAS.
+
+Friend recommendation:
 - Ugander, Backstrom, Marlow, Kleinberg. (2012) "Structural Diversity in Social Contagion," PNAS.
 - Zignani et al. (2014) "Link and Triadic Closure Delay: Temporal Metrics for Social Network Dynamics", ICWSM.
 - Su, Sharma, Goel (2016), "The Effect of Recommendations on Network Structure", WWW. 
@@ -95,14 +104,6 @@ Algorithm aversion:
 
 - Crawford & Gillespie (2016) "What is a flag for? Social media reporting tools and the vocabulary of complaint," New Media & Society.
 - Gillespie (2021) "Custodians of the Internet platforms, content moderation, and the hidden decisions that shape social media," Yale University Press.
-
-True and false news:
-- Friggeri et al. (2014) "Rumor cascades," ICWSM.
-- Goel et al. (2016) "The Structural Virality of Online Diffusion," Management Science.
-- Vosoughi et al. (2018) "The spread of true and false news online," Science.
-- Allen et al. (2020) "Evaluating the fake news problem at the scale of the information ecosystem," Science Advances.
-- Hosseinmardi et al. (2021) "Examining the consumption of radical content on YouTube," PNAS.
-- Juul, Ugander (2022) "Comparing information diffusion mechanisms by matching on cascade size," PNAS.
 
 Birdwatch aka Community Notes:
 - Wojcik et al. (2022) "Birdwatch: Crowd Wisdom and Bridging Algorithms can Inform Understanding and Reduce the Spread of Misinformation," arXiv.
