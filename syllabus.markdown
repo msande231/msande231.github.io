@@ -55,7 +55,7 @@ Weak ties:
 - Rajkumar et al. (2022) "A causal test of the strength of weak ties," Science.
 - Jahani, Fraiberger, Bailey, Eckles (2023) "Long ties, disruptive life events, and economic prosperity," PNAS.
 
-## Week 3 -- Product recommendations ##
+## Week 3 -- Product/media recommendations ##
 **Tues 10/10 & Thurs 10/12**
 
 - Fleder and Hosanagar (2009) "Blockbuster culture’s next rise or fall: The impact of recommender systems on sales diversity," Management Science.
@@ -64,8 +64,9 @@ Weak ties:
 - Chaney, Stewart, Engelhardt (2018) "How Algorithmic Confounding in Recommendation Systems Increases Homogeneity and Decreases Utility," RecSys.
 - Anderson et al. (2020) "Algorithmic Effects on the Diversity of Consumption on Spotify", WWW.
 - Kleinberg, Ragavan (2021) "Algorithmic monoculture and social welfare," PNAS.
-- Hardt, Jagadeesan, Mendler-Dünner (2022) "Performative Power", NeurIPS. // Recommender systems and "steering".
-- Kleinberg, Raghavan, Mullainathan (2022) "The Challenge of Understanding What Users Want: Inconsistent Preferences and Engagement Optimization," EC.  // Recommendation systems and revealed preferences.
+- Hardt, Jagadeesan, Mendler-Dünner (2022) "Performative Power", NeurIPS. 
+- Kleinberg, Raghavan, Mullainathan (2022) "The Challenge of Understanding What Users Want: Inconsistent Preferences and Engagement Optimization," EC.  
+- Chen et al. (2023) "Subscriptions and external links help drive resentful users to alternative and extremist YouTube channels," Science Advances.
 
 
 ## Week 4 -- Search engines ##
