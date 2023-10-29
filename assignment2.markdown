@@ -3,7 +3,7 @@ layout: default
 ---
 # Assignment 2
 
-**Due Date: Thursday, November 3, 11:59pm PT **
+**Due Date: Thursday, November 2, 11:59pm PT **
 
 **Assignment description:**
 
